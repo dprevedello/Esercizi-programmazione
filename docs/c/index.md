@@ -31,21 +31,21 @@ includono in molti casi dei commenti che ne aiutano la comprensione.
 
 | Esercizio | Argomento |
 |---|---|
-| [Hello World](c/01-hello-world.md) | Struttura minima di un programma C, `printf` |
-| [Media di due numeri](c/02-media-due-numeri.md) | Variabili `float`, divisione, `scanf` |
-| [Doppio di un numero](c/03-doppio-di-un-numero.md) | Variabili intere, operatori aritmetici |
-| [Perimetro e area del quadrato](c/04-perimetro-e-area-del-quadrato.md) | Operazioni su `float` |
-| [Diagonale del rettangolo](c/05-diagonale-rettangolo.md) | Teorema di Pitagora, `sqrt` |
-| [Circonferenza inscritta/circoscritta](c/06-circonferenza-inscritta-e-circoscritta.md) | Uso di `M_PI`, `<math.h>` |
-| [Area triangolo equilatero](c/07-area-triangolo-equilatero.md) | Formula con `sqrt`, `<math.h>` |
+| [Hello World](01-hello-world.md) | Struttura minima di un programma C, `printf` |
+| [Media di due numeri](02-media-due-numeri.md) | Variabili `float`, divisione, `scanf` |
+| [Doppio di un numero](03-doppio-di-un-numero.md) | Variabili intere, operatori aritmetici |
+| [Perimetro e area del quadrato](04-perimetro-e-area-del-quadrato.md) | Operazioni su `float` |
+| [Diagonale del rettangolo](05-diagonale-rettangolo.md) | Teorema di Pitagora, `sqrt` |
+| [Circonferenza inscritta/circoscritta](06-circonferenza-inscritta-e-circoscritta.md) | Uso di `M_PI`, `<math.h>` |
+| [Area triangolo equilatero](07-area-triangolo-equilatero.md) | Formula con `sqrt`, `<math.h>` |
 
 ### 2. Condizioni
 
 | Esercizio | Argomento |
 |---|---|
-| [Valore assoluto](c/08-valore-assoluto.md) | Condizione semplice, `if` / `else` |
-| [Equazione della retta](c/09-equazione-della-retta.md) | Coefficiente angolare, intercetta |
-| [Numero divisibile per 5](c/10-numero-divisibile-per-5.md) | Condizione con `%`, output descrittivo |
+| [Valore assoluto](08-valore-assoluto.md) | Condizione semplice, `if` / `else` |
+| [Equazione della retta](09-equazione-della-retta.md) | Coefficiente angolare, intercetta |
+| [Numero divisibile per 5](10-numero-divisibile-per-5.md) | Condizione con `%`, output descrittivo |
 | [Numero pari o dispari](Numero-pari-o-dispari/index.md) | Operatore modulo `%`, `if` / `else` |
 | [Equazioni di secondo grado](Equazioni-di-secondo-grado/index.md) | Discriminante, `sqrt`, gestione casi |
 | [Maggiore fra due numeri](Maggiore-fra-due-numeri/index.md) | Confronto tra variabili |
