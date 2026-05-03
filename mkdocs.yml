@@ -3,10 +3,10 @@ site_description: >
   Raccolta didattica di esercizi di programmazione per studenti
   di scuola secondaria di secondo grado.
 site_author: Esercizi di Programmazione
-site_url: https://nomeutente.github.io/Esercizi-programmazione/
+site_url: https://dprevedello.github.io/Esercizi-programmazione/
 
 repo_name: Esercizi-programmazione
-repo_url: https://github.com/nomeutente/Esercizi-programmazione
+repo_url: https://github.com/dprevedello/Esercizi-programmazione
 edit_uri: edit/main/docs/
 
 docs_dir: docs
@@ -53,7 +53,7 @@ theme:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/nomeutente/Esercizi-programmazione
+      link: https://github.com/dprevedello/Esercizi-programmazione
       name: Repository su GitHub
 
 copyright: >

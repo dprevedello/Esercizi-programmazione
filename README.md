@@ -3,7 +3,7 @@
 Raccolta didattica di esercizi di programmazione per studenti della scuola secondaria di secondo grado.
 
 Il sito è consultabile all'indirizzo:
-**[nomeutente.github.io/Esercizi-programmazione](https://nomeutente.github.io/Esercizi-programmazione)**
+**[dprevedello.github.io/Esercizi-programmazione](https://dprevedello.github.io/Esercizi-programmazione)**
 
 ---
 
@@ -29,7 +29,7 @@ La documentazione del sito si trova nella cartella `docs/`.
 
 ```bash
 # 1. Clona il repository
-git clone https://github.com/nomeutente/Esercizi-programmazione.git
+git clone https://github.com/dprevedello/Esercizi-programmazione.git
 cd Esercizi-programmazione
 
 # 2. (Consigliato) Crea un ambiente virtuale
