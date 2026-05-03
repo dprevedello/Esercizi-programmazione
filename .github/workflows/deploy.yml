@@ -1,0 +1,40 @@
+name: Deploy MkDocs su GitHub Pages
+
+on:
+  push:
+    branches:
+      - main          # si attiva ad ogni push su main
+  workflow_dispatch:  # permette l'avvio manuale dalla UI di GitHub
+
+permissions:
+  contents: write     # necessario per gh-deploy
+
+jobs:
+  deploy:
+    name: Build e Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout del repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # necessario per il plugin git-revision-date
+
+      # 2. Setup Python
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      # 3. Installazione dipendenze
+      - name: Installa dipendenze
+        run: pip install -r requirements.txt
+
+      # 4. Build e push su GitHub Pages (ramo gh-pages)
+      - name: Deploy su GitHub Pages
+        run: |
+          git config --global user.name  "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          mkdocs gh-deploy --force --clean --verbose

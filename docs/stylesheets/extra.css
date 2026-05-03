@@ -1,0 +1,87 @@
+/* ================================================================
+   extra.css — stili aggiuntivi per Esercizi di Programmazione
+   ================================================================ */
+
+/* ── Blocco OneCompiler ─────────────────────────────────────── */
+
+.onecompiler-wrapper {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 1.5em 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.onecompiler-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+  padding: 0.5em 1em;
+  background: var(--md-code-bg-color);
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  font-size: 0.85em;
+}
+
+.onecompiler-icon {
+  color: var(--md-primary-fg-color);
+  font-size: 1.1em;
+}
+
+.onecompiler-title {
+  flex: 1;
+  font-weight: 600;
+  color: var(--md-default-fg-color);
+}
+
+.onecompiler-external {
+  font-size: 0.8em;
+  color: var(--md-primary-fg-color);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.onecompiler-external:hover {
+  text-decoration: underline;
+}
+
+.onecompiler-wrapper iframe {
+  display: block;
+  width: 100%;
+}
+
+/* ── Tabella degli esercizi ─────────────────────────────────── */
+
+/* Centra la colonna Difficoltà */
+.md-typeset table th:last-child,
+.md-typeset table td:last-child {
+  text-align: center;
+}
+
+/* ── Admonition personalizzata "esercizio" ──────────────────── */
+
+:root {
+  --md-admonition-icon--esercizio: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.4 16.6 4.8 12l4.6-4.6L8 6l-6 6 6 6zm5.2 0 4.6-4.6-4.6-4.6L16 6l6 6-6 6z"/></svg>');
+}
+
+.md-typeset .admonition.esercizio,
+.md-typeset details.esercizio {
+  border-color: #7c4dff;
+}
+
+.md-typeset .esercizio > .admonition-title,
+.md-typeset .esercizio > summary {
+  background-color: rgba(124, 77, 255, 0.1);
+}
+
+.md-typeset .esercizio > .admonition-title::before,
+.md-typeset .esercizio > summary::before {
+  background-color: #7c4dff;
+  -webkit-mask-image: var(--md-admonition-icon--esercizio);
+          mask-image: var(--md-admonition-icon--esercizio);
+}
+
+/* ── Footer ─────────────────────────────────────────────────── */
+
+.md-footer-meta {
+  font-size: 0.78em;
+}

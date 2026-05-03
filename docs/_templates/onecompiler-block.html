@@ -1,0 +1,114 @@
+<!--
+  onecompiler-block.html
+  ======================
+  Blocco HTML riutilizzabile per incorporare OneCompiler in una pagina MkDocs Material.
+
+  UTILIZZO
+  --------
+  Copia questo snippet nella pagina Markdown dell'esercizio e sostituisci:
+    • LANGUAGE   → linguaggio OneCompiler (es. python, c, java, php, bash)
+    • ENCODED_CODE → codice sorgente codificato in Base64 (vedi sotto)
+    • TITOLO_ESERCIZIO → testo mostrato nell'intestazione del blocco
+
+  Come ottenere ENCODED_CODE
+  --------------------------
+  Codifica il codice sorgente in Base64, ad esempio:
+    echo -n 'print("Hello, World!")' | base64
+  Oppure usa: https://www.base64encode.org
+
+  Il parametro `code` nell'URL di OneCompiler accetta il sorgente in Base64.
+  Se il codice è breve puoi usare `code=` con la stringa plain-text URL-encoded,
+  ma Base64 è più affidabile per sorgenti multiriga.
+
+  ESEMPIO COMPLETO (Python)
+  -------------------------
+  LANGUAGE     = python
+  Codice       = print("Ciao, mondo!")
+  ENCODED_CODE = cHJpbnQoIkNpYW8sIG1vbmRvISIp
+
+  PARAMETRI URL DI ONECOMPILER UTILI
+  ------------------------------------
+  hideNew=true          nasconde il pulsante "New"
+  hideNewFileOption=true nasconde l'opzione nuovo file
+  hideTitle=true        nasconde il titolo interno
+  hideLanguageSelection=true  blocca la selezione del linguaggio
+  theme=dark / theme=light
+  fontSize=14
+  listenToEvents=true   abilita i messaggi postMessage (per integrazioni avanzate)
+-->
+
+<!-- ╔══════════════════════════════════════════════════════════╗
+     ║  INCOLLA QUESTO BLOCCO NELLA PAGINA MARKDOWN            ║
+     ╚══════════════════════════════════════════════════════════╝ -->
+
+<div class="onecompiler-wrapper" markdown="0">
+  <div class="onecompiler-header">
+    <span class="onecompiler-icon">▶</span>
+    <span class="onecompiler-title">TITOLO_ESERCIZIO</span>
+    <a
+      class="onecompiler-external"
+      href="https://onecompiler.com/LANGUAGE?hideNew=true&hideTitle=true&code=ENCODED_CODE"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Apri in una nuova scheda"
+    >↗ Apri in grande</a>
+  </div>
+  <iframe
+    src="https://onecompiler.com/embed/LANGUAGE?hideNew=true&hideNewFileOption=true&hideTitle=true&theme=dark&fontSize=14&code=ENCODED_CODE"
+    width="100%"
+    height="480"
+    frameborder="0"
+    allowfullscreen
+    loading="lazy"
+    title="Editor OneCompiler – TITOLO_ESERCIZIO"
+  ></iframe>
+</div>
+
+<!-- ╔══════════════════════════════════════════════════════════╗
+     ║  STILI CSS — aggiungi in docs/stylesheets/extra.css     ║
+     ╚══════════════════════════════════════════════════════════╝ -->
+<!--
+.onecompiler-wrapper {
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 1.5em 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,.12);
+}
+
+.onecompiler-header {
+  display: flex;
+  align-items: center;
+  gap: .6em;
+  padding: .5em 1em;
+  background: var(--md-code-bg-color);
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  font-size: .85em;
+}
+
+.onecompiler-icon {
+  color: var(--md-primary-fg-color);
+  font-size: 1.1em;
+}
+
+.onecompiler-title {
+  flex: 1;
+  font-weight: 600;
+  color: var(--md-default-fg-color);
+}
+
+.onecompiler-external {
+  font-size: .8em;
+  color: var(--md-primary-fg-color);
+  text-decoration: none;
+}
+
+.onecompiler-external:hover {
+  text-decoration: underline;
+}
+
+.onecompiler-wrapper iframe {
+  display: block;
+  width: 100%;
+}
+-->

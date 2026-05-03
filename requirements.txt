@@ -1,0 +1,17 @@
+# ── Core ──────────────────────────────────────────────────────
+# Blocchiamo esplicitamente su MkDocs 1.x:
+# MkDocs 2.0 è un fork incompatibile (rimuove i plugin, rompe i temi).
+# Vedi: https://squidfunk.github.io/mkdocs-material/blog/2026/02/18/mkdocs-2.0/
+mkdocs>=1.6.0,<2.0
+mkdocs-material>=9.5.0,<10.0
+
+# ── Plugin: minifica l'HTML del sito generato ─────────────────
+mkdocs-minify-plugin>=0.8.0
+
+# ── Plugin: data ultimo aggiornamento da git (opzionale) ──────
+# Decommenta se vuoi mostrare "Aggiornato il …" su ogni pagina.
+# Richiede fetch-depth: 0 nel workflow GitHub Actions.
+mkdocs-git-revision-date-localized-plugin>=1.2.0
+
+# ── Pygments: evidenziazione sintassi ────────────────────────
+Pygments>=2.18.0

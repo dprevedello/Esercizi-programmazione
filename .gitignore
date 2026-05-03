@@ -1,0 +1,46 @@
+# ── MkDocs ───────────────────────────────────────────────────
+/site/                  # cartella di output del build locale
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Ambienti virtuali
+.venv/
+venv/
+env/
+ENV/
+
+# Distribuzione / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ── Editor e IDE ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── Misc ─────────────────────────────────────────────────────
+*.log
+*.bak
+*.tmp
