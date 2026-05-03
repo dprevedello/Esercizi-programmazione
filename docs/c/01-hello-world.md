@@ -46,3 +46,19 @@ Un programma in C è composto almeno da:
     title="Editor OneCompiler – Hello World"
   ></iframe>
 </div>
+
+<script>
+async function loadAndEmbed() {
+  const res = await fetch("https://raw.githubusercontent.com/dprevedello/Esercizi-programmazione/refs/heads/main/C/Hello-world/main.c");
+  const code = await res.text();
+  const f = document.createElement("form");
+  f.method = "POST"; f.action = "https://onecompiler.com/c";
+  f.target = "oc_frame";
+  const i = document.createElement("input");
+  i.type="hidden"; i.name="code"; i.value=code;
+  f.appendChild(i); document.body.appendChild(f);
+  f.submit(); document.body.removeChild(f);
+}
+loadAndEmbed();
+</script>
+<iframe name="oc_frame" style="width:100%;height:500px;border:none;"></iframe>
