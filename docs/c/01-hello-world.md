@@ -24,29 +24,6 @@ Un programma in C è composto almeno da:
 
 ## Soluzione
 
-<div class="onecompiler-wrapper" markdown="0">
-  <div class="onecompiler-header">
-    <span class="onecompiler-icon">▶</span>
-    <span class="onecompiler-title">Hello World</span>
-    <a
-      class="onecompiler-external"
-      href="https://onecompiler.com/c?hideNew=true&hideTitle=true&code=I2luY2x1ZGUgPHN0ZGlvLmg+CgppbnQgbWFpbigpIHsKICAgIHByaW50ZigiSGVsbG8sIFdvcmxkIVxuIik7CiAgICByZXR1cm4gMDsKfQo="
-      target="_blank"
-      rel="noopener noreferrer"
-      title="Apri in una nuova scheda"
-    >↗ Apri in grande</a>
-  </div>
-  <iframe
-    src="https://onecompiler.com/embed/c?hideNew=true&hideNewFileOption=true&hideTitle=true&theme=dark&fontSize=14&code=I2luY2x1ZGUgPHN0ZGlvLmg+CgppbnQgbWFpbigpIHsKICAgIHByaW50ZigiSGVsbG8sIFdvcmxkIVxuIik7CiAgICByZXR1cm4gMDsKfQo="
-    width="100%"
-    height="480"
-    frameborder="0"
-    allowfullscreen
-    loading="lazy"
-    title="Editor OneCompiler – Hello World"
-  ></iframe>
-</div>
-
 <script>
 async function loadAndEmbed() {
   const res = await fetch("https://raw.githubusercontent.com/dprevedello/Esercizi-programmazione/refs/heads/main/C/Hello-world/main.c");
