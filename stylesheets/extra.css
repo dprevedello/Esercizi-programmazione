@@ -2,53 +2,6 @@
    extra.css — stili aggiuntivi per Esercizi di Programmazione
    ================================================================ */
 
-/* ── Blocco OneCompiler ─────────────────────────────────────── */
-
-.onecompiler-wrapper {
-  border: 1px solid var(--md-default-fg-color--lightest);
-  border-radius: 8px;
-  overflow: hidden;
-  margin: 1.5em 0;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
-}
-
-.onecompiler-header {
-  display: flex;
-  align-items: center;
-  gap: 0.6em;
-  padding: 0.5em 1em;
-  background: var(--md-code-bg-color);
-  border-bottom: 1px solid var(--md-default-fg-color--lightest);
-  font-size: 0.85em;
-}
-
-.onecompiler-icon {
-  color: var(--md-primary-fg-color);
-  font-size: 1.1em;
-}
-
-.onecompiler-title {
-  flex: 1;
-  font-weight: 600;
-  color: var(--md-default-fg-color);
-}
-
-.onecompiler-external {
-  font-size: 0.8em;
-  color: var(--md-primary-fg-color);
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.onecompiler-external:hover {
-  text-decoration: underline;
-}
-
-.onecompiler-wrapper iframe {
-  display: block;
-  width: 100%;
-}
-
 /* ── Tabella degli esercizi ─────────────────────────────────── */
 
 /* Centra la colonna Difficoltà */
