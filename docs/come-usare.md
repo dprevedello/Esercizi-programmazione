@@ -19,25 +19,20 @@ conviene seguirli nell'ordine suggerito, soprattutto se sei alle prime armi.
 
 ## Eseguire il codice con OneCompiler
 
-Molte pagine includono un **riquadro OneCompiler** direttamente nella pagina:
+Molte pagine includono un **bottone Prova online** con OneCompiler direttamente nella pagina:
 puoi scrivere e lanciare il codice senza installare nulla sul computer.
 
 ### Come funziona
 
 1. Il riquadro mostra un editor con il codice dell'esercizio già caricato.
-2. Clicca sul pulsante **Run** (▶) per eseguirlo.
-3. L'output appare nella parte inferiore del riquadro.
+2. Clicca sul pulsante **▶ Prova online** per eseguirlo.
+3. L'output appare nella parte inferiore dela pagina.
 4. Puoi modificare il codice liberamente: le modifiche non vengono salvate
    e non influenzano gli altri studenti.
 
 !!! warning "Attenzione"
     OneCompiler richiede una **connessione a internet**.
     Se sei offline, copia il codice nel tuo editor locale (vedi sotto).
-
-### Aprire OneCompiler in una nuova scheda
-
-Se il riquadro è troppo piccolo, clicca sull'icona :octicons-link-external-16:
-in alto a destra per aprire l'editor in una scheda separata con più spazio.
 
 ---
 

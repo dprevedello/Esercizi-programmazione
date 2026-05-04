@@ -12,7 +12,7 @@ Il sito è consultabile all'indirizzo:
 | Sezione | Esercizi | Argomento |
 |---|---|---|
 | `Bash/` | — | Script da riga di comando su Linux/macOS |
-| `C/` | 56 | Linguaggio C — ogni esercizio in una propria sottocartella |
+| `C/` | 60 | Linguaggio C — dagli esercizi base ai più avanzati |
 | `Database/` | — | SQL e algebra relazionale su database relazionali |
 | `Java/` | — | Programmazione orientata agli oggetti in Java |
 | `PacketTracer/` | — | Reti con Cisco Packet Tracer |
@@ -64,15 +64,15 @@ mkdocs gh-deploy      # build + push su gh-pages
 
 ## Aggiungere un esercizio
 
-### Python, Java, PHP, Bash, Database
+### C, Python, Java, PHP, Bash, Database, HTML-CSS-Javascrypt, PacketTracer
 
-1. Crea il file `docs/<sezione>/nome-esercizio.md`.
+1. Crea il file `docs/<linguaggio>/nome-esercizio.md`.
 2. Aggiungi la voce corrispondente nel blocco `nav:` di `mkdocs.yml`:
    ```yaml
-   - "Titolo esercizio": <sezione>/nome-esercizio.md
+   - "Titolo esercizio": <linguaggio>/nome-esercizio.md
    ```
 
-### C (con sottocartella)
+### Esempio per il linguaggio C
 
 Ogni esercizio C vive in una propria sottocartella, con il sorgente e
 opzionalmente file di input/output di esempio:
@@ -94,40 +94,24 @@ C/
 
 ### Blocco OneCompiler
 
-Per incorporare l'editor interattivo in una pagina, copia il template da
-`docs/_templates/onecompiler-block.html` e sostituisci i tre segnaposto:
+Per ogni esercizio si può incorporare l'editor interattivo nella pagina, inserendo
+il codice html e sostituendo i segnaposto:
 
 | Segnaposto | Valore |
 |---|---|
-| `LANGUAGE` | `c`, `python`, `java`, `php`, `bash` |
-| `TITOLO_ESERCIZIO` | Titolo mostrato nell'intestazione |
-| `ENCODED_CODE` | Codice sorgente in Base64 |
+| `data-lang` | `c`, `python`, `java`, `php`, `bash` |
+| `data-path` | Titolo mostrato nell'intestazione |
 
-Per ottenere la stringa Base64 del codice sorgente:
+Esempio di codice da inserire:
 
-```bash
-base64 -w 0 main.c
+```html
+<div class="oc-embed"
+     data-path="C/Hello-world/main.c"
+     data-lang="c">
+</div>
 ```
 
-Vedi `docs/python/01-hello-world.md` come esempio completo funzionante.
-
----
-
-## Esercizi C — classificazione per argomento
-
-| Gruppo | Esercizi |
-|---|---|
-| Fondamentali | Hello World, Doppio, Media, Calcolatrice, Valore assoluto |
-| Condizioni | Pari/dispari, Divisibilità, Maggiore tra 2/3 numeri (3 varianti), Anno bisestile |
-| Cicli | Somme, Conteggi, Tavola pitagorica, Mesi, Divisori, Cifre, Primo, Fibonacci |
-| Funzioni e ricorsione | Fattoriale (2 varianti), Fibonacci ricorsivo, Binario ricorsivo |
-| Matematica e geometria | Aree/perimetri, Equazioni, Conversioni, MCD/MCM, Nepero, Radice, Seno |
-| Array e casuali | Generazione, Calcoli su vettori, Min/max, Sequenze, Sentinella |
-| Ordinamento e ricerca | Ricerca sequenziale, Bubblesort, Quicksort (entrambi con ricerca binaria) |
-| Stringhe e caratteri | Maiuscolo, Palindroma, Statistiche frase, Cifrario di Cesare |
-| Numeri binari | Conversione iterativa, Operatori bitwise |
-| Figure e output | Rettangolo base, Rettangolo personalizzato, Figure geometriche |
-| Giochi e logica | Indovina il numero |
+Vedi `docs/c/01-hello-world.md` come esempio completo funzionante.
 
 ---
 
@@ -140,11 +124,10 @@ Esercizi-programmazione/
 │       └── deploy.yml              # GitHub Actions: deploy automatico
 ├── Bash/
 ├── C/
-│   ├── Algoritmo-di-Cesare/main.c
-│   ├── Analisi-sequenza-di-numeri/main.c
-│   ├── Area-triangolo-equilatero/main.c
-│   └── … (56 sottocartelle, una per esercizio)
+│   ├── Hello-world/main.c
+│   └── … (60 sottocartelle, una per esercizio)
 ├── Database/
+├── HTML-CSS-Javascrypt
 ├── Java/
 ├── PacketTracer/
 ├── PHP/
@@ -153,21 +136,28 @@ Esercizi-programmazione/
 │   ├── index.md                    # homepage del sito
 │   ├── come-usare.md
 │   ├── stylesheets/
-│   │   └── extra.css               # stili personalizzati (OneCompiler, tabelle)
-│   ├── _templates/
-│   │   └── onecompiler-block.html  # snippet riutilizzabile per l'editor
-│   ├── bash/index.md
+│   │   └── extra.css               # stili personalizzati
+│   ├── javascripts/
+│   │   └── mathjax.js              # javascrypt per rendering formule LaTeX
+│   │   └── onecompiler.js          # javascrypt per l'editor OneCompiler
+│   ├── bash/
+│   │   └── bash/index.md
 │   ├── c/
-│   │   ├── index.md                # indice con tutti i 56 esercizi classificati
-│   │   └── <NomeEsercizio>/
-│   │       └── index.md            # pagina di ciascun esercizio
-│   ├── database/index.md
-│   ├── java/index.md
-│   ├── packettracer/index.md
-│   ├── php/index.md
+│   │   ├── index.md                # indice con tutti i 60 esercizi classificati
+│   │   ├── 01-hello-world.md       # pagina di ciascun esercizio
+│   │   └── ...
+│   ├── database/
+│   │   └── database/index.md
+│   ├── html-css-javascrypt/
+│   │   └── html-css-javascrypt/index.md
+│   ├── java/
+│   │   └── java/index.md
+│   ├── packettracer/
+│   │   └── packettracer/index.md
+│   ├── php/
+│   │   └── php/index.md
 │   └── python/
-│       ├── index.md
-│       └── 01-hello-world.md       # esempio di pagina esercizio con OneCompiler
+│       └── index.md
 ├── mkdocs.yml
 ├── requirements.txt
 └── .gitignore

@@ -1,7 +1,6 @@
 # Esercizi di Programmazione
 
-Benvenuto nella raccolta didattica di **esercizi di programmazione** pensata per gli studenti
-della scuola secondaria di secondo grado.
+Benvenuto nella raccolta didattica di **esercizi di programmazione** pensata per gli studenti.
 
 Qui trovi esercizi pratici, ordinati per linguaggio o argomento, con spiegazioni chiare e
 la possibilità di provare il codice direttamente dal browser grazie a **OneCompiler**.
@@ -15,6 +14,7 @@ la possibilità di provare il codice direttamente dal browser grazie a **OneComp
 | [Bash](bash/index.md) | Script da riga di comando su Linux/macOS | Base → Intermedio |
 | [C](c/index.md) | Linguaggio C: variabili, cicli, funzioni, puntatori | Base → Avanzato |
 | [Database](database/index.md) | SQL: query, JOIN, DDL e DML su database relazionali | Base → Intermedio |
+| [HTML-CSS-Javascrypt](html-css-javascrypt/index.md) | Pagine in HTML / CSS / Javascrypt | Base → Intermedio |
 | [Java](java/index.md) | Programmazione orientata agli oggetti in Java | Intermedio → Avanzato |
 | [PacketTracer](packettracer/index.md) | Reti con Cisco Packet Tracer: LAN, IP, router | Base → Intermedio |
 | [PHP](php/index.md) | PHP lato server: variabili, form, sessioni | Base → Intermedio |
