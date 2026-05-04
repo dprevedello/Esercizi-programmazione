@@ -25,25 +25,11 @@ dove \(l\) è la misura del lato.
 
 ## Soluzione
 
-<div class="onecompiler-wrapper" markdown="0">
-  <div class="onecompiler-header">
-    <span class="onecompiler-icon">▶</span>
-    <span class="onecompiler-title">Perimetro e area del quadrato</span>
-    <a
-      class="onecompiler-external"
-      href="https://onecompiler.com/c?hideNew=true&hideTitle=true&code=I2luY2x1ZGUgPHN0ZGlvLmg+CgppbnQgbWFpbigpIHsKICAgIGRvdWJsZSBsYXRvLCBwZXJpbWV0cm8sIGFyZWE7CiAgICBwcmludGYoIkluc2VyaXNjaSBpbCBsYXRvIGRlbCBxdWFkcmF0bzogIik7CiAgICBzY2FuZigiJWxmIiwgJmxhdG8pOwogICAgcGVyaW1ldHJvID0gNCAqIGxhdG87CiAgICBhcmVhID0gbGF0byAqIGxhdG87CiAgICBwcmludGYoIlBlcmltZXRybzogJS4yZlxuIiwgcGVyaW1ldHJvKTsKICAgIHByaW50ZigiQXJlYTogJS4yZlxuIiwgYXJlYSk7CiAgICByZXR1cm4gMDsKfQo="
-      target="_blank"
-      rel="noopener noreferrer"
-      title="Apri in una nuova scheda"
-    >↗ Apri in grande</a>
-  </div>
-  <iframe
-    src="https://onecompiler.com/embed/c?hideNew=true&hideNewFileOption=true&hideTitle=true&theme=dark&fontSize=14&code=I2luY2x1ZGUgPHN0ZGlvLmg+CgppbnQgbWFpbigpIHsKICAgIGRvdWJsZSBsYXRvLCBwZXJpbWV0cm8sIGFyZWE7CiAgICBwcmludGYoIkluc2VyaXNjaSBpbCBsYXRvIGRlbCBxdWFkcmF0bzogIik7CiAgICBzY2FuZigiJWxmIiwgJmxhdG8pOwogICAgcGVyaW1ldHJvID0gNCAqIGxhdG87CiAgICBhcmVhID0gbGF0byAqIGxhdG87CiAgICBwcmludGYoIlBlcmltZXRybzogJS4yZlxuIiwgcGVyaW1ldHJvKTsKICAgIHByaW50ZigiQXJlYTogJS4yZlxuIiwgYXJlYSk7CiAgICByZXR1cm4gMDsKfQo="
-    width="100%"
-    height="480"
-    frameborder="0"
-    allowfullscreen
-    loading="lazy"
-    title="Editor OneCompiler – Perimetro e area del quadrato"
-  ></iframe>
+```c
+--8<-- "C/Perimetro-e-area-del-quadrato/main.c"
+```
+
+<div class="oc-embed"
+     data-path="C/Perimetro-e-area-del-quadrato/main.c"
+     data-lang="c">
 </div>

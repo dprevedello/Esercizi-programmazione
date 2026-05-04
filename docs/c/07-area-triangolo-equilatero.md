@@ -27,25 +27,11 @@ Questa formula si ricava applicando il teorema di Pitagora per determinare l'alt
 
 ## Soluzione
 
-<div class="onecompiler-wrapper" markdown="0">
-  <div class="onecompiler-header">
-    <span class="onecompiler-icon">▶</span>
-    <span class="onecompiler-title">Area del triangolo equilatero</span>
-    <a
-      class="onecompiler-external"
-      href="https://onecompiler.com/c?hideNew=true&hideTitle=true&code=I2luY2x1ZGUgPHN0ZGlvLmg+CiNpbmNsdWRlIDxtYXRoLmg+CgppbnQgbWFpbigpIHsKICAgIGRvdWJsZSBwZXJpbWV0cm8sIGxhdG8sIGFyZWE7CiAgICBwcmludGYoIkluc2VyaXNjaSBpbCBwZXJpbWV0cm8gZGVsIHRyaWFuZ29sbyBlcXVpbGF0ZXJvOiAiKTsKICAgIHNjYW5mKCIlbGYiLCAmcGVyaW1ldHJvKTsKICAgIGxhdG8gPSBwZXJpbWV0cm8gLyAzLjA7CiAgICBhcmVhID0gKHNxcnQoMy4wKSAvIDQuMCkgKiBsYXRvICogbGF0bzsKICAgIHByaW50ZigiQXJlYSBkZWwgdHJpYW5nb2xvIGVxdWlsYXRlcm86ICUuNGZcbiIsIGFyZWEpOwogICAgcmV0dXJuIDA7Cn0K"
-      target="_blank"
-      rel="noopener noreferrer"
-      title="Apri in una nuova scheda"
-    >↗ Apri in grande</a>
-  </div>
-  <iframe
-    src="https://onecompiler.com/embed/c?hideNew=true&hideNewFileOption=true&hideTitle=true&theme=dark&fontSize=14&code=I2luY2x1ZGUgPHN0ZGlvLmg+CiNpbmNsdWRlIDxtYXRoLmg+CgppbnQgbWFpbigpIHsKICAgIGRvdWJsZSBwZXJpbWV0cm8sIGxhdG8sIGFyZWE7CiAgICBwcmludGYoIkluc2VyaXNjaSBpbCBwZXJpbWV0cm8gZGVsIHRyaWFuZ29sbyBlcXVpbGF0ZXJvOiAiKTsKICAgIHNjYW5mKCIlbGYiLCAmcGVyaW1ldHJvKTsKICAgIGxhdG8gPSBwZXJpbWV0cm8gLyAzLjA7CiAgICBhcmVhID0gKHNxcnQoMy4wKSAvIDQuMCkgKiBsYXRvICogbGF0bzsKICAgIHByaW50ZigiQXJlYSBkZWwgdHJpYW5nb2xvIGVxdWlsYXRlcm86ICUuNGZcbiIsIGFyZWEpOwogICAgcmV0dXJuIDA7Cn0K"
-    width="100%"
-    height="480"
-    frameborder="0"
-    allowfullscreen
-    loading="lazy"
-    title="Editor OneCompiler – Area del triangolo equilatero"
-  ></iframe>
+```c
+--8<-- "C/Area-triangolo-equilatero/main.c"
+```
+
+<div class="oc-embed"
+     data-path="C/Area-triangolo-equilatero/main.c"
+     data-lang="c">
 </div>

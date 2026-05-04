@@ -25,25 +25,11 @@ $$b = \frac{A}{h}$$
 
 ## Soluzione
 
-<div class="onecompiler-wrapper" markdown="0">
-  <div class="onecompiler-header">
-    <span class="onecompiler-icon">▶</span>
-    <span class="onecompiler-title">Diagonale del rettangolo</span>
-    <a
-      class="onecompiler-external"
-      href="https://onecompiler.com/c?hideNew=true&hideTitle=true&code=I2luY2x1ZGUgPHN0ZGlvLmg+CiNpbmNsdWRlIDxtYXRoLmg+CgppbnQgbWFpbigpIHsKICAgIGRvdWJsZSBhcmVhLCBhbHRlenphLCBiYXNlLCBkaWFnb25hbGU7CiAgICBwcmludGYoIkluc2VyaXNjaSBsJ2FyZWEgZGVsIHJldHRhbmdvbG86ICIpOwogICAgc2NhbmYoIiVsZiIsICZhcmVhKTsKICAgIHByaW50ZigiSW5zZXJpc2NpIGwnYWx0ZXp6YSBkZWwgcmV0dGFuZ29sbzogIik7CiAgICBzY2FuZigiJWxmIiwgJmFsdGV6emEpOwogICAgYmFzZSA9IGFyZWEgLyBhbHRlenphOwogICAgZGlhZ29uYWxlID0gc3FydChiYXNlICogYmFzZSArIGFsdGV6emEgKiBhbHRlenphKTsKICAgIHByaW50ZigiTGEgZGlhZ29uYWxlIGUnOiAlLjRmXG4iLCBkaWFnb25hbGUpOwogICAgcmV0dXJuIDA7Cn0K"
-      target="_blank"
-      rel="noopener noreferrer"
-      title="Apri in una nuova scheda"
-    >↗ Apri in grande</a>
-  </div>
-  <iframe
-    src="https://onecompiler.com/embed/c?hideNew=true&hideNewFileOption=true&hideTitle=true&theme=dark&fontSize=14&code=I2luY2x1ZGUgPHN0ZGlvLmg+CiNpbmNsdWRlIDxtYXRoLmg+CgppbnQgbWFpbigpIHsKICAgIGRvdWJsZSBhcmVhLCBhbHRlenphLCBiYXNlLCBkaWFnb25hbGU7CiAgICBwcmludGYoIkluc2VyaXNjaSBsJ2FyZWEgZGVsIHJldHRhbmdvbG86ICIpOwogICAgc2NhbmYoIiVsZiIsICZhcmVhKTsKICAgIHByaW50ZigiSW5zZXJpc2NpIGwnYWx0ZXp6YSBkZWwgcmV0dGFuZ29sbzogIik7CiAgICBzY2FuZigiJWxmIiwgJmFsdGV6emEpOwogICAgYmFzZSA9IGFyZWEgLyBhbHRlenphOwogICAgZGlhZ29uYWxlID0gc3FydChiYXNlICogYmFzZSArIGFsdGV6emEgKiBhbHRlenphKTsKICAgIHByaW50ZigiTGEgZGlhZ29uYWxlIGUnOiAlLjRmXG4iLCBkaWFnb25hbGUpOwogICAgcmV0dXJuIDA7Cn0K"
-    width="100%"
-    height="480"
-    frameborder="0"
-    allowfullscreen
-    loading="lazy"
-    title="Editor OneCompiler – Diagonale del rettangolo"
-  ></iframe>
+```c
+--8<-- "C/Diagonale-rettangolo/main.c"
+```
+
+<div class="oc-embed"
+     data-path="C/Diagonale-rettangolo/main.c"
+     data-lang="c">
 </div>

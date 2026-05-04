@@ -85,6 +85,9 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.snippets:
+      base_path: .
+      check_paths: true
   # Tab per linguaggio / sistema operativo
   - pymdownx.tabbed:
       alternate_style: true
@@ -105,6 +108,8 @@ markdown_extensions:
   - toc:
       permalink: true
       title: In questa pagina
+  - pymdownx.arithmatex:
+      generic: true
 
 # ──────────────────────────────────────────────
 # Navigazione
@@ -207,3 +212,8 @@ nav:
   - Python:
     - python/index.md
     # - "Es. 01 – Hello World": python/01-hello-world.md
+
+extra_javascript:
+  - javascripts/onecompiler.js
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js

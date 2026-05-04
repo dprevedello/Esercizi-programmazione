@@ -25,25 +25,11 @@ Questo esercizio introduce l'uso di `if` senza `else`: la struttura condizionale
 
 ## Soluzione
 
-<div class="onecompiler-wrapper" markdown="0">
-  <div class="onecompiler-header">
-    <span class="onecompiler-icon">▶</span>
-    <span class="onecompiler-title">Numero divisibile per 5</span>
-    <a
-      class="onecompiler-external"
-      href="https://onecompiler.com/c?hideNew=true&hideTitle=true&code=I2luY2x1ZGUgPHN0ZGlvLmg+CgppbnQgbWFpbigpIHsKICAgIGludCBuOwogICAgcHJpbnRmKCJJbnNlcmlzY2kgdW4gbnVtZXJvIGludGVybzogIik7CiAgICBzY2FuZigiJWQiLCAmbik7CiAgICBpZiAobiAlIDUgPT0gMCkKICAgICAgICBwcmludGYoIiVkIGUnIGRpdmlzaWJpbGUgcGVyIDUuXG4iLCBuKTsKICAgIHJldHVybiAwOwp9Cg=="
-      target="_blank"
-      rel="noopener noreferrer"
-      title="Apri in una nuova scheda"
-    >↗ Apri in grande</a>
-  </div>
-  <iframe
-    src="https://onecompiler.com/embed/c?hideNew=true&hideNewFileOption=true&hideTitle=true&theme=dark&fontSize=14&code=I2luY2x1ZGUgPHN0ZGlvLmg+CgppbnQgbWFpbigpIHsKICAgIGludCBuOwogICAgcHJpbnRmKCJJbnNlcmlzY2kgdW4gbnVtZXJvIGludGVybzogIik7CiAgICBzY2FuZigiJWQiLCAmbik7CiAgICBpZiAobiAlIDUgPT0gMCkKICAgICAgICBwcmludGYoIiVkIGUnIGRpdmlzaWJpbGUgcGVyIDUuXG4iLCBuKTsKICAgIHJldHVybiAwOwp9Cg=="
-    width="100%"
-    height="480"
-    frameborder="0"
-    allowfullscreen
-    loading="lazy"
-    title="Editor OneCompiler – Numero divisibile per 5"
-  ></iframe>
+```c
+--8<-- "C/Numero-divisibile-per-5/main.c"
+```
+
+<div class="oc-embed"
+     data-path="C/Numero-divisibile-per-5/main.c"
+     data-lang="c">
 </div>

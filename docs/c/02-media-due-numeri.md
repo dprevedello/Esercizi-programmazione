@@ -23,25 +23,11 @@ Il programma deve leggere i due valori tramite `scanf()`, calcolare la media e s
 
 ## Soluzione
 
-<div class="onecompiler-wrapper" markdown="0">
-  <div class="onecompiler-header">
-    <span class="onecompiler-icon">▶</span>
-    <span class="onecompiler-title">Media di due numeri</span>
-    <a
-      class="onecompiler-external"
-      href="https://onecompiler.com/c?hideNew=true&hideTitle=true&code=I2luY2x1ZGUgPHN0ZGlvLmg+CgppbnQgbWFpbigpIHsKICAgIGRvdWJsZSBhLCBiLCBtZWRpYTsKICAgIHByaW50ZigiSW5zZXJpc2NpIGlsIHByaW1vIG51bWVybzogIik7CiAgICBzY2FuZigiJWxmIiwgJmEpOwogICAgcHJpbnRmKCJJbnNlcmlzY2kgaWwgc2Vjb25kbyBudW1lcm86ICIpOwogICAgc2NhbmYoIiVsZiIsICZiKTsKICAgIG1lZGlhID0gKGEgKyBiKSAvIDIuMDsKICAgIHByaW50ZigiTGEgbWVkaWEgYXJpdG1ldGljYSBlJzogJS4yZlxuIiwgbWVkaWEpOwogICAgcmV0dXJuIDA7Cn0K"
-      target="_blank"
-      rel="noopener noreferrer"
-      title="Apri in una nuova scheda"
-    >↗ Apri in grande</a>
-  </div>
-  <iframe
-    src="https://onecompiler.com/embed/c?hideNew=true&hideNewFileOption=true&hideTitle=true&theme=dark&fontSize=14&code=I2luY2x1ZGUgPHN0ZGlvLmg+CgppbnQgbWFpbigpIHsKICAgIGRvdWJsZSBhLCBiLCBtZWRpYTsKICAgIHByaW50ZigiSW5zZXJpc2NpIGlsIHByaW1vIG51bWVybzogIik7CiAgICBzY2FuZigiJWxmIiwgJmEpOwogICAgcHJpbnRmKCJJbnNlcmlzY2kgaWwgc2Vjb25kbyBudW1lcm86ICIpOwogICAgc2NhbmYoIiVsZiIsICZiKTsKICAgIG1lZGlhID0gKGEgKyBiKSAvIDIuMDsKICAgIHByaW50ZigiTGEgbWVkaWEgYXJpdG1ldGljYSBlJzogJS4yZlxuIiwgbWVkaWEpOwogICAgcmV0dXJuIDA7Cn0K"
-    width="100%"
-    height="480"
-    frameborder="0"
-    allowfullscreen
-    loading="lazy"
-    title="Editor OneCompiler – Media di due numeri"
-  ></iframe>
+```c
+--8<-- "C/Media-due-numeri/main.c"
+```
+
+<div class="oc-embed"
+     data-path="C/Media-due-numeri/main.c"
+     data-lang="c">
 </div>

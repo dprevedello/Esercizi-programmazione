@@ -29,25 +29,11 @@ Il programma deve leggere \(m\), \(q\), \(x_0\) e \(y_0\), calcolare il valore \
 
 ## Soluzione
 
-<div class="onecompiler-wrapper" markdown="0">
-  <div class="onecompiler-header">
-    <span class="onecompiler-icon">▶</span>
-    <span class="onecompiler-title">Equazione della retta</span>
-    <a
-      class="onecompiler-external"
-      href="https://onecompiler.com/c?hideNew=true&hideTitle=true&code=I2luY2x1ZGUgPHN0ZGlvLmg+CiNpbmNsdWRlIDxtYXRoLmg+CgppbnQgbWFpbigpIHsKICAgIGRvdWJsZSBtLCBxLCB4LCB5OwogICAgcHJpbnRmKCJJbnNlcmlzY2kgaWwgY29lZmZpY2llbnRlIGFuZ29sYXJlIG06ICIpOwogICAgc2NhbmYoIiVsZiIsICZtKTsKICAgIHByaW50ZigiSW5zZXJpc2NpIGlsIHRlcm1pbmUgbm90byBxOiAiKTsKICAgIHNjYW5mKCIlbGYiLCAmcSk7CiAgICBwcmludGYoIkluc2VyaXNjaSBsYSBjb29yZGluYXRhIHggZGVsIHB1bnRvOiAiKTsKICAgIHNjYW5mKCIlbGYiLCAmeCk7CiAgICBwcmludGYoIkluc2VyaXNjaSBsYSBjb29yZGluYXRhIHkgZGVsIHB1bnRvOiAiKTsKICAgIHNjYW5mKCIlbGYiLCAmeSk7CiAgICBkb3VibGUgeV9yZXR0YSA9IG0gKiB4ICsgcTsKICAgIGlmIChmYWJzKHkgLSB5X3JldHRhKSA8IDFlLTkpCiAgICAgICAgcHJpbnRmKCJJbCBwdW50byAoJS4yZiwgJS4yZikgYXBwYXJ0aWVuZSBhbGxhIHJldHRhLlxuIiwgeCwgeSk7CiAgICBlbHNlCiAgICAgICAgcHJpbnRmKCJJbCBwdW50byAoJS4yZiwgJS4yZikgTk9OIGFwcGFydGllbmUgYWxsYSByZXR0YS5cbiIsIHgsIHkpOwogICAgcmV0dXJuIDA7Cn0K"
-      target="_blank"
-      rel="noopener noreferrer"
-      title="Apri in una nuova scheda"
-    >↗ Apri in grande</a>
-  </div>
-  <iframe
-    src="https://onecompiler.com/embed/c?hideNew=true&hideNewFileOption=true&hideTitle=true&theme=dark&fontSize=14&code=I2luY2x1ZGUgPHN0ZGlvLmg+CiNpbmNsdWRlIDxtYXRoLmg+CgppbnQgbWFpbigpIHsKICAgIGRvdWJsZSBtLCBxLCB4LCB5OwogICAgcHJpbnRmKCJJbnNlcmlzY2kgaWwgY29lZmZpY2llbnRlIGFuZ29sYXJlIG06ICIpOwogICAgc2NhbmYoIiVsZiIsICZtKTsKICAgIHByaW50ZigiSW5zZXJpc2NpIGlsIHRlcm1pbmUgbm90byBxOiAiKTsKICAgIHNjYW5mKCIlbGYiLCAmcSk7CiAgICBwcmludGYoIkluc2VyaXNjaSBsYSBjb29yZGluYXRhIHggZGVsIHB1bnRvOiAiKTsKICAgIHNjYW5mKCIlbGYiLCAmeCk7CiAgICBwcmludGYoIkluc2VyaXNjaSBsYSBjb29yZGluYXRhIHkgZGVsIHB1bnRvOiAiKTsKICAgIHNjYW5mKCIlbGYiLCAmeSk7CiAgICBkb3VibGUgeV9yZXR0YSA9IG0gKiB4ICsgcTsKICAgIGlmIChmYWJzKHkgLSB5X3JldHRhKSA8IDFlLTkpCiAgICAgICAgcHJpbnRmKCJJbCBwdW50byAoJS4yZiwgJS4yZikgYXBwYXJ0aWVuZSBhbGxhIHJldHRhLlxuIiwgeCwgeSk7CiAgICBlbHNlCiAgICAgICAgcHJpbnRmKCJJbCBwdW50byAoJS4yZiwgJS4yZikgTk9OIGFwcGFydGllbmUgYWxsYSByZXR0YS5cbiIsIHgsIHkpOwogICAgcmV0dXJuIDA7Cn0K"
-    width="100%"
-    height="480"
-    frameborder="0"
-    allowfullscreen
-    loading="lazy"
-    title="Editor OneCompiler – Equazione della retta"
-  ></iframe>
+```c
+--8<-- "C/Equazione-della-retta/main.c"
+```
+
+<div class="oc-embed"
+     data-path="C/Equazione-della-retta/main.c"
+     data-lang="c">
 </div>

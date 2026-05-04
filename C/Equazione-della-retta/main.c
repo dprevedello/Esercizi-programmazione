@@ -11,7 +11,7 @@ int main(void) {
 
     printf("Inserire la coordinata x del punto: ");
     scanf("%f", &xp);
-    printf("Inserire la coordinata y del puntoa: ");
+    printf("Inserire la coordinata y del punto: ");
     scanf("%f", &yp);
 
     float yCalcolato = m*xp+q;
