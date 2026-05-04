@@ -56,21 +56,21 @@ includono in molti casi dei commenti che ne aiutano la comprensione.
 | [Divisibile per 3 e 7](18-numero-divisibile-per-3-e-7.md) | Doppia condizione con `&&` |
 | [Test anno bisestile](19-test-anno-bisestile.md) | Condizioni multiple, regola del calendario |
 | [Conversione tempo in orario](20-conversione-tempo-in-orario.md) | Divisione intera e modulo |
-| [Convertitore di temperature](Convertitore-di-temperature.md) | Formule lineari, `switch` |
-| [Stampa dei mesi](Stampa-dei-mesi.md) | `for` + `switch`, output testuale |
-| [Semplice calcolatrice](Semplice-calcolatrice.md) | `switch`, operatori sui 4 tipi |
+| [Convertitore di temperature](21-convertitore-di-temperature.md) | Formule lineari, `switch` |
+| [Stampa dei mesi](22-stampa-dei-mesi.md) | `for` + `switch`, output testuale |
+| [Semplice calcolatrice](23-semplice-calcolatrice.md) | `switch`, operatori sui 4 tipi |
 
 ### 3. Cicli
 
 | Esercizio | Argomento |
 |---|---|
-| [Somma dei primi 12 numeri naturali](Somma-dei-primi-12-numeri-naturali.md) | Ciclo `for`, accumulatore |
-| [Somma numeri da 10 a 20](Somma-numeri-da-10-a-20.md) | `for` con limite variabile |
-| [Vari conteggi con il for](Vari-conteggi-con-il-for.md) | Più contatori nello stesso ciclo |
-| [Indovina il numero](Indovina-il-numero.md) | `rand()`, ciclo di gioco, hint alto/basso |
-| [Numero di cifre di un intero](Numero-di-cifre-di-un-intero.md) | Divisione intera ripetuta, `while` |
-| [Massimo/media non definiti a priori](Massimo-e-media-non-definiti-a-priori.md) | Ciclo con sentinella, `while` |
-| [Generazione numeri casuali](Generazione-numeri-casuali.md) | `rand()`, `srand()`, `<stdlib.h>` |
+| [Somma dei primi 12 numeri naturali](24-somma-dei-primi-12-numeri-naturali.md) | Ciclo `for`, accumulatore |
+| [Somma numeri da 10 a 20](25-somma-numeri-da-10-a-20.md) | `for` con limite variabile |
+| [Vari conteggi con il for](26-vari-conteggi-con-il-for.md) | Più contatori nello stesso ciclo |
+| [Indovina il numero](27-indovina-il-numero.md) | `rand()`, ciclo di gioco, hint alto/basso |
+| [Numero di cifre di un intero](28-numero-di-cifre-di-un-intero.md) | Divisione intera ripetuta, `while` |
+| [Massimo/media non definiti a priori](29-massimo-e-media-non-definiti-a-priori.md) | Ciclo con sentinella, `while` |
+| [Generazione numeri casuali](30-generazione-numeri-casuali.md) | `rand()`, `srand()`, `<stdlib.h>` |
 | [Operazioni su numeri casuali](Operazioni-su-numeri-casuali.md) | Min, max, conteggi su array |
 | [Tavola pitagorica](Tavola-pitagorica.md) | Cicli `for` annidati, formattazione output |
 | [Stampa rettangolo base](Stampa-rettangolo-base.md) | Cicli annidati, `*` e spazi |
