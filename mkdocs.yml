@@ -136,62 +136,62 @@ nav:
       - "Valore assoluto":                      c/08-valore-assoluto.md
       - "Equazione della retta":                c/09-equazione-della-retta.md
       - "Numero divisibile per 5":              c/10-numero-divisibile-per-5.md
-      - "Numero pari o dispari":                c/Numero-pari-o-dispari.md
-      - "Equazioni di secondo grado":           c/Equazioni-di-secondo-grado.md
-      - "Maggiore fra due numeri":              c/Maggiore-fra-due-numeri.md
-      - "Maggiore fra tre numeri (v1)":         c/Maggiore-fra-tre-numeri-v1.md
-      - "Maggiore fra tre numeri (v2)":         c/Maggiore-fra-tre-numeri-v2.md
-      - "Maggiore fra tre numeri (v3)":         c/Maggiore-fra-tre-numeri-v3.md
-      - "Divisibile per 2 o 3":                 c/Numero-divisibile-per-2-o-3.md
-      - "Divisibile per 3 e 7":                 c/Numero-divisibile-per-3-e-7.md
-      - "Test anno bisestile":                  c/Test-anno-bisestile.md
-      - "Conversione tempo in orario":          c/Conversione-tempo-in-orario.md
-      - "Convertitore di temperature":          c/Convertitore-di-temperature.md
-      - "Stampa dei mesi":                      c/Stampa-dei-mesi.md
-      - "Semplice calcolatrice":                c/Semplice-calcolatrice.md
+      - "Numero pari o dispari":                c/11-numero-pari-o-dispari.md
+      - "Equazioni di secondo grado":           c/12-equazioni-di-secondo-grado.md
+      - "Maggiore fra due numeri":              c/13-maggiore-fra-due-numeri.md
+      - "Maggiore fra tre numeri (v1)":         c/14-maggiore-fra-tre-numeri-v1.md
+      - "Maggiore fra tre numeri (v2)":         c/15-maggiore-fra-tre-numeri-v2.md
+      - "Maggiore fra tre numeri (v3)":         c/16-maggiore-fra-tre-numeri-v3.md
+      - "Divisibile per 2 o 3":                 c/17-numero-divisibile-per-2-o-3.md
+      - "Divisibile per 3 e 7":                 c/18-numero-divisibile-per-3-e-7.md
+      - "Test anno bisestile":                  c/19-test-anno-bisestile.md
+      - "Conversione tempo in orario":          c/20-conversione-tempo-in-orario.md
+      - "Convertitore di temperature":          c/21-convertitore-di-temperature.md
+      - "Stampa dei mesi":                      c/22-stampa-dei-mesi.md
+      - "Semplice calcolatrice":                c/23-semplice-calcolatrice.md
     - Cicli:
-      - "Somma dei primi 12 numeri naturali":   c/Somma-dei-primi-12-numeri-naturali.md
-      - "Somma numeri da 10 a 20":              c/Somma-numeri-da-10-a-20.md
-      - "Vari conteggi con il for":             c/Vari-conteggi-con-il-for.md
-      - "Indovina il numero":                   c/Indovina-il-numero.md
-      - "Numero di cifre di un intero":         c/Numero-di-cifre-di-un-intero.md
-      - "Massimo/media non definiti a priori":  c/Massimo-e-media-non-definiti-a-priori.md
-      - "Generazione numeri casuali":           c/Generazione-numeri-casuali.md
-      - "Operazioni su numeri casuali":         c/Operazioni-su-numeri-casuali.md
-      - "Tavola pitagorica":                    c/Tavola-pitagorica.md
-      - "Stampa rettangolo base":               c/Stampa-rettangolo-base.md
-      - "Stampa rettangolo personalizzato":     c/Stampa-rettangolo-personalizzato.md
-      - "Numeri casuali e rettangoli":          c/Numeri-casuali-e-rettangoli.md
-      - "Disegno di figure geometriche":        c/Disegno-di-figure-geometriche.md
-      - "Stampa numero binario":                c/Stampa-numero-binario.md
+      - "Somma dei primi 12 numeri naturali":   c/24-somma-dei-primi-12-numeri-naturali.md
+      - "Somma numeri da 10 a 20":              c/25-somma-numeri-da-10-a-20.md
+      - "Vari conteggi con il for":             c/26-vari-conteggi-con-il-for.md
+      - "Indovina il numero":                   c/27-indovina-il-numero.md
+      - "Numero di cifre di un intero":         c/28-numero-di-cifre-di-un-intero.md
+      - "Massimo/media non definiti a priori":  c/29-massimo-e-media-non-definiti-a-priori.md
+      - "Generazione numeri casuali":           c/30-generazione-numeri-casuali.md
+      - "Operazioni su numeri casuali":         c/31-operazioni-su-numeri-casuali.md
+      - "Tavola pitagorica":                    c/32-tavola-pitagorica.md
+      - "Stampa rettangolo base":               c/33-stampa-rettangolo-base.md
+      - "Stampa rettangolo personalizzato":     c/34-stampa-rettangolo-personalizzato.md
+      - "Numeri casuali e rettangoli":          c/35-numeri-casuali-e-rettangoli.md
+      - "Disegno di figure geometriche":        c/36-disegno-di-figure-geometriche.md
+      - "Stampa numero binario":                c/37-stampa-numero-binario.md
     - Calcolo numerico:
-      - "Stampa divisori di un numero":         c/Stampa-divisori-di-un-numero.md
-      - "Verifica numero primo":                c/Verifica-numero-primo.md
-      - "Calcolo del fattoriale":               c/Calcolo-del-fattoriale.md
-      - "Sequenza di Fibonacci":                c/Sequenza-di-Fibonacci.md
+      - "Stampa divisori di un numero":         c/38-stampa-divisori-di-un-numero.md
+      - "Verifica numero primo":                c/39-verifica-numero-primo.md
+      - "Calcolo del fattoriale":               c/40-calcolo-del-fattoriale.md
+      - "Sequenza di Fibonacci":                c/41-sequenza-di-Fibonacci.md
     - Funzioni e ricorsione:
-      - "Calcolo radice quadrata":              c/Calcolo-radice-quadrata.md
-      - "Calcolo MCD":                          c/Calcolo-MCD.md
-      - "Calcolo mcm (base)":                   c/Calcolo-mcm-base.md
-      - "Calcolo mcm con Euclide":              c/Calcolo-mcm-Euclide.md
-      - "Calcolo numero di Nepero":             c/Calcolo-numero-di-Nepero.md
-      - "Calcolo del fattoriale (ricorsivo)":   c/Calcolo-del-fattoriale-ricorsivo.md
-      - "Sequenza di Fibonacci (ricorsivo)":    c/Sequenza-di-Fibonacci-ricorsivo.md
+      - "Calcolo radice quadrata":              c/42-calcolo-radice-quadrata.md
+      - "Calcolo MCD":                          c/43-calcolo-MCD.md
+      - "Calcolo mcm (base)":                   c/44-calcolo-mcm-base.md
+      - "Calcolo mcm con Euclide":              c/45-calcolo-mcm-Euclide.md
+      - "Calcolo numero di Nepero":             c/46-calcolo-numero-di-Nepero.md
+      - "Calcolo del fattoriale (ricorsivo)":   c/47-calcolo-del-fattoriale-ricorsivo.md
+      - "Sequenza di Fibonacci (ricorsivo)":    c/48-sequenza-di-Fibonacci-ricorsivo.md
     - Enum:
-      - "Analisi sequenza di numeri":           c/Analisi-sequenza-di-numeri.md
+      - "Analisi sequenza di numeri":           c/49-analisi-sequenza-di-numeri.md
     - Stringhe e vettori:
-      - "Conversione in maiuscolo":             c/Conversione-in-maiuscolo.md
-      - "Parola palindroma":                    c/Parola-palindroma.md
-      - "Cifrario di Cesare":                   c/Algoritmo-di-Cesare.md
-      - "Statistiche su una frase":             c/Statistiche-su-una-frase.md
-      - "Conversione numero in binario":        c/Conversione-numero-in-binario.md
-      - "Calcoli su vettori random":            c/Calcoli-su-vettori-random.md
-      - "Conversione in binario (ricorsivo)":   c/Conversione-numero-in-binario-ricorsivo.md
-      - "Seno di un numero":                    c/Calcolare-il-seno-di-un-numero.md
+      - "Conversione in maiuscolo":             c/50-conversione-in-maiuscolo.md
+      - "Parola palindroma":                    c/51-parola-palindroma.md
+      - "Cifrario di Cesare":                   c/52-algoritmo-di-Cesare.md
+      - "Statistiche su una frase":             c/53-statistiche-su-una-frase.md
+      - "Conversione numero in binario":        c/54-conversione-numero-in-binario.md
+      - "Calcoli su vettori random":            c/55-calcoli-su-vettori-random.md
+      - "Conversione in binario (ricorsivo)":   c/56-conversione-numero-in-binario-ricorsivo.md
+      - "Seno di un numero":                    c/57-calcolare-il-seno-di-un-numero.md
     - Algoritmi standard:
-      - "Ricerca sequenziale":                  c/Ricerca-sequenziale.md
-      - "Bubblesort e ricerca binaria":         c/Bubblesort-e-ricerca-binaria.md
-      - "Quicksort e ricerca binaria":          c/Quicksort-e-ricerca-binaria.md
+      - "Ricerca sequenziale":                  c/58-ricerca-sequenziale.md
+      - "Bubblesort e ricerca binaria":         c/59-bubblesort-e-ricerca-binaria.md
+      - "Quicksort e ricerca binaria":          c/60-quicksort-e-ricerca-binaria.md
 
   - Database:
     - database/index.md

@@ -46,83 +46,83 @@ includono in molti casi dei commenti che ne aiutano la comprensione.
 | [Valore assoluto](08-valore-assoluto.md) | Condizione semplice, `if` / `else` |
 | [Equazione della retta](09-equazione-della-retta.md) | Coefficiente angolare, intercetta |
 | [Numero divisibile per 5](10-numero-divisibile-per-5.md) | Condizione con `%`, output descrittivo |
-| [Numero pari o dispari](Numero-pari-o-dispari/index.md) | Operatore modulo `%`, `if` / `else` |
-| [Equazioni di secondo grado](Equazioni-di-secondo-grado/index.md) | Discriminante, `sqrt`, gestione casi |
-| [Maggiore fra due numeri](Maggiore-fra-due-numeri/index.md) | Confronto tra variabili |
-| [Maggiore fra tre numeri (v1)](Maggiore-fra-tre-numeri-v1/index.md) | `if` / `else if` annidati |
-| [Maggiore fra tre numeri (v2)](Maggiore-fra-tre-numeri-v2/index.md) | Variante con variabile temporanea |
-| [Maggiore fra tre numeri (v3)](Maggiore-fra-tre-numeri-v3/index.md) | Variante con funzione ausiliaria |
-| [Divisibile per 2 o 3](Numero-divisibile-per-2-o-3/index.md) | Operatori logici `\|\|` e `&&` |
-| [Divisibile per 3 e 7](Numero-divisibile-per-3-e-7/index.md) | Doppia condizione con `&&` |
-| [Test anno bisestile](Test-anno-bisestile/index.md) | Condizioni multiple, regola del calendario |
-| [Conversione tempo in orario](Conversione-tempo-in-orario/index.md) | Divisione intera e modulo |
-| [Convertitore di temperature](Convertitore-di-temperature/index.md) | Formule lineari, `switch` |
-| [Stampa dei mesi](Stampa-dei-mesi/index.md) | `for` + `switch`, output testuale |
-| [Semplice calcolatrice](Semplice-calcolatrice/index.md) | `switch`, operatori sui 4 tipi |
+| [Numero pari o dispari](11-numero-pari-o-dispari.md) | Operatore modulo `%`, `if` / `else` |
+| [Equazioni di secondo grado](12-equazioni-di-secondo-grado.md) | Discriminante, `sqrt`, gestione casi |
+| [Maggiore fra due numeri](13-maggiore-fra-due-numeri.md) | Confronto tra variabili |
+| [Maggiore fra tre numeri (v1)](14-maggiore-fra-tre-numeri-v1.md) | `if` / `else if` annidati |
+| [Maggiore fra tre numeri (v2)](15-maggiore-fra-tre-numeri-v2.md) | Variante con variabile temporanea |
+| [Maggiore fra tre numeri (v3)](16-maggiore-fra-tre-numeri-v3.md) | Variante con funzione ausiliaria |
+| [Divisibile per 2 o 3](17-numero-divisibile-per-2-o-3.md) | Operatori logici `\|\|` e `&&` |
+| [Divisibile per 3 e 7](18-numero-divisibile-per-3-e-7.md) | Doppia condizione con `&&` |
+| [Test anno bisestile](19-test-anno-bisestile.md) | Condizioni multiple, regola del calendario |
+| [Conversione tempo in orario](20-conversione-tempo-in-orario.md) | Divisione intera e modulo |
+| [Convertitore di temperature](Convertitore-di-temperature.md) | Formule lineari, `switch` |
+| [Stampa dei mesi](Stampa-dei-mesi.md) | `for` + `switch`, output testuale |
+| [Semplice calcolatrice](Semplice-calcolatrice.md) | `switch`, operatori sui 4 tipi |
 
 ### 3. Cicli
 
 | Esercizio | Argomento |
 |---|---|
-| [Somma dei primi 12 numeri naturali](Somma-dei-primi-12-numeri-naturali/index.md) | Ciclo `for`, accumulatore |
-| [Somma numeri da 10 a 20](Somma-numeri-da-10-a-20/index.md) | `for` con limite variabile |
-| [Vari conteggi con il for](Vari-conteggi-con-il-for/index.md) | Più contatori nello stesso ciclo |
-| [Indovina il numero](Indovina-il-numero/index.md) | `rand()`, ciclo di gioco, hint alto/basso |
-| [Numero di cifre di un intero](Numero-di-cifre-di-un-intero/index.md) | Divisione intera ripetuta, `while` |
-| [Massimo/media non definiti a priori](Massimo-e-media-non-definiti-a-priori/index.md) | Ciclo con sentinella, `while` |
-| [Generazione numeri casuali](Generazione-numeri-casuali/index.md) | `rand()`, `srand()`, `<stdlib.h>` |
-| [Operazioni su numeri casuali](Operazioni-su-numeri-casuali/index.md) | Min, max, conteggi su array |
-| [Tavola pitagorica](Tavola-pitagorica/index.md) | Cicli `for` annidati, formattazione output |
-| [Stampa rettangolo base](Stampa-rettangolo-base/index.md) | Cicli annidati, `*` e spazi |
-| [Stampa rettangolo personalizzato](Stampa-rettangolo-personalizzato/index.md) | Dimensioni da input, bordi e riempimento |
-| [Numeri casuali e rettangoli](Numeri-casuali-e-rettangoli/index.md) | Array + output grafico |
-| [Disegno di figure geometriche](Disegno-di-figure-geometriche/index.md) | Triangoli, rombi, pattern con `*` |
-| [Stampa numero binario](Stampa-numero-binario/index.md) | Maschera di bit, operatori bitwise |
+| [Somma dei primi 12 numeri naturali](Somma-dei-primi-12-numeri-naturali.md) | Ciclo `for`, accumulatore |
+| [Somma numeri da 10 a 20](Somma-numeri-da-10-a-20.md) | `for` con limite variabile |
+| [Vari conteggi con il for](Vari-conteggi-con-il-for.md) | Più contatori nello stesso ciclo |
+| [Indovina il numero](Indovina-il-numero.md) | `rand()`, ciclo di gioco, hint alto/basso |
+| [Numero di cifre di un intero](Numero-di-cifre-di-un-intero.md) | Divisione intera ripetuta, `while` |
+| [Massimo/media non definiti a priori](Massimo-e-media-non-definiti-a-priori.md) | Ciclo con sentinella, `while` |
+| [Generazione numeri casuali](Generazione-numeri-casuali.md) | `rand()`, `srand()`, `<stdlib.h>` |
+| [Operazioni su numeri casuali](Operazioni-su-numeri-casuali.md) | Min, max, conteggi su array |
+| [Tavola pitagorica](Tavola-pitagorica.md) | Cicli `for` annidati, formattazione output |
+| [Stampa rettangolo base](Stampa-rettangolo-base.md) | Cicli annidati, `*` e spazi |
+| [Stampa rettangolo personalizzato](Stampa-rettangolo-personalizzato.md) | Dimensioni da input, bordi e riempimento |
+| [Numeri casuali e rettangoli](Numeri-casuali-e-rettangoli.md) | Array + output grafico |
+| [Disegno di figure geometriche](Disegno-di-figure-geometriche.md) | Triangoli, rombi, pattern con `*` |
+| [Stampa numero binario](Stampa-numero-binario.md) | Maschera di bit, operatori bitwise |
 
 ### 4. Calcolo numerico
 
 | Esercizio | Argomento |
 |---|---|
-| [Stampa divisori di un numero](Stampa-divisori-di-un-numero/index.md) | Ciclo con `%`, raccolta risultati |
-| [Verifica numero primo](Verifica-numero-primo/index.md) | Algoritmo di primalità, `break` |
-| [Calcolo del fattoriale](Calcolo-del-fattoriale/index.md) | Funzione con ciclo `for` |
-| [Sequenza di Fibonacci](Sequenza-di-Fibonacci/index.md) | Due variabili di appoggio, ciclo `for` |
+| [Stampa divisori di un numero](Stampa-divisori-di-un-numero.md) | Ciclo con `%`, raccolta risultati |
+| [Verifica numero primo](Verifica-numero-primo.md) | Algoritmo di primalità, `break` |
+| [Calcolo del fattoriale](Calcolo-del-fattoriale.md) | Funzione con ciclo `for` |
+| [Sequenza di Fibonacci](Sequenza-di-Fibonacci.md) | Due variabili di appoggio, ciclo `for` |
 
 ### 5. Funzioni e ricorsione
 
 | Esercizio | Argomento |
 |---|---|
-| [Calcolo radice quadrata](Calcolo-radice-quadrata/index.md) | Metodo di Newton-Raphson |
-| [Calcolo MCD](Calcolo-MCD/index.md) | Algoritmo di Euclide iterativo |
-| [Calcolo mcm (base)](Calcolo-mcm-base/index.md) | Ciclo con multipli |
-| [Calcolo mcm con Euclide](Calcolo-mcm-Euclide/index.md) | MCD → MCM, efficienza |
-| [Calcolo numero di Nepero](Calcolo-numero-di-Nepero/index.md) | Serie di Taylor, convergenza |
-| [Calcolo del fattoriale (ricorsivo)](Calcolo-del-fattoriale-ricorsivo/index.md) | Caso base e caso ricorsivo |
-| [Sequenza di Fibonacci (ricorsivo)](Sequenza-di-Fibonacci-ricorsivo/index.md) | Doppia chiamata ricorsiva |
+| [Calcolo radice quadrata](Calcolo-radice-quadrata.md) | Metodo di Newton-Raphson |
+| [Calcolo MCD](Calcolo-MCD.md) | Algoritmo di Euclide iterativo |
+| [Calcolo mcm (base)](Calcolo-mcm-base.md) | Ciclo con multipli |
+| [Calcolo mcm con Euclide](Calcolo-mcm-Euclide.md) | MCD → MCM, efficienza |
+| [Calcolo numero di Nepero](Calcolo-numero-di-Nepero.md) | Serie di Taylor, convergenza |
+| [Calcolo del fattoriale (ricorsivo)](Calcolo-del-fattoriale-ricorsivo.md) | Caso base e caso ricorsivo |
+| [Sequenza di Fibonacci (ricorsivo)](Sequenza-di-Fibonacci-ricorsivo.md) | Doppia chiamata ricorsiva |
 
 ### 6. Enum
 
 | Esercizio | Argomento |
 |---|---|
-| [Analisi sequenza di numeri](Analisi-sequenza-di-numeri/index.md) | Lettura da input, statistiche |
+| [Analisi sequenza di numeri](Analisi-sequenza-di-numeri.md) | Lettura da input, statistiche |
 
 ### 7. Stringhe e vettori
 
 | Esercizio | Argomento |
 |---|---|
-| [Conversione in maiuscolo](Conversione-in-maiuscolo/index.md) | Array di `char`, `toupper`, `<ctype.h>` |
-| [Parola palindroma](Parola-palindroma/index.md) | Indici inversi, confronto caratteri |
-| [Cifrario di Cesare](Algoritmo-di-Cesare/index.md) | Shift su caratteri, crittografia base |
-| [Statistiche su una frase](Statistiche-su-una-frase/index.md) | Conteggio vocali, consonanti, spazi |
-| [Conversione numero in binario](Conversione-numero-in-binario/index.md) | Divisioni successive, array di bit |
-| [Calcoli su vettori random](Calcoli-su-vettori-random/index.md) | Array, somma, media su dati casuali |
-| [Conversione in binario (ricorsivo)](Conversione-numero-in-binario-ricorsivo/index.md) | Ricorsione su divisione intera |
-| [Seno di un numero](Calcolare-il-seno-di-un-numero/index.md) | Serie di Maclaurin, precisione |
+| [Conversione in maiuscolo](Conversione-in-maiuscolo.md) | Array di `char`, `toupper`, `<ctype.h>` |
+| [Parola palindroma](Parola-palindroma.md) | Indici inversi, confronto caratteri |
+| [Cifrario di Cesare](Algoritmo-di-Cesare.md) | Shift su caratteri, crittografia base |
+| [Statistiche su una frase](Statistiche-su-una-frase.md) | Conteggio vocali, consonanti, spazi |
+| [Conversione numero in binario](Conversione-numero-in-binario.md) | Divisioni successive, array di bit |
+| [Calcoli su vettori random](Calcoli-su-vettori-random.md) | Array, somma, media su dati casuali |
+| [Conversione in binario (ricorsivo)](Conversione-numero-in-binario-ricorsivo.md) | Ricorsione su divisione intera |
+| [Seno di un numero](Calcolare-il-seno-di-un-numero.md) | Serie di Maclaurin, precisione |
 
 ### 8. Algoritmi standard
 
 | Esercizio | Argomento |
 |---|---|
-| [Ricerca sequenziale](Ricerca-sequenziale/index.md) | Scansione lineare, flag di trovato |
-| [Bubblesort e ricerca binaria](Bubblesort-e-ricerca-binaria/index.md) | Algoritmo O(n²), ricerca su array ordinato |
-| [Quicksort e ricerca binaria](Quicksort-e-ricerca-binaria/index.md) | Algoritmo O(n log n), pivot, ricorsione |
+| [Ricerca sequenziale](Ricerca-sequenziale.md) | Scansione lineare, flag di trovato |
+| [Bubblesort e ricerca binaria](Bubblesort-e-ricerca-binaria.md) | Algoritmo O(n²), ricerca su array ordinato |
+| [Quicksort e ricerca binaria](Quicksort-e-ricerca-binaria.md) | Algoritmo O(n log n), pivot, ricorsione |
