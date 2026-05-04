@@ -2,8 +2,13 @@ const OC_BASE_URL = "https://raw.githubusercontent.com/dprevedello/Esercizi-prog
 
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll(".oc-embed").forEach((container) => {
-    const rawUrl = OC_BASE_URL + container.dataset.path;
     const lang = container.dataset.lang || "c";
+
+    // Supporto multi-file: paths separati da ";" con trim automatico
+    const paths = container.dataset.path
+      .split(";")
+      .map((p) => p.trim())
+      .filter((p) => p.length > 0);
 
     container.innerHTML = `
       <div style="text-align: center; margin: 1.5rem 0;">
@@ -49,13 +54,28 @@ document.addEventListener("DOMContentLoaded", () => {
           loaded = true;
           frame.src = frame.dataset.src;
           frame.addEventListener("load", async () => {
-            const res = await fetch(rawUrl);
-            const code = await res.text();
+            // Fetch parallelo di tutti i file
+            const results = await Promise.allSettled(
+              paths.map((path) =>
+                fetch(OC_BASE_URL + path).then((res) => {
+                  if (!res.ok) throw new Error(`HTTP ${res.status} per ${path}`);
+                  return res.text().then((content) => ({
+                    name: path.split("/").pop(), // usa solo il nome file, non il percorso
+                    content,
+                  }));
+                })
+              )
+            );
+
+            const files = results
+              .filter((r) => r.status === "fulfilled")
+              .map((r) => r.value);
+
             setTimeout(() => {
               frame.contentWindow.postMessage({
                 eventType: "populateCode",
                 language: lang,
-                files: [{ name: "main." + lang, content: code }]
+                files,
               }, "https://onecompiler.com");
             }, 1500);
           });
