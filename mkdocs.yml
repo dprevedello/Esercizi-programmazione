@@ -168,21 +168,21 @@ nav:
       - "Stampa divisori di un numero":         c/38-stampa-divisori-di-un-numero.md
       - "Verifica numero primo":                c/39-verifica-numero-primo.md
       - "Calcolo del fattoriale":               c/40-calcolo-del-fattoriale.md
-      - "Sequenza di Fibonacci":                c/41-sequenza-di-Fibonacci.md
+      - "Sequenza di Fibonacci":                c/41-sequenza-di-fibonacci.md
     - Funzioni e ricorsione:
       - "Calcolo radice quadrata":              c/42-calcolo-radice-quadrata.md
-      - "Calcolo MCD":                          c/43-calcolo-MCD.md
+      - "Calcolo MCD":                          c/43-calcolo-mcd.md
       - "Calcolo mcm (base)":                   c/44-calcolo-mcm-base.md
-      - "Calcolo mcm con Euclide":              c/45-calcolo-mcm-Euclide.md
-      - "Calcolo numero di Nepero":             c/46-calcolo-numero-di-Nepero.md
+      - "Calcolo mcm con Euclide":              c/45-calcolo-mcm-con-euclide.md
+      - "Calcolo numero di Nepero":             c/46-calcolo-numero-di-nepero.md
       - "Calcolo del fattoriale (ricorsivo)":   c/47-calcolo-del-fattoriale-ricorsivo.md
-      - "Sequenza di Fibonacci (ricorsivo)":    c/48-sequenza-di-Fibonacci-ricorsivo.md
+      - "Sequenza di Fibonacci (ricorsivo)":    c/48-sequenza-di-fibonacci-ricorsivo.md
     - Enum:
       - "Analisi sequenza di numeri":           c/49-analisi-sequenza-di-numeri.md
     - Stringhe e vettori:
       - "Conversione in maiuscolo":             c/50-conversione-in-maiuscolo.md
       - "Parola palindroma":                    c/51-parola-palindroma.md
-      - "Cifrario di Cesare":                   c/52-algoritmo-di-Cesare.md
+      - "Cifrario di Cesare":                   c/52-algoritmo-di-cesare.md
       - "Statistiche su una frase":             c/53-statistiche-su-una-frase.md
       - "Conversione numero in binario":        c/54-conversione-numero-in-binario.md
       - "Calcoli su vettori random":            c/55-calcoli-su-vettori-random.md

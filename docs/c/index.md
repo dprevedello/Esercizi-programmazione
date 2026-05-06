@@ -71,58 +71,58 @@ includono in molti casi dei commenti che ne aiutano la comprensione.
 | [Numero di cifre di un intero](28-numero-di-cifre-di-un-intero.md) | Divisione intera ripetuta, `while` |
 | [Massimo/media non definiti a priori](29-massimo-e-media-non-definiti-a-priori.md) | Ciclo con sentinella, `while` |
 | [Generazione numeri casuali](30-generazione-numeri-casuali.md) | `rand()`, `srand()`, `<stdlib.h>` |
-| [Operazioni su numeri casuali](Operazioni-su-numeri-casuali.md) | Min, max, conteggi su array |
-| [Tavola pitagorica](Tavola-pitagorica.md) | Cicli `for` annidati, formattazione output |
-| [Stampa rettangolo base](Stampa-rettangolo-base.md) | Cicli annidati, `*` e spazi |
-| [Stampa rettangolo personalizzato](Stampa-rettangolo-personalizzato.md) | Dimensioni da input, bordi e riempimento |
-| [Numeri casuali e rettangoli](Numeri-casuali-e-rettangoli.md) | Array + output grafico |
-| [Disegno di figure geometriche](Disegno-di-figure-geometriche.md) | Triangoli, rombi, pattern con `*` |
-| [Stampa numero binario](Stampa-numero-binario.md) | Maschera di bit, operatori bitwise |
+| [Operazioni su numeri casuali](31-operazioni-su-numeri-casuali.md) | Min, max, conteggi su array |
+| [Tavola pitagorica](32-tavola-pitagorica.md) | Cicli `for` annidati, formattazione output |
+| [Stampa rettangolo base](33-stampa-rettangolo-base.md) | Cicli annidati, `*` e spazi |
+| [Stampa rettangolo personalizzato](34-stampa-rettangolo-personalizzato.md) | Dimensioni da input, bordi e riempimento |
+| [Numeri casuali e rettangoli](35-numeri-casuali-e-rettangoli.md) | Array + output grafico |
+| [Disegno di figure geometriche](36-disegno-di-figure-geometriche.md) | Triangoli, rombi, pattern con `*` |
+| [Stampa numero binario](37-stampa-numero-binario.md) | Maschera di bit, operatori bitwise |
 
 ### 4. Calcolo numerico
 
 | Esercizio | Argomento |
 |---|---|
-| [Stampa divisori di un numero](Stampa-divisori-di-un-numero.md) | Ciclo con `%`, raccolta risultati |
-| [Verifica numero primo](Verifica-numero-primo.md) | Algoritmo di primalità, `break` |
-| [Calcolo del fattoriale](Calcolo-del-fattoriale.md) | Funzione con ciclo `for` |
-| [Sequenza di Fibonacci](Sequenza-di-Fibonacci.md) | Due variabili di appoggio, ciclo `for` |
+| [Stampa divisori di un numero](38-stampa-divisori-di-un-numero.md) | Ciclo con `%`, raccolta risultati |
+| [Verifica numero primo](39-verifica-numero-primo.md) | Algoritmo di primalità, `break` |
+| [Calcolo del fattoriale](40-calcolo-del-fattoriale.md) | Funzione con ciclo `for` |
+| [Sequenza di Fibonacci](41-sequenza-di-fibonacci.md) | Due variabili di appoggio, ciclo `for` |
 
 ### 5. Funzioni e ricorsione
 
 | Esercizio | Argomento |
 |---|---|
-| [Calcolo radice quadrata](Calcolo-radice-quadrata.md) | Metodo di Newton-Raphson |
-| [Calcolo MCD](Calcolo-MCD.md) | Algoritmo di Euclide iterativo |
-| [Calcolo mcm (base)](Calcolo-mcm-base.md) | Ciclo con multipli |
-| [Calcolo mcm con Euclide](Calcolo-mcm-Euclide.md) | MCD → MCM, efficienza |
-| [Calcolo numero di Nepero](Calcolo-numero-di-Nepero.md) | Serie di Taylor, convergenza |
-| [Calcolo del fattoriale (ricorsivo)](Calcolo-del-fattoriale-ricorsivo.md) | Caso base e caso ricorsivo |
-| [Sequenza di Fibonacci (ricorsivo)](Sequenza-di-Fibonacci-ricorsivo.md) | Doppia chiamata ricorsiva |
+| [Calcolo radice quadrata](42-calcolo-radice-quadrata.md) | Metodo di Newton-Raphson |
+| [Calcolo MCD](43-calcolo-mcd.md) | Algoritmo di Euclide iterativo |
+| [Calcolo mcm (base)](44-calcolo-mcm-base.md) | Ciclo con multipli |
+| [Calcolo mcm con Euclide](45-calcolo-mcm-con-euclide.md) | MCD → MCM, efficienza |
+| [Calcolo numero di Nepero](46-calcolo-numero-di-nepero.md) | Serie di Taylor, convergenza |
+| [Calcolo del fattoriale (ricorsivo)](47-calcolo-del-fattoriale-ricorsivo.md) | Caso base e caso ricorsivo |
+| [Sequenza di Fibonacci (ricorsivo)](48-sequenza-di-fibonacci-ricorsivo.md) | Doppia chiamata ricorsiva |
 
 ### 6. Enum
 
 | Esercizio | Argomento |
 |---|---|
-| [Analisi sequenza di numeri](Analisi-sequenza-di-numeri.md) | Lettura da input, statistiche |
+| [Analisi sequenza di numeri](49-analisi-sequenza-di-numeri.md) | Lettura da input, statistiche |
 
 ### 7. Stringhe e vettori
 
 | Esercizio | Argomento |
 |---|---|
-| [Conversione in maiuscolo](Conversione-in-maiuscolo.md) | Array di `char`, `toupper`, `<ctype.h>` |
-| [Parola palindroma](Parola-palindroma.md) | Indici inversi, confronto caratteri |
-| [Cifrario di Cesare](Algoritmo-di-Cesare.md) | Shift su caratteri, crittografia base |
-| [Statistiche su una frase](Statistiche-su-una-frase.md) | Conteggio vocali, consonanti, spazi |
-| [Conversione numero in binario](Conversione-numero-in-binario.md) | Divisioni successive, array di bit |
-| [Calcoli su vettori random](Calcoli-su-vettori-random.md) | Array, somma, media su dati casuali |
-| [Conversione in binario (ricorsivo)](Conversione-numero-in-binario-ricorsivo.md) | Ricorsione su divisione intera |
-| [Seno di un numero](Calcolare-il-seno-di-un-numero.md) | Serie di Maclaurin, precisione |
+| [Conversione in maiuscolo](50-conversione-in-maiuscolo.md) | Array di `char`, `toupper`, `<ctype.h>` |
+| [Parola palindroma](51-parola-palindroma.md) | Indici inversi, confronto caratteri |
+| [Cifrario di Cesare](52-algoritmo-di-cesare.md) | Shift su caratteri, crittografia base |
+| [Statistiche su una frase](53-statistiche-su-una-frase.md) | Conteggio vocali, consonanti, spazi |
+| [Conversione numero in binario](54-conversione-numero-in-binario.md) | Divisioni successive, array di bit |
+| [Calcoli su vettori random](55-calcoli-su-vettori-random.md) | Array, somma, media su dati casuali |
+| [Conversione in binario (ricorsivo)](56-conversione-numero-in-binario-ricorsivo.md) | Ricorsione su divisione intera |
+| [Seno di un numero](57-calcolare-il-seno-di-un-numero.md) | Serie di Maclaurin, precisione |
 
 ### 8. Algoritmi standard
 
 | Esercizio | Argomento |
 |---|---|
-| [Ricerca sequenziale](Ricerca-sequenziale.md) | Scansione lineare, flag di trovato |
-| [Bubblesort e ricerca binaria](Bubblesort-e-ricerca-binaria.md) | Algoritmo O(n²), ricerca su array ordinato |
-| [Quicksort e ricerca binaria](Quicksort-e-ricerca-binaria.md) | Algoritmo O(n log n), pivot, ricorsione |
+| [Ricerca sequenziale](58-ricerca-sequenziale.md) | Scansione lineare, flag di trovato |
+| [Bubblesort e ricerca binaria](59-bubblesort-e-ricerca-binaria.md) | Algoritmo O(n²), ricerca su array ordinato |
+| [Quicksort e ricerca binaria](60-quicksort-e-ricerca-binaria.md) | Algoritmo O(n log n), pivot, ricorsione |
