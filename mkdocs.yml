@@ -76,11 +76,6 @@ plugins:
       separator: '[\s\-\.]+'
   - minify:
       minify_html: true
-  - with-pdf:
-      author: Daniele Prevedello
-      copyright: "2025 Daniele Prevedello"
-      cover_title: Esercizi di Programmazione
-      cover_subtitle: ISIS Andrea Ponti - Gallarate
 
 markdown_extensions:
   # Blocchi di ammonimento (note, warning, tip…)
