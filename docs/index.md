@@ -18,7 +18,7 @@ la possibilità di provare il codice direttamente dal browser grazie a **OneComp
 | [:simple-gnubash: Bash](bash/index.md) | Script da riga di comando su Linux/macOS | Base → Intermedio |
 | [:simple-c: Linguaggio C](c/index.md) | Linguaggio C: variabili, cicli, funzioni, puntatori | Base → Avanzato |
 | [:material-database: Database](database/index.md) | SQL: query, JOIN, DDL e DML su database relazionali | Base → Intermedio |
-| [:material-language-html5::material-language-css3::material-language-javascript: HTML-CSS-Javascrypt](html-css-javascrypt/index.md) | Pagine in HTML / CSS / Javascrypt | Base → Intermedio |
+| [:material-language-html5::material-language-css3::material-language-javascript: HTML-CSS-Javascrypt](html-css-javascript/index.md) | Pagine in HTML / CSS / Javascrypt | Base → Intermedio |
 | [:material-language-java: Java](java/index.md) | Programmazione orientata agli oggetti in Java | Intermedio → Avanzato |
 | [:simple-cisco: PacketTracer](packettracer/index.md) | Reti con Cisco Packet Tracer: LAN, IP, router | Base → Intermedio |
 | [:material-language-php: PHP](php/index.md) | PHP lato server: variabili, form, sessioni | Base → Intermedio |

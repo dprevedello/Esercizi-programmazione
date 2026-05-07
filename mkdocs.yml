@@ -76,6 +76,11 @@ plugins:
       separator: '[\s\-\.]+'
   - minify:
       minify_html: true
+  - with-pdf:
+      author: Daniele Prevedello
+      copyright: 2026
+      cover_title: Esercizi di Programmazione
+      cover_subtitle: ISIS Andrea Ponti - Gallarate
 
 markdown_extensions:
   # Blocchi di ammonimento (note, warning, tip…)
@@ -211,9 +216,9 @@ nav:
     - database/index.md
     # - "Es. 01 – SELECT base": database/01-select-base.md
 
-  - HTML-CSS-Javascrypt:
-    - html-css-javascrypt/index.md
-    # - "Es. 01 – prima pagina": html-css-javascrypt/01-prima-pagina.md
+  - HTML-CSS-JavaScript:
+    - html-css-javascript/index.md
+    # - "Es. 01 – prima pagina": html-css-javascript/01-prima-pagina.md
 
   - Java:
     - java/index.md
