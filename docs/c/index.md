@@ -1,4 +1,8 @@
-# Linguaggio C
+---
+icon: simple/c
+---
+
+# :simple-c: Linguaggio C
 
 Il **linguaggio C** è uno dei linguaggi più importanti nella storia
 dell'informatica: nato negli anni '70, è ancora oggi usato per sistemi
@@ -27,7 +31,7 @@ In questa sezione sono raccolti una serie di esempi di programmi
 scritti in linguaggio C. Vanno dai più semplici ai più articolati e
 includono in molti casi dei commenti che ne aiutano la comprensione.
 
-### 1. Fondamentali
+### 1. Fondamentali :simple-c: 
 
 | Esercizio | Argomento |
 |---|---|
@@ -39,7 +43,7 @@ includono in molti casi dei commenti che ne aiutano la comprensione.
 | [Circonferenza inscritta/circoscritta](06-circonferenza-inscritta-e-circoscritta.md) | Uso di `M_PI`, `<math.h>` |
 | [Area triangolo equilatero](07-area-triangolo-equilatero.md) | Formula con `sqrt`, `<math.h>` |
 
-### 2. Condizioni
+### 2. Condizioni :material-account-question:
 
 | Esercizio | Argomento |
 |---|---|
@@ -60,7 +64,7 @@ includono in molti casi dei commenti che ne aiutano la comprensione.
 | [Stampa dei mesi](22-stampa-dei-mesi.md) | `for` + `switch`, output testuale |
 | [Semplice calcolatrice](23-semplice-calcolatrice.md) | `switch`, operatori sui 4 tipi |
 
-### 3. Cicli
+### 3. Cicli :fontawesome-solid-repeat:
 
 | Esercizio | Argomento |
 |---|---|
@@ -79,7 +83,7 @@ includono in molti casi dei commenti che ne aiutano la comprensione.
 | [Disegno di figure geometriche](36-disegno-di-figure-geometriche.md) | Triangoli, rombi, pattern con `*` |
 | [Stampa numero binario](37-stampa-numero-binario.md) | Maschera di bit, operatori bitwise |
 
-### 4. Calcolo numerico
+### 4. Calcolo numerico :material-calculator-variant:
 
 | Esercizio | Argomento |
 |---|---|
@@ -88,7 +92,7 @@ includono in molti casi dei commenti che ne aiutano la comprensione.
 | [Calcolo del fattoriale](40-calcolo-del-fattoriale.md) | Funzione con ciclo `for` |
 | [Sequenza di Fibonacci](41-sequenza-di-fibonacci.md) | Due variabili di appoggio, ciclo `for` |
 
-### 5. Funzioni e ricorsione
+### 5. Funzioni e ricorsione :material-function-variant:
 
 | Esercizio | Argomento |
 |---|---|
@@ -100,13 +104,13 @@ includono in molti casi dei commenti che ne aiutano la comprensione.
 | [Calcolo del fattoriale (ricorsivo)](47-calcolo-del-fattoriale-ricorsivo.md) | Caso base e caso ricorsivo |
 | [Sequenza di Fibonacci (ricorsivo)](48-sequenza-di-fibonacci-ricorsivo.md) | Doppia chiamata ricorsiva |
 
-### 6. Enum
+### 6. Enum :material-format-list-numbered:
 
 | Esercizio | Argomento |
 |---|---|
 | [Analisi sequenza di numeri](49-analisi-sequenza-di-numeri.md) | Lettura da input, statistiche |
 
-### 7. Stringhe e vettori
+### 7. Stringhe e vettori :material-text:
 
 | Esercizio | Argomento |
 |---|---|
@@ -119,7 +123,7 @@ includono in molti casi dei commenti che ne aiutano la comprensione.
 | [Conversione in binario (ricorsivo)](56-conversione-numero-in-binario-ricorsivo.md) | Ricorsione su divisione intera |
 | [Seno di un numero](57-calcolare-il-seno-di-un-numero.md) | Serie di Maclaurin, precisione |
 
-### 8. Algoritmi standard
+### 8. Algoritmi standard :material-code-json:
 
 | Esercizio | Argomento |
 |---|---|

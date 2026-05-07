@@ -1,4 +1,8 @@
-# PHP
+---
+icon: material/language-php
+---
+
+# :material-language-php: PHP
 
 **PHP** (Hypertext Preprocessor) è un linguaggio di scripting lato server,
 nato per il web e ancora oggi tra i più usati: WordPress, Wikipedia e moltissimi

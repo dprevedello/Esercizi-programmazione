@@ -1,4 +1,8 @@
-# Bash
+---
+icon: simple/gnubash
+---
+
+# :simple-gnubash: Bash
 
 **Bash** (Bourne Again SHell) è la shell predefinita di Linux e macOS.
 Scrivere script Bash significa automatizzare operazioni da riga di comando:

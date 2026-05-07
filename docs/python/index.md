@@ -1,4 +1,8 @@
-# Python
+---
+icon: material/language-python
+---
+
+# :material-language-python: Python
 
 **Python** è uno dei linguaggi più popolari al mondo: è chiaro, leggibile e
 versatile. Si usa per analisi dati, intelligenza artificiale, automazione,

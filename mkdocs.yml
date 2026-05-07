@@ -18,15 +18,15 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: deep orange
+      accent: deep orange
       toggle:
         icon: material/weather-night
         name: Passa alla modalità scura
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: deep orange
+      accent: deep orange
       toggle:
         icon: material/weather-sunny
         name: Passa alla modalità chiara
@@ -35,22 +35,28 @@ theme:
     code: Roboto Mono
   icon:
     repo: fontawesome/brands/github
-    logo: material/code-braces
+    logo: simple/codeproject
   features:
+    - navigation.tracking
     - navigation.tabs           # tab superiori per sezione
     - navigation.tabs.sticky    # tab sempre visibili durante lo scroll
     - navigation.sections       # raggruppa voci nel menu laterale
     - navigation.expand         # espande automaticamente le sezioni
     - navigation.top            # pulsante "torna su"
     - navigation.indexes        # index.md come pagina della sezione
+    - navigation.path
+    - navigation.top
     - search.highlight          # evidenzia i risultati nella pagina
     - search.suggest            # completamento automatico nella ricerca
     - content.code.copy         # pulsante copia nei blocchi di codice
+    - content.code.select
     - content.code.annotate     # annotazioni nei blocchi di codice
     - content.tabs.link         # sincronizza i tab tra le pagine
     - toc.follow                # segue la posizione nel sommario laterale
+    - toc.integrate
 
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/dprevedello/Esercizi-programmazione
@@ -58,7 +64,8 @@ extra:
 
 copyright: >
   &copy; 2025 Esercizi di Programmazione &mdash;
-  Materiale didattico per la scuola secondaria
+  Materiale didattico Prof. Daniele Prevedello &mdash;
+  ISIS Andrea Ponti - Gallarate
 
 extra_css:
   - stylesheets/extra.css
@@ -74,11 +81,17 @@ markdown_extensions:
   # Blocchi di ammonimento (note, warning, tip…)
   - admonition
   - pymdownx.details
+  - pymdownx.smartsymbols
   # Blocchi di codice con evidenziazione
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
+      use_pygments: true
       pygments_lang_class: true
+      auto_title: true
+      linenums: true
+      linenums_style: pymdownx-inline
+      anchor_linenums: false
   - pymdownx.inlinehilite
   - pymdownx.superfences:
       custom_fences:
@@ -100,13 +113,14 @@ markdown_extensions:
   - pymdownx.keys          # tasti da tastiera (es. ++ctrl+c++)
   - pymdownx.mark          # ==testo evidenziato==
   - pymdownx.tilde         # ~~barrato~~
+  - pymdownx.betterem
   - pymdownx.tasklist:
       custom_checkbox: true
   - attr_list
   - md_in_html
   - tables
   - toc:
-      permalink: true
+      permalink: false
       title: In questa pagina
   - pymdownx.arithmatex:
       generic: true
@@ -122,7 +136,7 @@ nav:
     - bash/index.md
     # Aggiungi qui gli esercizi: - "Nome esercizio": bash/nome-esercizio.md
 
-  - C:
+  - Linguaggio C:
     - c/index.md
     - Fondamentali:
       - "Hello World":                          c/01-hello-world.md

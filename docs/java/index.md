@@ -1,4 +1,8 @@
-# Java
+---
+icon: material/language-java
+---
+
+# :material-language-java: Java
 
 **Java** è un linguaggio orientato agli oggetti, multipiattaforma e tra i più
 diffusi al mondo. È usato nello sviluppo di applicazioni enterprise, app Android,

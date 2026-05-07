@@ -1,4 +1,8 @@
-# Database e SQL
+---
+icon: material/database
+---
+
+# :material-database: Database e SQL
 
 Un **database relazionale** organizza i dati in tabelle collegate tra loro.
 Il linguaggio **SQL** (Structured Query Language) permette di interrogare,

@@ -1,4 +1,8 @@
-# Cisco Packet Tracer e Reti
+---
+icon: simple/cisco
+---
+
+# :simple-cisco: Cisco Packet Tracer e Reti
 
 **Cisco Packet Tracer** è un simulatore di reti sviluppato da Cisco.
 Permette di costruire topologie di rete virtuali, configurare dispositivi

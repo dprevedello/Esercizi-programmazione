@@ -12,7 +12,7 @@ Leonardo Pisano detto "filio Bonacci" o Fibonacci (Pisa 1175 ca. – 1240 ca.) f
 
 La serie è: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, ... dove ogni numero si ottiene come somma dei due precedenti.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cCJU5By_b8U" title="Sequenza di Fibonacci" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cCJU5By_b8U" title="Sequenza di Fibonacci" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: block; margin: auto;"></iframe>
 
 Il calcolo iterativo richiede solo tre variabili: i due termini precedenti e quello corrente, aggiornati ad ogni passo del ciclo.
 

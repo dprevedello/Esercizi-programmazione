@@ -10,7 +10,7 @@ Il programma deve richiedere un numero intero positivo n (con validazione) e cal
 
 La successione di Fibonacci (1, 1, 2, 3, 5, 8, ...) nasce da un problema proposto da Federico II di Svevia nel 1223 e fu risolta da Leonardo Pisano detto Fibonacci.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/cCJU5By_b8U" title="Sequenza di Fibonacci" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cCJU5By_b8U" title="Sequenza di Fibonacci" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: block; margin: auto;"></iframe>
 
 **Una funzione ricorsiva** richiama sé stessa (**ricorsione diretta**) o tramite un'altra funzione (**ricorsione indiretta**). Sono necessari **casi base** e ogni chiamata deve avvicinare i parametri ai casi base.
 
