@@ -22,7 +22,7 @@ $$r_c = \frac{l\sqrt{2}}{2}$$
 
 - Includi `<math.h>` per usare la costante `sqrt(2.0)`.
 - Le due formule sono semplici: derivano direttamente da metà lato e metà diagonale del quadrato.
-- Verifica il programma con lato = 4: raggio inscritto atteso 2.0000, raggio circoscritto atteso ≈ 2.8284.
+- Verifica il programma con lato = 4: raggio inscritto atteso 2.0, raggio circoscritto atteso ≈ 2.8.
 - Nota che il raggio circoscritto è sempre maggiore di quello inscritto: il rapporto tra i due è costante e vale \(\sqrt{2}\).
 
 ## Soluzione

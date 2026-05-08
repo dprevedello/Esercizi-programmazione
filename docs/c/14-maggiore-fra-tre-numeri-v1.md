@@ -14,7 +14,7 @@ In questa prima versione il codice usa esclusivamente `if-else` annidati, senza 
 
 ## Suggerimenti
 
-- Inizia confrontando `a` con `b` e con `c`: se `a >= b && a >= c`, allora `a` è il maggiore.
+- Inizia confrontando `a` con `b`: se `a >= b`, allora confronta `a` con `c`.
 - Nel ramo `else` del primo `if`, sai già che `a` non è il massimo: confronta quindi soltanto `b` e `c`.
 - Fai attenzione al caso in cui due o tutti e tre i valori siano uguali: il programma deve comunque produrre un risultato corretto.
 - Confronta questa soluzione con le versioni 2 e 3 per apprezzare i diversi approcci al medesimo problema.

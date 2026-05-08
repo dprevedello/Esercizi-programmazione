@@ -21,7 +21,7 @@ $$b = \frac{A}{h}$$
 - Includi la libreria `<math.h>` per usare la funzione `sqrt()`, che calcola la radice quadrata.
 - Non dimenticare di ricavare prima la base dalla formula \(b = A / h\) prima di calcolare la diagonale.
 - Presta attenzione al caso in cui l'altezza sia zero: causerebbe una divisione per zero. Per ora puoi supporre che l'utente inserisca valori validi.
-- Prova con area = 12 e altezza = 3: la base è 4, la diagonale è \(\sqrt{16 + 9} = 5.0000\).
+- Prova con area = 12 e altezza = 3: la base è 4, la diagonale è \(\sqrt{16 + 9} = 5.000\).
 
 ## Soluzione
 

@@ -18,10 +18,10 @@ dove \(l\) è la misura del lato.
 
 ## Suggerimenti
 
-- Usa `double` per il lato: un quadrato può avere lato non intero (ad esempio 2.5 cm).
+- Usa `int` per il lato oppure `float`, se vuoi che il quadrato possa avere lato non intero (ad esempio 2.5 cm).
 - Per elevare al quadrato in C non esiste un operatore dedicato: usa semplicemente `lato * lato`. La funzione `pow(lato, 2)` dalla libreria `<math.h>` è un'alternativa, ma per il quadrato la moltiplicazione diretta è più efficiente.
 - Struttura l'output in modo chiaro, stampando prima il perimetro e poi l'area su righe separate.
-- Prova con lato = 5: perimetro atteso 20.00, area attesa 25.00.
+- Prova con lato = 5: perimetro atteso 20, area attesa 25.
 
 ## Soluzione
 

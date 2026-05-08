@@ -4,7 +4,7 @@ Il primo programma che si scrive in quasi tutti i linguaggi di programmazione: v
 
 ## Obiettivo
 
-Stampare la stringa `Hello, World!` sullo schermo.
+Stampare la stringa `Hello World!` sullo schermo.
 
 ## Descrizione
 

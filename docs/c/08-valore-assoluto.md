@@ -4,7 +4,7 @@ Dato un numero inserito da tastiera, il programma ne stampa il valore assoluto.
 
 ## Obiettivo
 
-Leggere un numero reale e visualizzarne il valore assoluto, usando una struttura condizionale `if`.
+Leggere un numero intero e visualizzarne il valore assoluto, usando una struttura condizionale `if`.
 
 ## Descrizione
 
@@ -16,10 +16,10 @@ Questo è uno dei primi esempi di utilizzo della struttura condizionale `if`: il
 
 ## Suggerimenti
 
-- La libreria `<math.h>` fornisce la funzione `fabs()` che calcola direttamente il valore assoluto di un `double`. In questo esercizio è però utile implementarlo manualmente con un `if` per esercitarsi con la struttura condizionale.
+- La libreria `<math.h>` fornisce la funzione `abs()` che calcola direttamente il valore assoluto di un `int`. In questo esercizio è però utile implementarlo manualmente con un `if` per esercitarsi con la struttura condizionale.
 - Se il numero è negativo, basta cambiarne il segno moltiplicandolo per `-1` (o scrivendolo come `-n`).
 - Se il numero è già positivo o zero, non serve fare nulla.
-- Prova con -7.5: il risultato atteso è 7.50. Prova anche con 0 e con un numero positivo.
+- Prova con -7: il risultato atteso è 7. Prova anche con 0 e con un numero positivo.
 
 ## Soluzione
 

@@ -22,8 +22,8 @@ Questa formula si ricava applicando il teorema di Pitagora per determinare l'alt
 
 - Includi `<math.h>` per usare `sqrt(3.0)`.
 - Il calcolo è sequenziale: prima si ricava il lato, poi si applica la formula dell'area.
-- Prova con perimetro = 12: il lato è 4, l'area attesa è \(\frac{\sqrt{3}}{4} \cdot 16 \approx 6.9282\).
-- Il risultato ha molte cifre decimali: usa `%.4f` per stampare con quattro decimali, sufficiente per questo tipo di esercizio.
+- Prova con perimetro = 12: il lato è 4, l'area attesa è \(\frac{\sqrt{3}}{4} \cdot 16 \approx 6.928\).
+- Il risultato ha molte cifre decimali: usa `%.3f` per stampare con tre decimali, sufficiente per questo tipo di esercizio.
 
 ## Soluzione
 

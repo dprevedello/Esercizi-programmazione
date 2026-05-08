@@ -8,15 +8,14 @@ Leggere tre numeri da tastiera e visualizzare il valore più alto tra i tre, usa
 
 ## Descrizione
 
-In questa seconda versione si introduce la variabile d'appoggio `maggiore`: si inizializza con il valore del primo numero, poi si confronta con ciascuno degli altri. Se un numero successivo risulta più grande, `maggiore` viene aggiornata. Al termine del confronto, `maggiore` contiene il valore massimo tra i tre.
+In questa seconda versione si introduce la variabile d'appoggio `maggiore`: si confronta innanzitutto `numero1` con `numero2` e si assegna il più grande a `maggiore`. Se un numero successivo risulta più grande, `maggiore` viene aggiornata. Al termine del confronto, `maggiore` contiene il valore massimo tra i tre.
 
 Questo approccio è più scalabile rispetto all'`if-else` annidato: se in futuro si volesse trovare il massimo tra dieci numeri, basterebbe aggiungere ulteriori confronti senza modificare la struttura del codice.
 
 ## Suggerimenti
 
-- Inizializza `maggiore = a` prima di qualsiasi confronto.
-- Confronta `maggiore` con `b`: se `b > maggiore`, aggiorna `maggiore = b`.
-- Ripeti il confronto con `c`: se `c > maggiore`, aggiorna `maggiore = c`.
+- Confronta `numero1` con `numero2`: se `numero1 > numero2`, aggiorna `maggiore`.
+- Ripeti il confronto con `numero3`: se `numero3 > maggiore`, aggiorna `maggiore = numero3`.
 - Questa logica si generalizza facilmente a N numeri usando un ciclo, che vedremo negli esercizi successivi.
 
 ## Soluzione

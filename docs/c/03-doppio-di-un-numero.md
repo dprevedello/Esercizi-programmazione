@@ -16,10 +16,10 @@ L'esercizio introduce la lettura di un valore con `scanf()`, l'esecuzione di un'
 
 ## Suggerimenti
 
-- Usa il tipo `double` per poter gestire anche numeri con la virgola (ad esempio, il doppio di 3.5 è 7.0).
-- Puoi calcolare il doppio direttamente all'interno di `printf()`, senza usare una variabile aggiuntiva: `printf("%.2f", 2 * n);`.
-- Ricorda il formato `%lf` per leggere un `double` con `scanf()`.
-- Verifica il programma con valori semplici: inserendo 5, il risultato atteso è 10.00.
+- Usa il tipo `int` per poter gestire numeri interi (ad esempio, il doppio di 3 è 6).
+- Puoi calcolare il doppio direttamente all'interno di `printf()`, senza usare una variabile aggiuntiva: `printf("%d", 2 * n);`.
+- Ricorda il formato `%d` per leggere un `int` con `scanf()`.
+- Verifica il programma con valori semplici: inserendo 5, il risultato atteso è 10.
 
 ## Soluzione
 

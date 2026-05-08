@@ -11,7 +11,7 @@ int main(void) {
         int hh = secondi/3600;
         int mm = (secondi - hh*3600)/60;
         int ss = secondi - hh*3600 - mm*60;
-        printf("Orario: %dh:%dm:%ds\n", hh, mm, ss);
+        printf("Orario: %02d:%02d:%02d\n", hh, mm, ss);
     }
 
     return 0;
