@@ -11,7 +11,7 @@ Il programma deve leggere un intero N e stampare le seguenti figure:
 3. Un triangolo rettangolo crescente di lato N
 4. Un quadrato di lato N diviso diagonalmente tra caratteri `*` e `+`
 
-<table style="width: 35em; margin: auto; margin-top: 1.5em;">
+<table style="display: block; margin: auto; margin-top: 1.5em;">
 <tbody>
 <tr style="padding-bottom: 1em;">
 <td style="text-align: center; font-weight: bold;">Caso 1</td>
