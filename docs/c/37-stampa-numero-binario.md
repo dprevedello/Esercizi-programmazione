@@ -21,14 +21,13 @@ Ad esempio, per convertire 13:
 
 Leggendo i resti dal basso: 13 in binario è **1101**.
 
-Poiché i resti vanno letti in ordine inverso rispetto a come vengono calcolati, è necessario memorizzarli (ad esempio in un vettore) prima di stamparli.
+Il programma mostra le divisioni successive per 2 e successivamente stampa il numero binario utilizzando operazioni bit a bit (bitwise), senza usare vettori.
 
 ## Suggerimenti
 
-- Usa un ciclo `do-while` per la validazione: accetta solo valori maggiori di 0.
+- Usa un ciclo `do-while` per la validazione: accetta solo valori maggiori o uguali a 0.
 - Stampa ogni passo della divisione (numero, quoziente, resto) durante il ciclo di conversione.
-- Memorizza i resti in un vettore e stampali in ordine inverso al termine del ciclo.
-- La dimensione massima del vettore può essere 32 (sufficienti per un intero a 32 bit).
+- Dopo aver determinato il numero di cifre binarie necessarie, stampa il risultato usando operazioni bit a bit con `printf("%d", 1<<i & numero && 1);`.
 
 ## Soluzione
 

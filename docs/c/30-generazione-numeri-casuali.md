@@ -11,7 +11,7 @@ Generare e stampare un numero casuale per ciascuno dei seguenti intervalli:
 3. \([10,\ 100]\) — intero, 10 incluso, 100 incluso
 4. \([-50,\ 100)\) — intero, -50 incluso, 100 escluso
 5. \([0{,}00,\ 1{,}00]\) — numero reale tra 0 e 1
-6. \([10\,000,\ 100\,000]\) — numero reale tra 10 000 e 100 000
+6. \([10\,000,\ 100\,000]\) — numero reale tra 10,000 e 100,000
 
 ## Descrizione
 
@@ -25,8 +25,7 @@ La formula generale per un intero in \([a,\ b]\) è:
 
 - Includi `<stdlib.h>` e `<time.h>`, e chiama `srand(time(NULL))` all'inizio del `main` per avere sequenze diverse a ogni esecuzione.
 - Per l'intervallo semiaperto \([a,\ b)\), usa `rand() % (b - a) + a`.
-- Per un reale in \([0,\ 1]\), usa `(double)rand() / RAND_MAX`.
-- Per scalare il reale in \([min,\ max]\), usa `min + (double)rand() / RAND_MAX * (max - min)`.
+- Per un reale in \([0,\ 1]\), usa `(rand() % 101) / 100.0`.
 
 ## Soluzione
 

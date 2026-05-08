@@ -10,14 +10,14 @@ Generare un numero segreto casuale compreso tra 1 e 100. A ogni tentativo dell'u
 
 Il numero casuale viene generato con la funzione `rand()` della libreria `<stdlib.h>`. Per ottenere sequenze diverse a ogni esecuzione, è necessario inizializzare il generatore con `srand(time(NULL))`, usando la libreria `<time.h>`.
 
-Il ciclo `for` gestisce il numero massimo di tentativi; un'istruzione `break` permette di uscire dal ciclo in anticipo se l'utente indovina.
+Il ciclo `for` gestisce il numero massimo di tentativi; la condizione del for deve permettere di uscire dal ciclo in anticipo se l'utente indovina.
 
 ## Suggerimenti
 
 - Includi `<stdlib.h>` e `<time.h>` per `rand()`, `srand()` e `time()`.
-- Per generare un numero tra 1 e 100: `numero_segreto = rand() % 100 + 1`.
-- Usa una variabile booleana (o un intero `indovinato`) per sapere se uscire con successo.
-- Dopo il ciclo, verifica se l'utente ha vinto o ha esaurito i tentativi e stampa il messaggio appropriato.
+- Per generare un numero tra 1 e 100: `n = rand() % 100 + 1`.
+- Usa una condizione composta per sapere se uscire con successo `valore!=n`.
+- Nel ciclo, verifica se l'utente ha vinto o meno e stampa il messaggio appropriato.
 
 ## Soluzione
 
