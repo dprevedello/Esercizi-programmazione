@@ -26,7 +26,7 @@ int main(void) {
 }
 
 int mcm(int n1, int n2){
-    return n1*n2 / mcd(n1, n2);
+    return n1 / mcd(n1, n2) * n2;
 }
 
 int mcd(int n1, int n2){

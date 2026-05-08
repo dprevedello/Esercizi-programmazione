@@ -24,9 +24,8 @@ L'algoritmo funziona perché MCD(a, b) = MCD(b, a % b), proprietà dimostrabile 
 
 ## Suggerimenti
 
-- Crea una funzione `int mcd(int a, int b)` che implementa il ciclo `while (b != 0)`.
-- All'interno del ciclo, aggiorna le variabili: `int r = a % b; a = b; b = r;`.
-- Gestisci il caso in cui uno dei due numeri valga 0: per convenzione MCD(a, 0) = a.
+- Crea una funzione `int mcd(int n1, int n2)` che implementa il ciclo `do-while`.
+- All'interno del ciclo, aggiorna le variabili: `r = a % b; a = b; b = r;`.
 - Questa funzione sarà riutilizzata nell'esercizio sul minimo comune multiplo con Euclide.
 
 ## Soluzione

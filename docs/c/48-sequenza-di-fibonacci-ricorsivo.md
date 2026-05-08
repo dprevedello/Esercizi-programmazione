@@ -23,8 +23,8 @@ A differenza della versione iterativa, quella ricorsiva è più elegante ma meno
 
 ## Suggerimenti
 
-- Definisci una funzione `long long fibonacci(int n)` con due casi base (`if (n <= 2) return 1`) e il caso ricorsivo.
-- Usa un ciclo `do-while` per la validazione: accetta solo valori n >= 1.
+- Definisci una funzione `int fibonacci(int n)` con due casi base (`if (n <= 1) return 1`) e il caso ricorsivo.
+- Usa un ciclo `do-while` per la validazione: accetta solo valori n >= 0.
 - Testa il programma con valori di n non troppo grandi (fino a circa 40): oltre, il tempo di calcolo cresce rapidamente.
 - Confronta i tempi di esecuzione con la versione iterativa per apprezzare la differenza di efficienza.
 

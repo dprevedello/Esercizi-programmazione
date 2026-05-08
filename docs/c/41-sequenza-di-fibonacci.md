@@ -19,9 +19,9 @@ Il calcolo iterativo richiede solo tre variabili: i due termini precedenti e que
 ## Suggerimenti
 
 - Usa un ciclo `do-while` per validare n: accetta solo valori maggiori di 0.
-- Gestisci separatamente i casi base: F(1) = 1 e F(2) = 1, prima di entrare nel ciclo.
-- Nel ciclo `for` da 3 a n, calcola il termine corrente come somma dei due precedenti e aggiorna le variabili di appoggio.
-- Usa il tipo `long long` per gestire valori di n elevati senza overflow.
+- Gestisci i casi base: F(1) = 1 e F(2) = 1.
+- Nel ciclo `for` da 2 a n, calcola il termine corrente come somma dei due precedenti e aggiorna le variabili di appoggio.
+- Usa il tipo `long` per gestire valori di n elevati senza overflow.
 
 ## Soluzione
 

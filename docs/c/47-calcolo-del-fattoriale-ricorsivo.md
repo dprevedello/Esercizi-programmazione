@@ -21,10 +21,11 @@ Ad ogni chiamata ricorsiva n diminuisce di 1, avvicinandosi al caso base. Lo sta
 
 ## Suggerimenti
 
-- Definisci una funzione `long long fattoriale(int n)` che implementa i due casi con un `if-else`.
+- Definisci una funzione `long fattoriale(int n)` che implementa i due casi con un `if-else`.
 - Il caso base è `if (n == 0) return 1`, il caso ricorsivo è `return n * fattoriale(n - 1)`.
-- Usa il tipo `long long` per il valore di ritorno, per gestire risultati grandi senza overflow.
+- Usa il tipo `long` per il valore di ritorno, per gestire risultati grandi senza overflow.
 - Usa un ciclo `do-while` per la validazione dell'input: accetta solo valori n >= 0.
+- Gestisci il caso di errore con `if (n < 0) return -1`
 
 ## Soluzione
 

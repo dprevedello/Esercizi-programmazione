@@ -12,14 +12,13 @@ Il **metodo babilonese** è uno dei primi metodi iterativi per il calcolo della 
 
 $$ radQ(\alpha) = \left\{ \begin{align} r_0 &= \frac{\alpha}{2} \\ r_{n+1} &= \frac{1}{2}\left(r_n + \frac{\alpha}{r_n}\right) \end{align} \right. $$
 
-Partendo da una stima iniziale \( r_0 = \frac{\alpha}{2} \), ogni iterazione produce un'approssimazione migliore. Il processo si ripete finché la differenza tra due approssimazioni successive è inferiore a una soglia di precisione (ad esempio \( 10^{-9} \)).
+Partendo da una stima iniziale \( r_0 = 1 \), ogni iterazione produce un'approssimazione migliore. Il processo si ripete finché non si è raggiunta una buona approssimazione. Ad esempio lo si puà iterare per 100 volte.
 
 Il metodo converge molto rapidamente: bastano poche iterazioni per ottenere un risultato preciso anche per numeri grandi.
 
 ## Suggerimenti
 
-- Crea una funzione `double radice(double alpha)` che implementa il metodo babilonese e restituisce il risultato.
-- Come condizione di stop usa `fabs(r_new - r_old) > 1e-9` (dalla libreria `<math.h>`).
+- Crea una funzione `double radQuadrata(double valore)` che implementa il metodo babilonese e restituisce il risultato.
 - Gestisci il caso \( \alpha = 0 \) separatamente per evitare divisioni per zero.
 - Confronta il risultato con la funzione `sqrt()` di `<math.h>` per verificare la correttezza.
 
