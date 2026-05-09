@@ -14,7 +14,8 @@ Il sito è consultabile all'indirizzo:
 | `Bash/` | — | Script da riga di comando su Linux/macOS |
 | `C/` | 60 | Linguaggio C — dagli esercizi base ai più avanzati |
 | `Database/` | — | SQL e algebra relazionale su database relazionali |
-| `Java/` | — | Programmazione orientata agli oggetti in Java |
+| `HTML-CSS-Javascript/` | — | Pagine web, stili CSS e scripting lato client |
+| `Java/` | 7 | Programmazione orientata agli oggetti in Java — metodi statici, Javadoc, OOP, eccezioni, file |
 | `PacketTracer/` | — | Reti con Cisco Packet Tracer |
 | `PHP/` | — | PHP lato server: variabili, form, sessioni |
 | `Python/` | — | Python dalla sintassi base a classi e file |
@@ -85,12 +86,34 @@ C/
 ```
 
 1. Crea la sottocartella `C/Nome-esercizio/` con `main.c`.
-2. Crea la pagina di documentazione `docs/c/Nome-esercizio/index.md`.
+2. Crea la pagina di documentazione `docs/c/NN-nome-esercizio.md`.
 3. Aggiungi la voce nel gruppo tematico corretto in `mkdocs.yml`:
    ```yaml
-   - "Titolo esercizio": c/Nome-esercizio/index.md
+   - "Titolo esercizio": c/NN-nome-esercizio.md
    ```
 4. Aggiorna la tabella riepilogativa in `docs/c/index.md`.
+
+### Esempio per il linguaggio Java
+
+Ogni esercizio Java vive in una propria sottocartella con uno o più file `.java`:
+
+```
+Java/
+└── Nome-esercizio/
+    ├── NomeClasse.java
+    └── (AltraClasse.java — se l'esercizio richiede più classi)
+```
+
+1. Crea la sottocartella `Java/Nome-esercizio/` con i file `.java`.
+2. Crea la pagina di documentazione `docs/java/NN-nome-esercizio.md`.
+3. Aggiungi la voce nel gruppo tematico corretto in `mkdocs.yml`:
+   ```yaml
+   - "Titolo esercizio": java/NN-nome-esercizio.md
+   ```
+4. Aggiorna la tabella riepilogativa in `docs/java/index.md`.
+
+Le sezioni tematiche Java attualmente disponibili sono:
+`Metodi statici` · `Javadoc` · `Creazione di oggetti basilari` · `ArrayList` · `HashMap` · `Ereditarietà` · `Interfacce e classi astratte` · `Eccezioni` · `File di testo e serializzazione` · `Esercizi avanzati`
 
 ### Blocco OneCompiler
 
@@ -129,6 +152,13 @@ Esercizi-programmazione/
 ├── Database/
 ├── HTML-CSS-Javascrypt
 ├── Java/
+│   ├── Somma-di-due-numeri/SommaNumeri.java
+│   ├── Stampa-di-un-array/StampaArray.java
+│   ├── Conteggio-vocali/ContaVocali.java
+│   ├── Gioco-indovina-il-numero/IndovinaNumero.java
+│   ├── Menu-interattivo/Menu.java
+│   ├── Manipolazione-stringhe/EsercizioStringhe.java
+│   └── Generatore-codice-fiscale/CodiceFiscale.java
 ├── PacketTracer/
 ├── PHP/
 ├── Python/
@@ -151,7 +181,9 @@ Esercizi-programmazione/
 │   ├── html-css-javascrypt/
 │   │   └── html-css-javascrypt/index.md
 │   ├── java/
-│   │   └── java/index.md
+│   │   ├── index.md                # indice con tutti gli esercizi classificati
+│   │   ├── 01-somma-di-due-numeri.md
+│   │   └── … (07 pagine, una per esercizio)
 │   ├── packettracer/
 │   │   └── packettracer/index.md
 │   ├── php/
