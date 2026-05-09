@@ -251,6 +251,13 @@ nav:
     - Eccezioni:
       - "Calcolatore radici quadrate":   java/25-calcolatore-radici-quadrate.md
       - "Magazzino digitale":            java/26-magazzino-digitale.md
+    - File di testo e serializzazione:
+      - "Elaborazione dati open":        java/27-elaborazione-dati-open.md
+      - "Analisi statistica CSV":        java/28-analisi-statistica-csv.md
+      - "Aerodromo":                     java/29-aerodromo.md
+    - Esercizi avanzati:
+      - "Generatore labirinti":          java/30-generatore-labirinti.md
+      - "Quiz Ambiente":                 java/31-quiz-ambiente.md
 
   - PacketTracer:
     - packettracer/index.md

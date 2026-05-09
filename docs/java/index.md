@@ -104,9 +104,9 @@ polimorfismo e interfacce.
 
 | # | Esercizio | Argomento | Difficoltà |
 |---|-----------|-----------|------------|
-| 27 | *(in arrivo)* | Elaborazione dati open — lettura CSV, filtro e percentuale per regione | :material-circle-slice-4: Intermedio |
-| 28 | *(in arrivo)* | Analisi statistica CSV — POJO, `ArrayList`, `HashMap`, menù statistiche | :material-circle: Avanzato |
-| 29 | *(in arrivo)* | Aerodromo — serializzazione, interfacce, `instanceof`, lista persistente | :material-circle: Avanzato |
+| 27 | [Elaborazione dati open](27-elaborazione-dati-open.md) | `BufferedReader`, `split`, filtro e aggregazione su CSV reale | :material-circle-slice-4: Intermedio |
+| 28 | [Analisi statistica CSV](28-analisi-statistica-csv.md) | POJO, `CsvReader`, `HashMap`, menù con 6 statistiche, `String.format` | :material-circle: Avanzato |
+| 29 | [Aerodromo](29-aerodromo.md) | `Serializable`, `ObjectOutputStream`/`ObjectInputStream`, interfaccia `CMP`, `instanceof` | :material-circle: Avanzato |
 
 ### 10. Esercizi avanzati :material-rocket-launch:
 
