@@ -239,6 +239,10 @@ nav:
       - "Film":                          java/16-film.md
       - "LibroDiario":                   java/17-libro-diario.md
       - "Gestione Playlist":             java/18-gestione-playlist.md
+    - HashMap:
+      - "Gestione Magazzino":            java/19-gestione-magazzino.md
+    - Ereditarietà:
+      - "Batteria di quesiti":           java/20-gestione-batteria-quesiti.md
 
   - PacketTracer:
     - packettracer/index.md

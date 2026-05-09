@@ -15,7 +15,7 @@ Il sito è consultabile all'indirizzo:
 | `C/` | 60 | Linguaggio C — dagli esercizi base ai più avanzati |
 | `Database/` | — | SQL e algebra relazionale su database relazionali |
 | `HTML-CSS-Javascript/` | — | Pagine web, stili CSS e scripting lato client |
-| `Java/` | 18 | Programmazione orientata agli oggetti in Java — metodi statici, Javadoc, OOP, eccezioni, file |
+| `Java/` | 20 | Programmazione orientata agli oggetti in Java — metodi statici, Javadoc, OOP, eccezioni, file |
 | `PacketTracer/` | — | Reti con Cisco Packet Tracer |
 | `PHP/` | — | PHP lato server: variabili, form, sessioni |
 | `Python/` | — | Python dalla sintassi base a classi e file |

@@ -76,13 +76,13 @@ polimorfismo e interfacce.
 
 | # | Esercizio | Argomento | Difficoltà |
 |---|-----------|-----------|------------|
-| 19 | *(in arrivo)* | Gestione Magazzino — `HashMap<String, Integer>`, CRUD con menù | :material-circle-slice-4: Intermedio |
+| 19 | [Gestione Magazzino](19-gestione-magazzino.md) | `put`, `get`, `containsKey`, `remove`, `keySet`, `getOrDefault` | :material-circle-slice-4: Intermedio |
 
 ### 6. Ereditarietà :material-family-tree:
 
 | # | Esercizio | Argomento | Difficoltà |
 |---|-----------|-----------|------------|
-| 20 | *(in arrivo)* | Batteria di quesiti — gerarchia di classi, `@Override`, polimorfismo | :material-circle: Avanzato |
+| 20 | [Gestione batteria di quesiti](20-gestione-batteria-quesiti.md) | `extends`, `super`, `@Override`, polimorfismo, `protected`, array polimorfico | :material-circle: Avanzato |
 
 ### 7. Interfacce e classi astratte :material-shape-plus:
 
