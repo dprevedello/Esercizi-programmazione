@@ -217,7 +217,15 @@ nav:
 
   - Java:
     - java/index.md
-    # - "Es. 01 – Hello World": java/01-hello-world.md
+    - Metodi statici:
+      - "Somma di due numeri":          java/01-somma-di-due-numeri.md
+      - "Stampa di un array":           java/02-stampa-di-un-array.md
+      - "Conteggio vocali":             java/03-conteggio-vocali.md
+      - "Gioco Indovina il numero":     java/04-gioco-indovina-il-numero.md
+      - "Menù interattivo":             java/05-menu-interattivo.md
+      - "Manipolazione stringhe":       java/06-manipolazione-stringhe.md
+    - Javadoc:
+      - "Generatore Codice Fiscale":    java/07-generatore-codice-fiscale.md
 
   - PacketTracer:
     - packettracer/index.md

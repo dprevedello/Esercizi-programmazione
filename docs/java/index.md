@@ -49,7 +49,7 @@ polimorfismo e interfacce.
 
 | # | Esercizio | Argomento | Difficoltà |
 |---|-----------|-----------|------------|
-| 07 | *(in arrivo)* | Codice Fiscale semplificato, commenti Javadoc, `HashMap`, regex | :material-circle: Avanzato |
+| 07 | [Generatore Codice Fiscale](07-generatore-codice-fiscale.md) | Commenti Javadoc, `HashMap`, regex, `matches()` | :material-circle: Avanzato |
 
 ### 3. Creazione di oggetti basilari :material-cube-outline:
 
