@@ -55,22 +55,22 @@ polimorfismo e interfacce.
 
 | # | Esercizio | Argomento | Difficoltà |
 |---|-----------|-----------|------------|
-| 08 | *(in arrivo)* | Rettangolo — costruttori, getter/setter, `toString` | :material-circle-outline: Base |
-| 09 | *(in arrivo)* | Studente — array di voti, media dinamica | :material-circle-outline: Base |
-| 10 | *(in arrivo)* | ContoBancario — versamento, prelievo, saldo | :material-circle-outline: Base |
-| 11 | *(in arrivo)* | Prodotto — inventario, valore totale | :material-circle-outline: Base |
-| 12 | *(in arrivo)* | Libro — prestito e restituzione con stato booleano | :material-circle-outline: Base |
-| 13 | *(in arrivo)* | Automobile — accelerazione, frenata, `Math.max` | :material-circle-outline: Base |
-| 14 | *(in arrivo)* | Cerchio — `Math.PI`, area, circonferenza | :material-circle-outline: Base |
-| 15 | *(in arrivo)* | Temperatura — conversioni Celsius/Fahrenheit/Kelvin | :material-circle-outline: Base |
+| 08 | [Rettangolo](08-rettangolo.md) | Costruttori, getter/setter con validazione, `toString`, constructor chaining | :material-circle-outline: Base |
+| 09 | [Studente](09-studente.md) | Array di voti, media calcolata lazy, valore sentinella | :material-circle-outline: Base |
+| 10 | [ContoBancario](10-conto-bancario.md) | Overloading costruttori, logica di business in `versa`/`preleva` | :material-circle-outline: Base |
+| 11 | [Prodotto](11-prodotto.md) | Metodi con controllo sui limiti, calcolo valore inventario | :material-circle-outline: Base |
+| 12 | [Libro](12-libro.md) | Attributo booleano, `isDisponibile()`, operatore ternario | :material-circle-outline: Base |
+| 13 | [Automobile](13-automobile.md) | `Math.max` come guard, costruttore ridotto con default | :material-circle-outline: Base |
+| 14 | [Cerchio](14-cerchio.md) | `Math.PI`, `String.format`, validazione nel costruttore | :material-circle-outline: Base |
+| 15 | [Temperatura](15-temperatura.md) | Conversioni Celsius/Fahrenheit/Kelvin, divisione `double` | :material-circle-outline: Base |
 
 ### 4. ArrayList :material-format-list-bulleted:
 
 | # | Esercizio | Argomento | Difficoltà |
 |---|-----------|-----------|------------|
-| 16 | *(in arrivo)* | Film — `ArrayList<Double>`, valutazione media | :material-circle-slice-4: Intermedio |
-| 17 | *(in arrivo)* | LibroDiario — `ArrayList<String>`, accesso per indice | :material-circle-slice-4: Intermedio |
-| 18 | *(in arrivo)* | Gestione Playlist — metodi `add`, `remove`, `set`, `contains`, `indexOf` | :material-circle-slice-4: Intermedio |
+| 16 | [Film](16-film.md) | `ArrayList<Double>`, autoboxing, `isEmpty`, media con guardia | :material-circle-slice-4: Intermedio |
+| 17 | [LibroDiario](17-libro-diario.md) | `ArrayList<String>`, `add`, `get`, indice 1-based vs 0-based | :material-circle-slice-4: Intermedio |
+| 18 | [Gestione Playlist](18-gestione-playlist.md) | `add`, `remove`, `set`, `contains`, `indexOf`, `size`, `isEmpty` | :material-circle-slice-4: Intermedio |
 
 ### 5. HashMap :material-table-key:
 

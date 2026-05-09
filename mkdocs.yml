@@ -226,6 +226,19 @@ nav:
       - "Manipolazione stringhe":       java/06-manipolazione-stringhe.md
     - Javadoc:
       - "Generatore Codice Fiscale":    java/07-generatore-codice-fiscale.md
+    - Creazione di oggetti basilari:
+      - "Rettangolo":                    java/08-rettangolo.md
+      - "Studente":                      java/09-studente.md
+      - "ContoBancario":                 java/10-conto-bancario.md
+      - "Prodotto":                      java/11-prodotto.md
+      - "Libro":                         java/12-libro.md
+      - "Automobile":                    java/13-automobile.md
+      - "Cerchio":                       java/14-cerchio.md
+      - "Temperatura":                   java/15-temperatura.md
+    - ArrayList:
+      - "Film":                          java/16-film.md
+      - "LibroDiario":                   java/17-libro-diario.md
+      - "Gestione Playlist":             java/18-gestione-playlist.md
 
   - PacketTracer:
     - packettracer/index.md
