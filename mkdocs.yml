@@ -243,6 +243,14 @@ nav:
       - "Gestione Magazzino":            java/19-gestione-magazzino.md
     - Ereditarietà:
       - "Batteria di quesiti":           java/20-gestione-batteria-quesiti.md
+    - Interfacce e classi astratte:
+      - "Pianeta e Comparable":          java/21-pianeta-e-comparable.md
+      - "Sistema di pagamenti":          java/22-sistema-pagamenti.md
+      - "Rete di sensori urbani":        java/23-rete-sensori-urbani.md
+      - "MediaBox":                      java/24-mediabox.md
+    - Eccezioni:
+      - "Calcolatore radici quadrate":   java/25-calcolatore-radici-quadrate.md
+      - "Magazzino digitale":            java/26-magazzino-digitale.md
 
   - PacketTracer:
     - packettracer/index.md

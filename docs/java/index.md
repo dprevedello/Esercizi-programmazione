@@ -88,17 +88,17 @@ polimorfismo e interfacce.
 
 | # | Esercizio | Argomento | Difficoltà |
 |---|-----------|-----------|------------|
-| 21 | *(in arrivo)* | Pianeta e `Comparable` — `compareTo`, `Collections.sort` | :material-circle-slice-4: Intermedio |
-| 22 | *(in arrivo)* | Sistema di pagamenti — interfaccia, classe astratta, polimorfismo | :material-circle: Avanzato |
-| 23 | *(in arrivo)* | Rete di sensori urbani — `Comparable`, `HashMap`, Javadoc | :material-circle: Avanzato |
-| 24 | *(in arrivo)* | MediaBox — `instanceof`, casting, classi astratte, file | :material-circle: Avanzato |
+| 21 | [Pianeta e Comparable](21-pianeta-e-comparable.md) | `Comparable<T>`, `compareTo`, `Collections.sort`, criterio derivato | :material-circle-slice-4: Intermedio |
+| 22 | [Sistema di pagamenti](22-sistema-pagamenti.md) | Interfaccia + classe astratta, array polimorfico, `substring` | :material-circle: Avanzato |
+| 23 | [Rete di sensori urbani](23-rete-sensori-urbani.md) | `protected`, Javadoc, cast a interfaccia, `HashMap` real-time | :material-circle: Avanzato |
+| 24 | [MediaBox](24-mediabox.md) | `instanceof`, casting, `try-catch`, `BufferedWriter`, `try-with-resources` | :material-circle: Avanzato |
 
 ### 8. Eccezioni :material-alert-circle-outline:
 
 | # | Esercizio | Argomento | Difficoltà |
 |---|-----------|-----------|------------|
-| 25 | *(in arrivo)* | Calcolatore radici quadrate — eccezione personalizzata, `try-catch` | :material-circle-slice-4: Intermedio |
-| 26 | *(in arrivo)* | Magazzino digitale — eccezioni controllate, `HashMap`, menù robusto | :material-circle: Avanzato |
+| 25 | [Calcolatore radici quadrate](25-calcolatore-radici-quadrate.md) | Eccezione personalizzata, `throws`, `throw`, `InputMismatchException`, ciclo con `try-catch` | :material-circle-slice-4: Intermedio |
+| 26 | [Magazzino digitale](26-magazzino-digitale.md) | Due eccezioni controllate, `throws` multiplo, `catch` con `\|`, `HashMap<String, Articolo>` | :material-circle: Avanzato |
 
 ### 9. File di testo e serializzazione :material-file-code:
 
