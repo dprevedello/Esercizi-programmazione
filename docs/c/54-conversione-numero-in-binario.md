@@ -25,9 +25,10 @@ I resti nel vettore sono [1, 0, 1, 1]; stampati al contrario: **1101**.
 
 ## Suggerimenti
 
-- Dichiara un vettore di interi di dimensione 32 (sufficiente per un `int` a 32 bit) e un indice inizializzato a 0.
-- In un ciclo `while (n > 0)`, salva `n % 2` nel vettore, incrementa l'indice e aggiorna `n = n / 2`.
-- Stampa il vettore scorrendo dall'ultimo elemento inserito (indice - 1) fino a 0.
+- Dichiara un vettore di interi di dimensione 64 (sufficiente per un `long` a 64 bit) e un indice inizializzato a 0.
+- Usa un ciclo per dividere progressivamente il numero per 2 salvando i resti nel vettore.
+- Memorizza il numero di cifre binarie inserite.
+- Stampa il vettore scorrendolo dall'ultima cifra memorizzata fino alla prima.
 - Usa un ciclo `do-while` per la validazione: accetta solo valori maggiori di 0.
 
 ## Soluzione

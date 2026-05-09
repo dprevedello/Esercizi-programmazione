@@ -11,8 +11,9 @@ Il programma deve chiedere all'utente quanti numeri generare (n, massimo 200), r
 3. Calcolare il massimo
 4. Calcolare la media
 5. Calcolare la moda
-6. Calcolare la varianza
-7. Uscire
+6. Calcolare la mediana
+7. Calcolare la varianza
+8. Uscire
 
 ## Descrizione
 
@@ -20,14 +21,16 @@ Questo esercizio unisce la generazione di dati casuali, la gestione di un menu c
 
 - **Minimo e massimo**: si trovano scorrendo il vettore con un ciclo e aggiornando le variabili di appoggio.
 - **Media**: somma di tutti gli elementi divisa per n.
-- **Moda**: il valore che compare più frequentemente. Si può calcolare contando le occorrenze di ciascun valore in un vettore di frequenze (dimensione 201 per coprire l'intervallo [-100, 100]).
+- **Moda**: il valore che compare più frequentemente. Si può calcolare confrontando ogni elemento con gli altri tramite doppi cicli.
+- **Mediana**: valore che si trova in posizione centrale del vettore.
 - **Varianza**: media dei quadrati degli scarti dalla media, calcolata come \(\frac{1}{n}\sum_{i=0}^{n-1}(x_i - \bar{x})^2\).
 
 ## Suggerimenti
 
 - Per generare numeri in [-100, 100] usa la formula `rand() % 201 - 100`.
 - Implementa ogni operazione come funzione separata che riceve il vettore e n come parametri.
-- Per la moda, usa un vettore di frequenze `freq[201]` dove l'indice è il valore + 100 (per gestire i negativi).
+- Per la moda usa due cicli annidati per contare le occorrenze di ciascun valore.
+- La funzione della moda può restituire l'indice del valore modale invece del valore stesso.
 - Il menu può essere gestito con un ciclo `do-while` che si ripete finché l'utente non sceglie di uscire.
 
 ## Soluzione

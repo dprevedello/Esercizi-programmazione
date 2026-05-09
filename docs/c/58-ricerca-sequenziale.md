@@ -15,9 +15,7 @@ La complessità nel caso peggiore è **O(n)**: si devono esaminare tutti gli n e
 ## Suggerimenti
 
 - Genera e stampa il vettore prima di chiedere il valore da cercare, così l'utente vede i dati disponibili.
-- Implementa la ricerca in una funzione `int ricercaSequenziale(int v[], int n, int target)` che restituisce l'indice della prima occorrenza oppure -1 se non trovata.
-- All'interno della funzione usa un ciclo `for` con un `if` e un `return` non appena il valore viene trovato.
-- Stampa tutti gli indici in cui il valore compare, non solo il primo, per un risultato più completo.
+- Implementa la ricerca  che trovi l'indice della prima occorrenza oppure -1 se non trovata.
 
 ## Soluzione
 

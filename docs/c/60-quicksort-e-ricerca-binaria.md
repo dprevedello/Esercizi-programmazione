@@ -22,10 +22,11 @@ La ricerca binaria è la stessa dell'esercizio precedente: il vettore deve esser
 
 ## Suggerimenti
 
-- Implementa la funzione di partizione `int partition(int v[], int sx, int dx)` che riposiziona il pivot e restituisce il suo indice finale.
-- La funzione `quicksort(int v[], int sx, int dx)` chiama `partition`, poi richiama sé stessa sulle due metà solo se `sx < dx`.
-- Riutilizza la funzione `ricercaBinaria` dell'esercizio precedente.
-- Stampa il vettore prima e dopo l'ordinamento per confrontare il risultato con Bubblesort.
+- Implementa la funzione di partizione `int partition(int vett[], int sx, int dx)` che riposiziona il pivot e restituisce il suo indice finale.
+- La funzione `void quickSort(int vett[], int sx, int dx)` chiama `partition`, poi richiama sé stessa sulle due metà solo se `sx < dx`.
+- Usa una funzione di supporto per scambiare due elementi del vettore.
+- Stampa il vettore prima e dopo l'ordinamento.
+- Implementa la ricerca binaria usando due indici (`sx` e `dx`) aggiornati iterativamente.
 
 ## Soluzione
 

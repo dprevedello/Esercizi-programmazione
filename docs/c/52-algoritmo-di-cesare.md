@@ -4,7 +4,7 @@ Codificare una frase secondo l'algoritmo di Cesare.
 
 ## Obiettivo
 
-Il programma deve leggere una frase inserita dall'utente e una chiave di cifratura (un numero intero), quindi codificare la frase applicando la cifratura di Cesare.
+Il programma deve leggere una frase inserita dall'utente e una chiave di cifratura (un numero intero), quindi codificare la frase applicando la cifratura di Cesare con chiave fissa pari a 3.
 
 ## Descrizione
 
@@ -25,6 +25,7 @@ La decifratura si ottiene usando una chiave negativa oppure sottraendo k invece 
 - Leggi la frase con `fgets(frase, sizeof(frase), stdin)` per gestire anche gli spazi.
 - Per ogni carattere, verifica se è una lettera maiuscola (`>= 'A' && <= 'Z'`) o minuscola (`>= 'a' && <= 'z'`) e applica lo spostamento solo in quel caso.
 - Per gestire lo "avvolgimento" usa l'operatore modulo: per le maiuscole `(c - 'A' + k) % 26 + 'A'`, in modo analogo per le minuscole.
+- I caratteri non alfabetici devono rimanere invariati.
 - Gestisci chiavi negative normalizzando prima: `k = ((k % 26) + 26) % 26`.
 
 ## Soluzione

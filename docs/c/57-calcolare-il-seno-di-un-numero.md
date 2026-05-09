@@ -4,7 +4,7 @@ Calcolare il seno di un numero x chiesto in input utilizzando lo sviluppo di Tay
 
 ## Obiettivo
 
-Il programma deve richiedere un angolo x (in radianti) e un numero intero n, quindi calcolare un'approssimazione di sin(x) sommando i primi n+1 termini dello sviluppo di Taylor, usando funzioni ricorsive per il calcolo del fattoriale e della potenza.
+Il programma deve richiedere un angolo x (in gradi) e un numero intero n, quindi calcolare un'approssimazione di sin(x) sommando i primi n+1 termini dello sviluppo di Taylor, usando una funzione ricorsiva per il calcolo del fattoriale.
 
 ## Descrizione
 
@@ -20,16 +20,15 @@ Più termini si includono (maggiore è n), più l'approssimazione è precisa. La
 
 **Una funzione ricorsiva** richiama sé stessa (**ricorsione diretta**) o tramite un'altra funzione (**ricorsione indiretta**). Affinché il procedimento abbia fine devono esistere **casi base** e ogni chiamata deve avvicinare i parametri ai casi base.
 
-In questo esercizio si usano due funzioni ricorsive:
-
-- `potenza(double x, int n)`: calcola x^n ricorsivamente.
-- `fattoriale(int n)`: calcola n! ricorsivamente.
+In questo esercizio si usa la funzione ricorsiva `fattoriale(int n)` che calcola n! ricorsivamente.
+Anche la serie di Taylor viene calcolata ricorsivamente.
 
 ## Suggerimenti
 
-- Implementa `double potenza(double x, int n)` con caso base n == 0 → 1.0 e caso ricorsivo `x * potenza(x, n-1)`.
-- Implementa `long long fattoriale(int n)` con caso base n == 0 → 1 e caso ricorsivo `n * fattoriale(n-1)`.
-- Nel ciclo principale somma i termini `pow(-1, k) * potenza(x, 2*k+1) / fattoriale(2*k+1)` per k da 0 a n.
+- Implementa una funzione `grad_rad()` per convertire i gradi in radianti.
+- Implementa `long double fattoriale(int n)` con caso base n == 0 → 1 e caso ricorsivo `n * fattoriale(n-1)`.
+- Usa `pow()` della libreria `<math.h>` per calcolare le potenze.
+- Implementa una funzione ricorsiva che sommi i termini della serie di Taylor fino al grado richiesto.
 - Confronta il risultato con `sin(x)` della libreria `<math.h>` per verificare la precisione al variare di n.
 
 ## Soluzione

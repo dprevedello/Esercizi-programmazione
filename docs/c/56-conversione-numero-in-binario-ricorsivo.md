@@ -21,10 +21,9 @@ Ad esempio, per convertire 13: la catena di chiamate è 13 → 6 → 3 → 1, e 
 
 ## Suggerimenti
 
-- Definisci una funzione `void toBinary(int n)` con il caso base `if (n <= 1) { printf("%d", n); return; }`.
-- Il caso ricorsivo è: prima `toBinary(n / 2)`, poi `printf("%d", n % 2)`.
-- Usa un `do-while` per la validazione dell'input: accetta solo valori maggiori di 0.
-- Confronta il risultato con quello degli esercizi 41 e 54 per verificare la correttezza.
+- Definisci una funzione `void binario(int n)` con il caso base `printf("%d", n % 2);`.
+- Il caso ricorsivo è: prima `if(n > 1) binario(n / 2)`, poi `printf("%d", n % 2)`.
+- Usa un `do-while` per la validazione dell'input: accetta solo valori maggiori o uguali a 0.
 
 ## Soluzione
 

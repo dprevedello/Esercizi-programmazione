@@ -81,8 +81,9 @@ int main(void) {
     printf("3) Massimo\n");
     printf("4) Media\n");
     printf("5) Moda\n");
-    printf("6) Varianza\n");
-    printf("7) Termina\n");
+    printf("6) Mediana\n");
+    printf("7) Varianza\n");
+    printf("8) Termina\n");
     
     int scelta;
     do{
@@ -112,16 +113,19 @@ int main(void) {
                     printf("Il valore modale è: %d", numeri[val]);
                 break;
             case 6:
-                printf("La varianza è: %.3f", varianza(numeri, n));
+                printf("La mediana è: %d", mediana(numeri, n));
                 break;
             case 7:
+                printf("La varianza è: %.3f", varianza(numeri, n));
+                break;
+            case 8:
                 break;
             default:
                 printf("ERRORE: Scelta non disponibile.");
         };
         printf("\n");
 
-    } while(scelta != 7);
+    } while(scelta != 8);
     
     return 0;
 }
