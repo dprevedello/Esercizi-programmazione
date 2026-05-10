@@ -27,5 +27,6 @@ Il minimo e il massimo si trovano scorrendo il vettore e aggiornando le variabil
 
 <div class="oc-embed"
      data-path="C/Operazioni-su-numeri-casuali/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-autorun="true">
 </div>

@@ -27,5 +27,7 @@ La validazione dell'input con un ciclo `do-while` garantisce che l'utente inseri
 
 <div class="oc-embed"
      data-path="C/Stampa-rettangolo-personalizzato/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="*\n.\n5\n10"
+     data-autorun="true">
 </div>

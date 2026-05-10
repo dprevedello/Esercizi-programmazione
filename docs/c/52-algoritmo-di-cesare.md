@@ -36,5 +36,7 @@ La decifratura si ottiene usando una chiave negativa oppure sottraendo k invece 
 
 <div class="oc-embed"
      data-path="C/Algoritmo-di-Cesare/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="Hello World\n"
+     data-autorun="true">
 </div>

@@ -31,5 +31,7 @@ dove \(l\) è la misura del lato.
 
 <div class="oc-embed"
      data-path="C/Perimetro-e-area-del-quadrato/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="5"
+     data-autorun="true">
 </div>

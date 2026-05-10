@@ -27,5 +27,6 @@ Il risultato atteso è \(78\), ottenibile anche con la formula di Gauss: \(\frac
 
 <div class="oc-embed"
      data-path="C/Somma-dei-primi-12-numeri-naturali/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-autorun="true">
 </div>

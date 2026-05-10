@@ -25,5 +25,7 @@ Il confronto tra due valori è uno dei costrutti fondamentali della programmazio
 
 <div class="oc-embed"
      data-path="C/Maggiore-fra-due-numeri/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="7\n3"
+     data-autorun="true">
 </div>

@@ -29,5 +29,7 @@ Questo è uno dei primi esempi di utilizzo della struttura condizionale `if`: il
 
 <div class="oc-embed"
      data-path="C/Valore-assoluto/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="-7"
+     data-autorun="true">
 </div>

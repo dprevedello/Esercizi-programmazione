@@ -35,5 +35,7 @@ Il programma deve leggere \(m\), \(q\), \(x_0\) e \(y_0\), calcolare il valore \
 
 <div class="oc-embed"
      data-path="C/Equazione-della-retta/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="2\n1\n3\n7"
+     data-autorun="true">
 </div>

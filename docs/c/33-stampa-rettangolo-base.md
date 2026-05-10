@@ -27,5 +27,6 @@ Questo esercizio costituisce la base per varianti più complesse come ad esempio
 
 <div class="oc-embed"
      data-path="C/Stampa-rettangolo-base/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-autorun="true">
 </div>

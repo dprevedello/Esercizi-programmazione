@@ -36,5 +36,7 @@ L'algoritmo funziona perché MCD(a, b) = MCD(b, a % b), proprietà dimostrabile 
 
 <div class="oc-embed"
      data-path="C/Calcolo-MCD/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="48\n18"
+     data-autorun="true">
 </div>

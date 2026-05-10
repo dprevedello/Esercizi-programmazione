@@ -33,5 +33,7 @@ Ad esempio, per convertire 13: la catena di chiamate è 13 → 6 → 3 → 1, e 
 
 <div class="oc-embed"
      data-path="C/Conversione-numero-in-binario-ricorsivo/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="13"
+     data-autorun="true">
 </div>

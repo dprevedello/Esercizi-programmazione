@@ -35,5 +35,6 @@ La formula generale per un intero in \([a,\ b]\) è:
 
 <div class="oc-embed"
      data-path="C/Generazione-numeri-casuali/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-autorun="true">
 </div>

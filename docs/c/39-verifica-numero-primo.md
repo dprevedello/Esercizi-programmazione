@@ -30,5 +30,7 @@ I primi numeri primi sono: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, ...
 
 <div class="oc-embed"
      data-path="C/Verifica-numero-primo/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="17"
+     data-autorun="true">
 </div>

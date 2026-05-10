@@ -33,5 +33,7 @@ $$r_c = \frac{l\sqrt{2}}{2}$$
 
 <div class="oc-embed"
      data-path="C/Circonferenza-inscritta-e-circoscritta/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="4"
+     data-autorun="true">
 </div>

@@ -29,5 +29,7 @@ L'esercizio introduce la lettura di un valore con `scanf()`, l'esecuzione di un'
 
 <div class="oc-embed"
      data-path="C/Doppio-di-un-numero/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="7"
+     data-autorun="true">
 </div>

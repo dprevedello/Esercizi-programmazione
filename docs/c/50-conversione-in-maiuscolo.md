@@ -29,5 +29,7 @@ I caratteri che non sono lettere minuscole (cifre, spazi, maiuscole già present
 
 <div class="oc-embed"
      data-path="C/Conversione-in-maiuscolo/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="ciao"
+     data-autorun="true">
 </div>

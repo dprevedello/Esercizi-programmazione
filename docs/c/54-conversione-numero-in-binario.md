@@ -39,5 +39,7 @@ I resti nel vettore sono [1, 0, 1, 1]; stampati al contrario: **1101**.
 
 <div class="oc-embed"
      data-path="C/Conversione-numero-in-binario/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="13"
+     data-autorun="true">
 </div>

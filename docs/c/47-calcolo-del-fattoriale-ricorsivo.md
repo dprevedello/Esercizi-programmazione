@@ -35,5 +35,7 @@ Ad ogni chiamata ricorsiva n diminuisce di 1, avvicinandosi al caso base. Lo sta
 
 <div class="oc-embed"
      data-path="C/Calcolo-del-fattoriale-ricorsivo/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="6"
+     data-autorun="true">
 </div>

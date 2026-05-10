@@ -36,5 +36,7 @@ A differenza della versione iterativa, quella ricorsiva è più elegante ma meno
 
 <div class="oc-embed"
      data-path="C/Sequenza-di-Fibonacci-ricorsivo/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="10"
+     data-autorun="true">
 </div>

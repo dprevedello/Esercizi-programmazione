@@ -39,5 +39,7 @@ Il conteggio delle parole si basa sul numero di transizioni da "spazio" a "non s
 
 <div class="oc-embed"
      data-path="C/Statistiche-su-una-frase/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="Hello World 123\n"
+     data-autorun="true">
 </div>

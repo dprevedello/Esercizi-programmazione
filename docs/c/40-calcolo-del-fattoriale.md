@@ -36,5 +36,7 @@ Il calcolo si esegue con un ciclo `for` che moltiplica progressivamente i valori
 
 <div class="oc-embed"
      data-path="C/Calcolo-del-fattoriale/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="6"
+     data-autorun="true">
 </div>

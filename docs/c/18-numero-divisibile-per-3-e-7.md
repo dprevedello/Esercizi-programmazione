@@ -35,5 +35,7 @@ if (n % 21 == 0)
 
 <div class="oc-embed"
      data-path="C/Numero-divisibile-per-3-e-7/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="21"
+     data-autorun="true">
 </div>

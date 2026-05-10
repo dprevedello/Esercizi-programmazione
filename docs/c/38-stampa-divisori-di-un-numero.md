@@ -29,5 +29,7 @@ Un'ottimizzazione possibile, non obbligatoria, consiste nel cercare i divisori s
 
 <div class="oc-embed"
      data-path="C/Stampa-divisori-di-un-numero/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="24"
+     data-autorun="true">
 </div>

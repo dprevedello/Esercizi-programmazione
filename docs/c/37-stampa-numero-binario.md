@@ -37,5 +37,7 @@ Il programma mostra le divisioni successive per 2 e successivamente stampa il nu
 
 <div class="oc-embed"
      data-path="C/Stampa-numero-binario/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="13"
+     data-autorun="true">
 </div>

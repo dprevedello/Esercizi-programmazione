@@ -30,5 +30,6 @@ Un programma in C è composto almeno da:
 
 <div class="oc-embed"
      data-path="C/Hello-world/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-autorun="true">
 </div>

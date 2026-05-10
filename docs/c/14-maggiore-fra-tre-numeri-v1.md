@@ -27,5 +27,7 @@ In questa prima versione il codice usa esclusivamente `if-else` annidati, senza 
 
 <div class="oc-embed"
      data-path="C/Maggiore-fra-tre-numeri-v1/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="5\n3\n8"
+     data-autorun="true">
 </div>

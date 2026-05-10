@@ -25,5 +25,6 @@ Questo esercizio è una variante del precedente: il ciclo non parte da 1 ma da u
 
 <div class="oc-embed"
      data-path="C/Somma-numeri-da-10-a-20/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-autorun="true">
 </div>

@@ -33,5 +33,6 @@ Ogni termine della serie è \(\frac{1}{n!}\): invece di ricalcolare il fattorial
 
 <div class="oc-embed"
      data-path="C/Calcolo-numero-di-Nepero/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-autorun="true">
 </div>

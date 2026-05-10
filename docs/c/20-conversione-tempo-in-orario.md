@@ -31,5 +31,7 @@ Ad esempio, 3723 secondi corrispondono a 1 ora, 2 minuti e 3 secondi (01:02:03).
 
 <div class="oc-embed"
      data-path="C/Conversione-tempo-in-orario/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="3723"
+     data-autorun="true">
 </div>

@@ -30,5 +30,7 @@ Il metodo converge molto rapidamente: bastano poche iterazioni per ottenere un r
 
 <div class="oc-embed"
      data-path="C/Calcolo-radice-quadrata/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="25"
+     data-autorun="true">
 </div>

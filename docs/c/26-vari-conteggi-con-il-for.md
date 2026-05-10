@@ -32,5 +32,7 @@ Questo esercizio mostra come il ciclo `for` sia flessibile: può contare in avan
 
 <div class="oc-embed"
      data-path="C/Vari-conteggi-con-il-for/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-height="550"
+     data-autorun="true">
 </div>

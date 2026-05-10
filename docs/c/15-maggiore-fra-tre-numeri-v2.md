@@ -26,5 +26,7 @@ Questo approccio è più scalabile rispetto all'`if-else` annidato: se in futuro
 
 <div class="oc-embed"
      data-path="C/Maggiore-fra-tre-numeri-v2/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="5\n3\n8"
+     data-autorun="true">
 </div>

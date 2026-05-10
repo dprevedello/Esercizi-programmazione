@@ -30,5 +30,7 @@ Questo approccio è semplice da implementare ma può risultare lento per numeri 
 
 <div class="oc-embed"
      data-path="C/Calcolo-mcm-base/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="12\n8"
+     data-autorun="true">
 </div>

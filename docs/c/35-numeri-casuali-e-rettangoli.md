@@ -30,5 +30,6 @@ Per determinare se il rettangolo è pieno o vuoto, si usa la parità di R. Per d
 
 <div class="oc-embed"
      data-path="C/Numeri-casuali-e-rettangoli/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-autorun="true">
 </div>

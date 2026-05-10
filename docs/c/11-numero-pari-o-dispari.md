@@ -25,5 +25,7 @@ Un numero intero è **pari** se il resto della sua divisione per 2 è uguale a z
 
 <div class="oc-embed"
      data-path="C/Numero-pari-o-dispari/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="7"
+     data-autorun="true">
 </div>

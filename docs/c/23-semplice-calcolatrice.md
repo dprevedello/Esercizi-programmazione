@@ -25,5 +25,7 @@ L'utente inserisce due numeri e seleziona tramite menu l'operazione da eseguire.
 
 <div class="oc-embed"
      data-path="C/Semplice-calcolatrice/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="10\n3\n1"
+     data-autorun="true">
 </div>

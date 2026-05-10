@@ -29,5 +29,7 @@ In C la lunghezza di una stringa si ottiene con la funzione `strlen()` della lib
 
 <div class="oc-embed"
      data-path="C/Parola-palindroma/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="radar"
+     data-autorun="true">
 </div>

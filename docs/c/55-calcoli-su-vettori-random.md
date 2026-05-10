@@ -41,5 +41,8 @@ Questo esercizio unisce la generazione di dati casuali, la gestione di un menu c
 
 <div class="oc-embed"
      data-path="C/Calcoli-su-vettori-random/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="10\n1\n2\n3\n4\n8"
+     data-height="600"
+     data-autorun="true">
 </div>

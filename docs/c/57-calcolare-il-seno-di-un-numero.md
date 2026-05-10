@@ -39,5 +39,7 @@ Anche la serie di Taylor viene calcolata ricorsivamente.
 
 <div class="oc-embed"
      data-path="C/Calcolare-il-seno-di-un-numero/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="30\n10"
+     data-autorun="true">
 </div>

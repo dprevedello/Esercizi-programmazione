@@ -44,5 +44,7 @@ Lo stato `indefinito` è utile all'inizio dell'analisi, quando non è ancora pos
 
 <div class="oc-embed"
      data-path="C/Analisi-sequenza-di-numeri/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="5\n1\n2\n3\n4\n5"
+     data-autorun="true">
 </div>

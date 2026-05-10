@@ -40,5 +40,7 @@ Esempi:
 
 <div class="oc-embed"
      data-path="C/Test-anno-bisestile/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="2024"
+     data-autorun="true">
 </div>

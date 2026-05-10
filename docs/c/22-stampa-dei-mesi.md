@@ -25,5 +25,7 @@ Questo esercizio è un'applicazione classica del costrutto `switch-case`: a cias
 
 <div class="oc-embed"
      data-path="C/Stampa-dei-mesi/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="3"
+     data-autorun="true">
 </div>

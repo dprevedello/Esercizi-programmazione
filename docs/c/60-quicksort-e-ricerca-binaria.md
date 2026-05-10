@@ -36,5 +36,8 @@ La ricerca binaria è la stessa dell'esercizio precedente: il vettore deve esser
 
 <div class="oc-embed"
      data-path="C/Quicksort-e-ricerca-binaria/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="500"
+     data-height="600"
+     data-autorun="true">
 </div>

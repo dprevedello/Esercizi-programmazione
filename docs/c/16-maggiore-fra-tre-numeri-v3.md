@@ -37,5 +37,7 @@ int maggiore = (a > b) ? a : b;
 
 <div class="oc-embed"
      data-path="C/Maggiore-fra-tre-numeri-v3/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="5\n3\n8"
+     data-autorun="true">
 </div>

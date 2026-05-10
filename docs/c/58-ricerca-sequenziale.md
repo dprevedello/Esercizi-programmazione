@@ -25,5 +25,8 @@ La complessità nel caso peggiore è **O(n)**: si devono esaminare tutti gli n e
 
 <div class="oc-embed"
      data-path="C/Ricerca-sequenziale/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="500"
+     data-height="550"
+     data-autorun="true">
 </div>

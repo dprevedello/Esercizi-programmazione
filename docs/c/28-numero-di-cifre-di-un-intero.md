@@ -30,5 +30,7 @@ Ad esempio, il numero \(345\) ha 3 cifre decimali e, poiché \(345 = 101011001_2
 
 <div class="oc-embed"
      data-path="C/Numero-di-cifre-di-un-intero/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="345"
+     data-autorun="true">
 </div>

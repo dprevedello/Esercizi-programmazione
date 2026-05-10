@@ -27,5 +27,7 @@ La formattazione è importante: usando `printf` con una larghezza fissa (ad esem
 
 <div class="oc-embed"
      data-path="C/Tavola-pitagorica/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-height="550"
+     data-autorun="true">
 </div>

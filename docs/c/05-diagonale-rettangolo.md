@@ -31,5 +31,7 @@ $$b = \frac{A}{h}$$
 
 <div class="oc-embed"
      data-path="C/Diagonale-rettangolo/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="12\n3"
+     data-autorun="true">
 </div>

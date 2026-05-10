@@ -31,5 +31,7 @@ Questo esercizio introduce l'uso di `if` senza `else`: la struttura condizionale
 
 <div class="oc-embed"
      data-path="C/Numero-divisibile-per-5/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="15"
+     data-autorun="true">
 </div>

@@ -33,5 +33,7 @@ $$mcm(12, 8) = \frac{12 \cdot 8}{MCD(12, 8)} = \frac{96}{4} = 24$$
 
 <div class="oc-embed"
      data-path="C/Calcolo-mcm-Euclide/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="12\n8"
+     data-autorun="true">
 </div>

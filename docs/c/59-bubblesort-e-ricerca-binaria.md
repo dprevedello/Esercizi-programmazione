@@ -31,5 +31,8 @@ La ricerca binaria può essere implementata in modo **iterativo** (con un ciclo 
 
 <div class="oc-embed"
      data-path="C/Bubblesort-e-ricerca-binaria/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="500"
+     data-height="600"
+     data-autorun="true">
 </div>

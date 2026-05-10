@@ -33,5 +33,7 @@ Ad esempio: \(x^2 - 3x + 2 = 0\) ha due soluzioni, \(x^2 - 2x + 1 = 0\) ha una s
 
 <div class="oc-embed"
      data-path="C/Equazioni-di-secondo-grado/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="1\n-3\n2"
+     data-autorun="true">
 </div>

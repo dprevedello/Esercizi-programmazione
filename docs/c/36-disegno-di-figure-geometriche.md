@@ -60,5 +60,8 @@ Ogni figura richiede una logica diversa per decidere quale carattere stampare in
 
 <div class="oc-embed"
      data-path="C/Disegno-di-figure-geometriche/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="5"
+     data-height="550"
+     data-autorun="true">
 </div>

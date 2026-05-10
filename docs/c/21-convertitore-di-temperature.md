@@ -31,5 +31,7 @@ Lo zero assoluto corrisponde a \(-273{,}15\,°C\): al di sotto di questo valore 
 
 <div class="oc-embed"
      data-path="C/Convertitore-di-temperature/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="100"
+     data-autorun="true">
 </div>

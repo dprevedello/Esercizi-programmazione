@@ -31,5 +31,7 @@ Se la condizione è vera si calcola il triplo (`3 * n`), altrimenti si calcola l
 
 <div class="oc-embed"
      data-path="C/Numero-divisibile-per-2-o-3/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="6"
+     data-autorun="true">
 </div>

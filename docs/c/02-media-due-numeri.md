@@ -29,5 +29,7 @@ Il programma deve leggere i due valori tramite `scanf()`, calcolare la media e s
 
 <div class="oc-embed"
      data-path="C/Media-due-numeri/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="10\n20"
+     data-autorun="true">
 </div>

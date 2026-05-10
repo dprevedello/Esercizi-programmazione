@@ -33,5 +33,7 @@ Questa formula si ricava applicando il teorema di Pitagora per determinare l'alt
 
 <div class="oc-embed"
      data-path="C/Area-triangolo-equilatero/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="12"
+     data-autorun="true">
 </div>

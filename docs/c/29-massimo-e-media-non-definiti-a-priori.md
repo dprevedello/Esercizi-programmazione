@@ -26,5 +26,7 @@ Il massimo viene aggiornato a ogni iterazione confrontando il valore corrente co
 
 <div class="oc-embed"
      data-path="C/Massimo-e-media-non-definiti-a-priori/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="10\nN\n20\nN\n30\nS"
+     data-autorun="true">
 </div>

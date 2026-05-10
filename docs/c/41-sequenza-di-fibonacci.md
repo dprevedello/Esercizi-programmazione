@@ -31,5 +31,7 @@ Il calcolo iterativo richiede solo tre variabili: i due termini precedenti e que
 
 <div class="oc-embed"
      data-path="C/Sequenza-di-Fibonacci/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-stdin="10"
+     data-autorun="true">
 </div>
