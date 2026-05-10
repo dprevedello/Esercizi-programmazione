@@ -33,6 +33,43 @@
           mask-image: var(--md-admonition-icon--esercizio);
 }
 
+/* ── Titoli di sezione nella barra laterale ─────────────────── */
+
+.md-nav__item--section > .md-nav__link {
+  color: var(--md-primary-fg-color) !important;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-top: 0.6rem;
+  background-color: color-mix(in srgb, var(--md-primary-fg-color) 6%, transparent);
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+/* Freccia solo sulle sottosezioni (non sul titolo del linguaggio) */
+.md-nav__item--section .md-nav__item--section > .md-nav__link {
+  display: flex !important;
+  align-items: center;
+  gap: 0.3em;
+  font-size: 0.68rem;
+}
+
+.md-nav__item--section .md-nav__item--section > .md-nav__link::before {
+  content: "";
+  display: block;
+  flex-shrink: 0;
+  width: 0.75em;
+  height: 0.75em;
+  background-color: var(--md-primary-fg-color);
+  -webkit-mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M2.01 21L23 12 2.01 3 2 10l15 2-15 2z'/></svg>");
+          mask-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M2.01 21L23 12 2.01 3 2 10l15 2-15 2z'/></svg>");
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+          mask-size: contain;
+}
+
 /* ── Footer ─────────────────────────────────────────────────── */
 
 .md-footer-meta {
