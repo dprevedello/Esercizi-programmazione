@@ -15,7 +15,7 @@ Il sito è consultabile all'indirizzo:
 | `C/` | 60 | Linguaggio C — dagli esercizi base ai più avanzati |
 | `Database/` | — | SQL e algebra relazionale su database relazionali |
 | `HTML-CSS-Javascript/` | — | Pagine web, stili CSS e scripting lato client |
-| `Java/` | 31 | Programmazione orientata agli oggetti in Java — metodi statici, Javadoc, OOP, eccezioni, file |
+| `Java/` | 46 | Programmazione orientata agli oggetti in Java — metodi statici, Javadoc, OOP, eccezioni, file, thread, socket |
 | `PacketTracer/` | — | Reti con Cisco Packet Tracer |
 | `PHP/` | — | PHP lato server: variabili, form, sessioni |
 | `Python/` | — | Python dalla sintassi base a classi e file |
@@ -113,7 +113,7 @@ Java/
 4. Aggiorna la tabella riepilogativa in `docs/java/index.md`.
 
 Le sezioni tematiche Java attualmente disponibili sono:
-`Metodi statici` · `Javadoc` · `Creazione di oggetti basilari` · `ArrayList` · `HashMap` · `Ereditarietà` · `Interfacce e classi astratte` · `Eccezioni` · `File di testo e serializzazione` · `Esercizi avanzati`
+`Metodi statici` · `Javadoc` · `Creazione di oggetti basilari` · `ArrayList` · `HashMap` · `Ereditarietà` · `Interfacce e classi astratte` · `Eccezioni` · `File di testo e serializzazione` · `Esercizi avanzati` · `GUI` · `Thread` · `Socket`
 
 ### Blocco OneCompiler
 

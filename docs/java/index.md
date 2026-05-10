@@ -29,6 +29,8 @@ polimorfismo e interfacce.
     - Polimorfismo
 - Eccezioni: `try-catch-finally`
 - File: lettura e scrittura con `BufferedReader` / `BufferedWriter`
+- Thread: `Runnable`, `synchronized`, `wait`/`notifyAll`
+- Socket: TCP, HTTP, HTTPS
 
 ---
 
@@ -71,54 +73,79 @@ polimorfismo e interfacce.
 | 16 | [Film](16-film.md) | `ArrayList<Double>`, autoboxing, `isEmpty`, media con guardia | :material-circle-slice-4: Intermedio |
 | 17 | [LibroDiario](17-libro-diario.md) | `ArrayList<String>`, `add`, `get`, indice 1-based vs 0-based | :material-circle-slice-4: Intermedio |
 | 18 | [Gestione Playlist](18-gestione-playlist.md) | `add`, `remove`, `set`, `contains`, `indexOf`, `size`, `isEmpty` | :material-circle-slice-4: Intermedio |
+| 19 | [Torri di Hanoi](19-torri.md) | `Comparable`, `ArrayList<Disco>`, rendering testuale, stampa affiancata | :material-circle-slice-4: Intermedio |
+| 20 | [Casa d'aste](20-casa-aste.md) | `LocalDateTime`, `addAll`, flag booleani di stato, overloading `offri` | :material-circle: Avanzato |
 
 ### 5. HashMap :material-table-key:
 
 | # | Esercizio | Argomento | Difficoltà |
 |---|-----------|-----------|------------|
-| 19 | [Gestione Magazzino](19-gestione-magazzino.md) | `put`, `get`, `containsKey`, `remove`, `keySet`, `getOrDefault` | :material-circle-slice-4: Intermedio |
+| 21 | [Gestione Magazzino](21-gestione-magazzino.md) | `put`, `get`, `containsKey`, `remove`, `keySet`, `getOrDefault` | :material-circle-slice-4: Intermedio |
 
 ### 6. Ereditarietà :material-family-tree:
 
 | # | Esercizio | Argomento | Difficoltà |
 |---|-----------|-----------|------------|
-| 20 | [Gestione batteria di quesiti](20-gestione-batteria-quesiti.md) | `extends`, `super`, `@Override`, polimorfismo, `protected`, array polimorfico | :material-circle: Avanzato |
+| 22 | [Gestione batteria di quesiti](22-gestione-batteria-quesiti.md) | `extends`, `super`, `@Override`, polimorfismo, `protected`, array polimorfico | :material-circle: Avanzato |
+| 23 | [Zoo](23-zoo.md) | `LocalDate`, id statico auto-incrementato, `ArrayList<Animale>` polimorfico, CRUD | :material-circle-slice-4: Intermedio |
+| 24 | [Portamonete e Portafoglio](24-portamonete.md) | `@Override` con `super`, overloading `inserisci`, gerarchia a due livelli | :material-circle-outline: Base |
 
 ### 7. Interfacce e classi astratte :material-shape-plus:
 
 | # | Esercizio | Argomento | Difficoltà |
 |---|-----------|-----------|------------|
-| 21 | [Pianeta e Comparable](21-pianeta-e-comparable.md) | `Comparable<T>`, `compareTo`, `Collections.sort`, criterio derivato | :material-circle-slice-4: Intermedio |
-| 22 | [Sistema di pagamenti](22-sistema-pagamenti.md) | Interfaccia + classe astratta, array polimorfico, `substring` | :material-circle: Avanzato |
-| 23 | [Rete di sensori urbani](23-rete-sensori-urbani.md) | `protected`, Javadoc, cast a interfaccia, `HashMap` real-time | :material-circle: Avanzato |
-| 24 | [MediaBox](24-mediabox.md) | `instanceof`, casting, `try-catch`, `BufferedWriter`, `try-with-resources` | :material-circle: Avanzato |
+| 25 | [Pianeta e Comparable](25-pianeta-e-comparable.md) | `Comparable<T>`, `compareTo`, `Collections.sort`, criterio derivato | :material-circle-slice-4: Intermedio |
+| 26 | [Sistema di pagamenti](26-sistema-pagamenti.md) | Interfaccia + classe astratta, array polimorfico, `substring` | :material-circle: Avanzato |
+| 27 | [Rete di sensori urbani](27-rete-sensori-urbani.md) | `protected`, Javadoc, cast a interfaccia, `HashMap` real-time | :material-circle: Avanzato |
+| 28 | [MediaBox](28-mediabox.md) | `instanceof`, casting, `try-catch`, `BufferedWriter`, `try-with-resources` | :material-circle: Avanzato |
 
 ### 8. Eccezioni :material-alert-circle-outline:
 
 | # | Esercizio | Argomento | Difficoltà |
 |---|-----------|-----------|------------|
-| 25 | [Calcolatore radici quadrate](25-calcolatore-radici-quadrate.md) | Eccezione personalizzata, `throws`, `throw`, `InputMismatchException`, ciclo con `try-catch` | :material-circle-slice-4: Intermedio |
-| 26 | [Magazzino digitale](26-magazzino-digitale.md) | Due eccezioni controllate, `throws` multiplo, `catch` con `\|`, `HashMap<String, Articolo>` | :material-circle: Avanzato |
+| 29 | [Calcolatore radici quadrate](29-calcolatore-radici-quadrate.md) | Eccezione personalizzata, `throws`, `throw`, `InputMismatchException`, ciclo con `try-catch` | :material-circle-slice-4: Intermedio |
+| 30 | [Magazzino digitale](30-magazzino-digitale.md) | Due eccezioni controllate, `throws` multiplo, `catch` con `\|`, `HashMap<String, Articolo>` | :material-circle: Avanzato |
 
 ### 9. File di testo e serializzazione :material-file-code:
 
 | # | Esercizio | Argomento | Difficoltà |
 |---|-----------|-----------|------------|
-| 27 | [Elaborazione dati open](27-elaborazione-dati-open.md) | `BufferedReader`, `split`, filtro e aggregazione su CSV reale | :material-circle-slice-4: Intermedio |
-| 28 | [Analisi statistica CSV](28-analisi-statistica-csv.md) | POJO, `CsvReader`, `HashMap`, menù con 6 statistiche, `String.format` | :material-circle: Avanzato |
-| 29 | [Aerodromo](29-aerodromo.md) | `Serializable`, `ObjectOutputStream`/`ObjectInputStream`, interfaccia `CMP`, `instanceof` | :material-circle: Avanzato |
+| 31 | [Elaborazione dati open](31-elaborazione-dati-open.md) | `BufferedReader`, `split`, filtro e aggregazione su CSV reale | :material-circle-slice-4: Intermedio |
+| 32 | [Analisi statistica CSV](32-analisi-statistica-csv.md) | POJO, `CsvReader`, `HashMap`, menù con 6 statistiche, `String.format` | :material-circle: Avanzato |
+| 33 | [Aerodromo](33-aerodromo.md) | `Serializable`, `ObjectOutputStream`/`ObjectInputStream`, interfaccia `CMP`, `instanceof` | :material-circle: Avanzato |
 
 ### 10. Esercizi avanzati :material-rocket-launch:
 
 | # | Esercizio | Argomento | Difficoltà |
 |---|-----------|-----------|------------|
-| 30 | [Generatore e risolutore di labirinti](30-generatore-labirinti.md) | Recursive Backtracker, DFS ricorsivo, `ArrayList<ArrayList<Cella>>`, seed | :material-circle: Avanzato |
+| 34 | [Generatore e risolutore di labirinti](34-generatore-labirinti.md) | Recursive Backtracker, DFS ricorsivo, `ArrayList<ArrayList<Cella>>`, seed | :material-circle: Avanzato |
 
 ### 11. GUI :material-monitor:
 
 | # | Esercizio | Argomento | Difficoltà |
 |---|-----------|-----------|------------|
-| 31 | [Quiz Ambiente — Giornata della Terra](31-quiz-ambiente.md) | Swing, `JFrame`, `JRadioButton`, `ButtonGroup`, `JOptionPane`, `SwingUtilities` | :material-circle: Avanzato |
+| 35 | [Quiz Ambiente — Giornata della Terra](35-quiz-ambiente.md) | Swing, `JFrame`, `JRadioButton`, `ButtonGroup`, `JOptionPane`, `SwingUtilities` | :material-circle: Avanzato |
+| 36 | [Button Counter](36-button-counter.md) | `JFrame`, `JLabel`, `JButton`, `ActionListener`, `BoxLayout` | :material-circle-outline: Base |
+| 37 | [Sposta Quadrato](37-sposta-quadrato.md) | `paintComponent`, `Graphics`, `KeyAdapter`, `GridLayout`, `repaint` | :material-circle-slice-4: Intermedio |
+| 38 | [Chrono GUI](38-chrono-gui.md) | `JLabel` + `Runnable`, `synchronized`, `wait`/`notifyAll`, `WindowAdapter` | :material-circle: Avanzato |
+| 39 | [Calcolatrice](39-calcolatrice.md) | `JFrame` implementa `ActionListener`, `GridLayout`, regex in `actionPerformed` | :material-circle-slice-4: Intermedio |
+
+### 12. Thread :material-cog-clockwise:
+
+| # | Esercizio | Argomento | Difficoltà |
+|---|-----------|-----------|------------|
+| 40 | [Test Thread](40-test-thread.md) | `extends Thread`, `implements Runnable`, classe anonima, lambda, Singleton `synchronized` | :material-circle-slice-4: Intermedio |
+| 41 | [Razzo](41-razzo.md) | `Thread.sleep`, `join()`, barra di avanzamento, output concorrente | :material-circle-slice-4: Intermedio |
+
+### 13. Socket :material-lan-connect:
+
+| # | Esercizio | Argomento | Difficoltà |
+|---|-----------|-----------|------------|
+| 42 | [Echo Socket](42-echo-socket.md) | `ServerSocket`, `Socket`, `BufferedReader`, `PrintWriter`, protocollo testuale | :material-circle-outline: Base |
+| 43 | [HTTP Client](43-http-client.md) | `URI`, socket su porta 80, richiesta HTTP/1.1 manuale | :material-circle-slice-4: Intermedio |
+| 44 | [HTTPS Client](44-https-client.md) | `SSLSocket`, `SSLSocketFactory`, TLS 1.2/1.3, porta 443 | :material-circle-slice-4: Intermedio |
+| 45 | [Quiz Capitali](45-capitali.md) | Server multi-client con thread, `HashMap` capitali, protocollo con aiuto | :material-circle: Avanzato |
+| 46 | [Casello Autostradale](46-casello-autostradale.md) | `volatile`, thread daemon, `synchronized`, timer auto-terminazione, report ASCII | :material-circle: Avanzato |
 
 ---
 
@@ -133,18 +160,8 @@ java NomeClasse
 ```
 
 !!! note "Java Development Kit (JDK)"
-    Per eseguire Java in locale devi installare il **JDK** (versione **17 LTS** o superiore).
-
-    **Opzione consigliata — Oracle JDK**
-    Scaricalo dal sito ufficiale Oracle: [oracle.com/java/technologies/downloads](https://www.oracle.com/java/technologies/downloads/).
-    È la distribuzione di riferimento, sviluppata e mantenuta direttamente da Oracle.
-    Gratuita per uso personale e didattico.
-
-    **Alternativa gratuita e open source — Eclipse Temurin (Adoptium)**
-    Disponibile su [adoptium.net](https://adoptium.net).
-    È una build di OpenJDK certificata, completamente gratuita e senza restrizioni di licenza.
-    Ideale se si preferisce una distribuzione 100% open source o si lavora in ambienti aziendali
-    dove la licenza Oracle potrebbe essere un vincolo.
+    Per eseguire Java in locale devi installare il **JDK**.
+    Scaricalo da [adoptium.net](https://adoptium.net) (versione 17 LTS o superiore).
 
 ---
 

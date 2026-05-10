@@ -227,38 +227,55 @@ nav:
     - Javadoc:
       - "Generatore Codice Fiscale":    java/07-generatore-codice-fiscale.md
     - Creazione di oggetti basilari:
-      - "Rettangolo":                    java/08-rettangolo.md
-      - "Studente":                      java/09-studente.md
-      - "ContoBancario":                 java/10-conto-bancario.md
-      - "Prodotto":                      java/11-prodotto.md
-      - "Libro":                         java/12-libro.md
-      - "Automobile":                    java/13-automobile.md
-      - "Cerchio":                       java/14-cerchio.md
-      - "Temperatura":                   java/15-temperatura.md
+      - "Rettangolo":                   java/08-rettangolo.md
+      - "Studente":                     java/09-studente.md
+      - "ContoBancario":                java/10-conto-bancario.md
+      - "Prodotto":                     java/11-prodotto.md
+      - "Libro":                        java/12-libro.md
+      - "Automobile":                   java/13-automobile.md
+      - "Cerchio":                      java/14-cerchio.md
+      - "Temperatura":                  java/15-temperatura.md
     - ArrayList:
-      - "Film":                          java/16-film.md
-      - "LibroDiario":                   java/17-libro-diario.md
-      - "Gestione Playlist":             java/18-gestione-playlist.md
+      - "Film":                         java/16-film.md
+      - "LibroDiario":                  java/17-libro-diario.md
+      - "Gestione Playlist":            java/18-gestione-playlist.md
+      - "Torri di Hanoi":               java/19-torri.md
+      - "Casa d'aste":                  java/20-casa-aste.md
     - HashMap:
-      - "Gestione Magazzino":            java/19-gestione-magazzino.md
+      - "Gestione Magazzino":           java/21-gestione-magazzino.md
     - Ereditarietà:
-      - "Batteria di quesiti":           java/20-gestione-batteria-quesiti.md
+      - "Batteria di quesiti":          java/22-gestione-batteria-quesiti.md
+      - "Zoo":                          java/23-zoo.md
+      - "Portamonete e Portafoglio":    java/24-portamonete.md
     - Interfacce e classi astratte:
-      - "Pianeta e Comparable":          java/21-pianeta-e-comparable.md
-      - "Sistema di pagamenti":          java/22-sistema-pagamenti.md
-      - "Rete di sensori urbani":        java/23-rete-sensori-urbani.md
-      - "MediaBox":                      java/24-mediabox.md
+      - "Pianeta e Comparable":         java/25-pianeta-e-comparable.md
+      - "Sistema di pagamenti":         java/26-sistema-pagamenti.md
+      - "Rete di sensori urbani":       java/27-rete-sensori-urbani.md
+      - "MediaBox":                     java/28-mediabox.md
     - Eccezioni:
-      - "Calcolatore radici quadrate":   java/25-calcolatore-radici-quadrate.md
-      - "Magazzino digitale":            java/26-magazzino-digitale.md
+      - "Calcolatore radici quadrate":  java/29-calcolatore-radici-quadrate.md
+      - "Magazzino digitale":           java/30-magazzino-digitale.md
     - File di testo e serializzazione:
-      - "Elaborazione dati open":        java/27-elaborazione-dati-open.md
-      - "Analisi statistica CSV":        java/28-analisi-statistica-csv.md
-      - "Aerodromo":                     java/29-aerodromo.md
+      - "Elaborazione dati open":       java/31-elaborazione-dati-open.md
+      - "Analisi statistica CSV":       java/32-analisi-statistica-csv.md
+      - "Aerodromo":                    java/33-aerodromo.md
     - Esercizi avanzati:
-      - "Generatore labirinti":          java/30-generatore-labirinti.md
+      - "Generatore labirinti":         java/34-generatore-labirinti.md
     - GUI:
-      - "Quiz Ambiente":                 java/31-quiz-ambiente.md
+      - "Quiz Ambiente":                java/35-quiz-ambiente.md
+      - "Button Counter":               java/36-button-counter.md
+      - "Sposta Quadrato":              java/37-sposta-quadrato.md
+      - "Chrono GUI":                   java/38-chrono-gui.md
+      - "Calcolatrice":                 java/39-calcolatrice.md
+    - Thread:
+      - "Test Thread":                  java/40-test-thread.md
+      - "Razzo":                        java/41-razzo.md
+    - Socket:
+      - "Echo Socket":                  java/42-echo-socket.md
+      - "HTTP Client":                  java/43-http-client.md
+      - "HTTPS Client":                 java/44-https-client.md
+      - "Quiz Capitali":                java/45-capitali.md
+      - "Casello Autostradale":         java/46-casello-autostradale.md
 
   - PacketTracer:
     - packettracer/index.md
