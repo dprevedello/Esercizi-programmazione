@@ -2,18 +2,18 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class EsercizioStringhe {
+	private static Scanner in = new Scanner(System.in);
+	
 	public static void main(String[] args) {
 		mostraMenu();
 	}
 
 	public static void mostraMenu() {
 	    String stringa1 = null, stringa2 = null;
-
-		Scanner in = new Scanner(System.in);
 		int scelta;
 
 		do {
-            System.out.println("Menu");
+			System.out.println("Menu");
 			System.out.println("1) Inserimento stringhe");
 			System.out.println("2) Pettine");
 			System.out.println("3) Caratteri diversi");
@@ -57,7 +57,6 @@ public class EsercizioStringhe {
 	}
 
 	public static String[] inserimento() {
-		Scanner in = new Scanner(System.in);
 		System.out.print("Inserisci la prima stringa: ");
 		String stringa1 = in.nextLine();
 		System.out.print("Inserisci la seconda stringa: ");

@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
 public class Menu {
+	private static Scanner in = new Scanner(System.in);
+	
 	public static void main(String[] args) {
 		visualizzaMenu();
 	}
 
 	public static void visualizzaMenu() {
-		Scanner in = new Scanner(System.in);
-
 		int scelta;
 		do {
 			System.out.println("\n--- MENU ---");
@@ -35,7 +35,6 @@ public class Menu {
 	}
 
 	public static void somma() {
-		Scanner in = new Scanner(System.in);
 		System.out.print("Inserisci il primo numero: ");
 		int a = in.nextInt();
 		System.out.print("Inserisci il secondo numero: ");
@@ -44,8 +43,6 @@ public class Menu {
 	}
 
 	public static void contaVocali() {
-		Scanner in = new Scanner(System.in);
-
 		System.out.print("Inserisci una frase: ");
 		String testo = in.nextLine();
 
