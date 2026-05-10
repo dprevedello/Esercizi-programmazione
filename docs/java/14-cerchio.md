@@ -64,5 +64,6 @@ return "area: " + String.format("%.2f", calcolaArea());
 
 <div class="oc-embed"
      data-path="Java/Cerchio/Cerchio.java"
-     data-lang="java">
+     data-lang="java"
+     data-autorun="true">
 </div>

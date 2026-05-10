@@ -55,5 +55,6 @@ public Rettangolo() {
 
 <div class="oc-embed"
      data-path="Java/Rettangolo/Rettangolo.java"
-     data-lang="java">
+     data-lang="java"
+     data-autorun="true">
 </div>

@@ -116,5 +116,8 @@ java MainMediaBox
 
 <div class="oc-embed"
      data-path="Java/MediaBox/MainMediaBox.java; Java/MediaBox/Contenuto.java; Java/MediaBox/Valutabile.java; Java/MediaBox/Film.java; Java/MediaBox/SerieTV.java; Java/MediaBox/Podcast.java; Java/MediaBox/Audiolibro.java"
-     data-lang="java">
+     data-lang="java"
+     data-stdin="1\n1\nInception\nNolan\n2010\n148\n1\n2\nBreaking Bad\nGilligan\n2008\n5\n30\n2\n3\nInception\n4\nBreaking Bad\n6\n0\n"
+     data-height="650"
+     data-autorun="true">
 </div>

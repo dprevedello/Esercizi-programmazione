@@ -123,5 +123,7 @@ java MazeGen 4 8 42
 
 <div class="oc-embed"
      data-path="Java/Generatore-labirinti/MazeGen.java; Java/Generatore-labirinti/Labirinto.java; Java/Generatore-labirinti/Cella.java; Java/Generatore-labirinti/Coordinate.java"
-     data-lang="java">
+     data-lang="java"
+     data-height="650"
+     data-autorun="true">
 </div>

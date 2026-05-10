@@ -62,5 +62,6 @@ public String toString() {
 
 <div class="oc-embed"
      data-path="Java/Temperatura/Temperatura.java"
-     data-lang="java">
+     data-lang="java"
+     data-autorun="true">
 </div>

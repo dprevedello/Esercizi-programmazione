@@ -72,5 +72,8 @@ L'ordine di iterazione di `HashMap` non è garantito: se serve un ordine alfabet
 
 <div class="oc-embed"
      data-path="Java/Gestione-magazzino/Magazzino.java"
-     data-lang="java">
+     data-lang="java"
+     data-stdin="1\nTV123\n10\n1\nPC456\n5\n6\n7\n0\n"
+     data-height="550"
+     data-autorun="true">
 </div>

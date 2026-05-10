@@ -93,5 +93,7 @@ java MainSensori
 
 <div class="oc-embed"
      data-path="Java/Rete-sensori-urbani/MainSensori.java; Java/Rete-sensori-urbani/SensoreUrbano.java; Java/Rete-sensori-urbani/Aggiornabile.java; Java/Rete-sensori-urbani/SensoreTraffico.java; Java/Rete-sensori-urbani/SensoreQualitaAria.java; Java/Rete-sensori-urbani/SensoreRumore.java"
-     data-lang="java">
+     data-lang="java"
+     data-height="650"
+     data-autorun="true">
 </div>

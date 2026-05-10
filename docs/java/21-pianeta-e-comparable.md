@@ -61,5 +61,6 @@ Collections.sort(pianeti);   // usa il compareTo di Pianeta
 
 <div class="oc-embed"
      data-path="Java/Pianeta-e-comparable/Pianeta.java"
-     data-lang="java">
+     data-lang="java"
+     data-autorun="true">
 </div>

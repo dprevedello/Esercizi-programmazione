@@ -12,7 +12,7 @@ public class MazeGen {
     public static void main(String[] args) {
         if (args.length < 2) {
             System.out.println("Utilizzo: java MazeGen <righe> <colonne> [seed]");
-            return;
+            args = new String[] {"5", "5"};
         }
 
         int righe, colonne;

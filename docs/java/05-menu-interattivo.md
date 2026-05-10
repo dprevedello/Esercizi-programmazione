@@ -32,5 +32,7 @@ in.nextLine(); // consuma il newline residuo
 
 <div class="oc-embed"
      data-path="Java/Menu-interattivo/Menu.java"
-     data-lang="java">
+     data-lang="java"
+     data-stdin="1\n10\n5\n2\nCiao Mondo\n3\n"
+     data-autorun="true">
 </div>

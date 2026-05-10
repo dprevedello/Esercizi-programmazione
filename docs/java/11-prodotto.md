@@ -49,5 +49,6 @@ public void decrementaQuantita(int n) {
 
 <div class="oc-embed"
      data-path="Java/Prodotto/Prodotto.java"
-     data-lang="java">
+     data-lang="java"
+     data-autorun="true">
 </div>

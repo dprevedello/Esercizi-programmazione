@@ -97,5 +97,8 @@ Somma di tutti i valori → `somma % 26` → lettera corrispondente.
 
 <div class="oc-embed"
      data-path="Java/Generatore-codice-fiscale/CodiceFiscale.java"
-     data-lang="java">
+     data-lang="java"
+     data-stdin="Rossi\nMario\n15/04/1990\nM\nMilano"
+     data-height="600"
+     data-autorun="true">
 </div>

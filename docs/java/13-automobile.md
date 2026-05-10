@@ -60,5 +60,6 @@ public Automobile(String marca, String modello) {
 
 <div class="oc-embed"
      data-path="Java/Automobile/Automobile.java"
-     data-lang="java">
+     data-lang="java"
+     data-autorun="true">
 </div>

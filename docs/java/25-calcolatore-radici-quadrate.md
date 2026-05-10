@@ -87,5 +87,8 @@ Il `in.nextLine()` nel `catch` di `InputMismatchException` è essenziale: quando
 
 <div class="oc-embed"
      data-path="Java/Calcolatore-radici-quadrate/CalcolatoreRadici.java; Java/Calcolatore-radici-quadrate/NumeroNegativoException.java"
-     data-lang="java">
+     data-lang="java"
+     data-stdin="25"
+     data-height="550"
+     data-autorun="true">
 </div>

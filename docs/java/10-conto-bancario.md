@@ -56,5 +56,6 @@ Questo è il vantaggio dell'incapsulamento: le regole vivono nella classe e non 
 
 <div class="oc-embed"
      data-path="Java/ContoBancario/ContoBancario.java"
-     data-lang="java">
+     data-lang="java"
+     data-autorun="true">
 </div>

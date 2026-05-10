@@ -88,5 +88,7 @@ numeroCarta.substring(numeroCarta.length() - 4)
 
 <div class="oc-embed"
      data-path="Java/Sistema-pagamenti/MainPagamenti.java; Java/Sistema-pagamenti/Pagamento.java; Java/Sistema-pagamenti/MetodoDiPagamento.java; Java/Sistema-pagamenti/PagamentoCartaDiCredito.java; Java/Sistema-pagamenti/PagamentoPayPal.java; Java/Sistema-pagamenti/PagamentoBonifico.java"
-     data-lang="java">
+     data-lang="java"
+     data-height="650"
+     data-autorun="true">
 </div>

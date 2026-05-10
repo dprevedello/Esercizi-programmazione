@@ -119,5 +119,8 @@ java MainMagazzino
 
 <div class="oc-embed"
      data-path="Java/Magazzino-digitale/MainMagazzino.java; Java/Magazzino-digitale/Magazzino.java; Java/Magazzino-digitale/Articolo.java; Java/Magazzino-digitale/ArticoloInesistenteException.java; Java/Magazzino-digitale/StockInsufficienteException.java"
-     data-lang="java">
+     data-lang="java"
+     data-stdin="1\nLAP001\nLaptop\n10\n999.99\n1\nMON002\nMonitor\n5\n299.99\n4\n0\n"
+     data-height="600"
+     data-autorun="true">
 </div>

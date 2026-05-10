@@ -64,5 +64,8 @@ Il pattern `in.nextInt(); in.nextLine();` compare più volte: dopo aver letto un
 
 <div class="oc-embed"
      data-path="Java/Gestione-playlist/PlaylistMusicale.java"
-     data-lang="java">
+     data-lang="java"
+     data-stdin="1\nBohemian Rhapsody\n1\nHotel California\n1\nImagine\n7\n5\nImagine\n0\n"
+     data-height="550"
+     data-autorun="true">
 </div>

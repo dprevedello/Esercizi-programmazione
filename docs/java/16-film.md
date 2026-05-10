@@ -63,5 +63,6 @@ public double getValutazioneMedia() {
 
 <div class="oc-embed"
      data-path="Java/Film/Film.java"
-     data-lang="java">
+     data-lang="java"
+     data-autorun="true">
 </div>

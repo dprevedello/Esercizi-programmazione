@@ -119,5 +119,6 @@ I file da compilare insieme sono cinque:
 
 <div class="oc-embed"
      data-path="Java/Gestione-batteria-quesiti/Test.java;Java/Gestione-batteria-quesiti/Quesito.java; Java/Gestione-batteria-quesiti/QuesitoSiNo.java; Java/Gestione-batteria-quesiti/QuesitoNumerico.java; Java/Gestione-batteria-quesiti/QuesitoMultiplo.java"
-     data-lang="java">
+     data-lang="java"
+     data-height="600">
 </div>

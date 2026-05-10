@@ -59,5 +59,6 @@ Le virgolette all'interno della stringa si ottengono con la sequenza di escape `
 
 <div class="oc-embed"
      data-path="Java/Libro/Libro.java"
-     data-lang="java">
+     data-lang="java"
+     data-autorun="true">
 </div>

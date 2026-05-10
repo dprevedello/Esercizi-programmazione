@@ -38,5 +38,7 @@ public static void stampaArray(int[] array) { ... }
 
 <div class="oc-embed"
      data-path="Java/Stampa-di-un-array/StampaArray.java"
-     data-lang="java">
+     data-lang="java"
+     data-stdin="10\n20\n30\n40\n50"
+     data-autorun="true">
 </div>

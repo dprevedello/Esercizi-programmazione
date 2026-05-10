@@ -120,5 +120,8 @@ Al termine, il file `aerodromo.ser` viene creato nella cartella corrente. Alla s
 
 <div class="oc-embed"
      data-path="Java/Aerodromo/MainAerodromo.java; Java/Aerodromo/Aeromobile.java; Java/Aerodromo/CMP.java; Java/Aerodromo/Aliante.java; Java/Aerodromo/Aereomotore.java"
-     data-lang="java">
+     data-lang="java"
+     data-stdin="1\nI-ALFA\n35\n1\nI-BETA\n28\n2\nI-GAMMA\n150.5\n3\n4\n0\n"
+     data-height="600"
+     data-autorun="true">
 </div>

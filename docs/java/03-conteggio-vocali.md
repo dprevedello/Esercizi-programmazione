@@ -30,5 +30,7 @@ Per gestire sia maiuscole sia minuscole si costruisce una stringa di riferimento
 
 <div class="oc-embed"
      data-path="Java/Conteggio-vocali/ContaVocali.java"
-     data-lang="java">
+     data-lang="java"
+     data-stdin="Ciao Mondo"
+     data-autorun="true">
 </div>

@@ -64,5 +64,6 @@ public void aggiornaMedia(double nuovoVoto) {
 
 <div class="oc-embed"
      data-path="Java/Studente/Studente.java"
-     data-lang="java">
+     data-lang="java"
+     data-autorun="true">
 </div>

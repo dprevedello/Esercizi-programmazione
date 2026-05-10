@@ -85,19 +85,19 @@ private static List<Domanda> selezionaCasuali(List<Domanda> sorgente, int n) {
 La finestra è divisa in tre aree:
 
 ```
-┌─────────────────────────────────────────┐  ← NORTH: header blu (titolo + progresso)
-│ Quiz Ambiente            Domanda 3 di 10│
-├─────────────────────────────────────────┤
-│   ┌─────────────────────────────────┐   │  ← CENTER: card bianca con ombra
-│   │ Testo della domanda...          │   │
-│   │ ○ A) risposta uno               │   │
-│   │ ○ B) risposta due               │   │
-│   │ ○ C) risposta tre               │   │
-│   │ ○ D) risposta quattro           │   │
-│   └─────────────────────────────────┘   │
-├─────────────────────────────────────────┤
-│                   [ Conferma risposta ] │  ← SOUTH: pulsante verde
-└─────────────────────────────────────────┘
++-----------------------------------------+  <- NORTH: header blu (titolo + progresso)
+| Quiz Ambiente            Domanda 3 di 10|
++-----------------------------------------+
+|   +---------------------------------+   |  <- CENTER: card bianca con ombra
+|   | Testo della domanda...          |   |
+|   | o A) risposta uno               |   |
+|   | o B) risposta due               |   |
+|   | o C) risposta tre               |   |
+|   | o D) risposta quattro           |   |
+|   +---------------------------------+   |
++-----------------------------------------+
+|                   [ Conferma risposta ] |  <- SOUTH: pulsante verde
++-----------------------------------------+
 ```
 
 I colori sono definiti come costanti di classe per coerenza e facilità di modifica:

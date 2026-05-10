@@ -8,10 +8,7 @@ import java.util.Scanner;
  * data di nascita, sesso e comune di nascita, applicando
  * le principali regole di composizione ufficiali.</p>
  *
- * <p>Riferimento:
- * <a href="https://it.wikipedia.org/wiki/Codice_fiscale">Wikipedia – Codice fiscale</a></p>
- *
- * @author Soluzione didattica
+ * @author Prof. Prevedello
  * @version 1.0
  */
 public class CodiceFiscale {
@@ -281,7 +278,7 @@ public class CodiceFiscale {
 
         System.out.println("\nCF: " + cf);
 
-        // Dettaglio (utile per il debug didattico)
+        // Dettaglio (utile per il debug)
         System.out.println("\n--- Dettaglio ---");
         System.out.println("Cognome   : " + codiceCognome);
         System.out.println("Nome      : " + codiceNomeP);

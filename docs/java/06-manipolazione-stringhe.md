@@ -31,5 +31,8 @@ L'esercizio combina diversi concetti:
 
 <div class="oc-embed"
      data-path="Java/Manipolazione-stringhe/EsercizioStringhe.java"
-     data-lang="java">
+     data-lang="java"
+     data-stdin="1\nciao\nmondo\n2\n3\n4\n5\n"
+	 data-autorun="true"
+     data-height="550">
 </div>

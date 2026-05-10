@@ -33,5 +33,7 @@ int n = in.nextInt();
 
 <div class="oc-embed"
      data-path="Java/Somma-di-due-numeri/SommaNumeri.java"
-     data-lang="java">
+     data-lang="java"
+     data-stdin="5\n3"
+     data-autorun="true">
 </div>
