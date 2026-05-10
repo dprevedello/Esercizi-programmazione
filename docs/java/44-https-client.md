@@ -73,12 +73,6 @@ while ((response = input.readLine()) != null)
 --8<-- "Java/HTTPS-client/HTTPSClient.java"
 ```
 
-<div class="oc-embed"
-     data-lang="java"
-     data-path="Java/HTTPS-client/HTTPSClient.java"
-	 data-height="550"
-	 data-autorun="true">
-</div>
-
-!!! info "Connessione Internet richiesta"
-    Il programma si connette a `it.wttr.in/Gallarate` (previsioni meteo in formato testo).
+!!! warning "Esecuzione in locale"
+    Questo esercizio apre una connessione TLS verso un host esterno.
+    Eseguirlo in locale con JDK installato

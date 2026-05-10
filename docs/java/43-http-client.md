@@ -77,12 +77,6 @@ while ((response = in.readLine()) != null)
 --8<-- "Java/HTTP-client/HTTPClient.java"
 ```
 
-<div class="oc-embed"
-     data-lang="java"
-     data-path="Java/HTTP-client/HTTPClient.java"
-	 data-height="550"
-	 data-autorun="true">
-</div>
-
-!!! info "Connessione Internet richiesta"
-    Il programma richiede accesso a Internet per connettersi a `www.httpforever.com`.
+!!! warning "Esecuzione in locale"
+    Questo esercizio apre una connessione TCP verso un host esterno.
+    Eseguirlo in locale con JDK installato
