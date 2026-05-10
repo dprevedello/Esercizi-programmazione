@@ -24,11 +24,15 @@ puoi scrivere e lanciare il codice senza installare nulla sul computer.
 
 ### Come funziona
 
-1. Il riquadro mostra un editor con il codice dell'esercizio già caricato.
-2. Clicca sul pulsante **▶ Prova online** per eseguirlo.
-3. L'output appare nella parte inferiore dela pagina.
-4. Puoi modificare il codice liberamente: le modifiche non vengono salvate
-   e non influenzano gli altri studenti.
+1. Clicca su **▶ Prova online** per aprire l'editor con il codice già caricato da GitHub.
+2. Usa la barra dei pulsanti sopra all'editor per controllare l'esecuzione:
+   - **▶ Esegui** — compila ed esegue il codice.
+   - **↺ Reimposta** — ripristina il codice originale, scartando le modifiche.
+   - **✕ Chiudi** — chiude l'editor e torna alla pagina.
+3. L'output appare nel pannello **Output** a destra dell'editor.
+4. Se l'esercizio richiede dati in input, trovi i valori di esempio precaricati nel campo **STDIN**.
+5. Puoi modificare sia il codice sia i valori di input liberamente:
+   le modifiche non vengono salvate e non influenzano gli altri studenti.
 
 !!! warning "Attenzione"
     OneCompiler richiede una **connessione a internet**.
@@ -109,9 +113,10 @@ clicca su **Code → Download ZIP**.
 ## Domande frequenti
 
 ??? question "Il codice non funziona in OneCompiler — cosa faccio?"
-    Controlla che il linguaggio selezionato in OneCompiler corrisponda
-    a quello dell'esercizio. Se il problema persiste, prova a eseguire
-    il codice in locale o chiedi al tuo insegnante.
+    Prima di tutto clicca **↺ Reimposta** per ricaricare il codice originale.
+    Se il problema persiste, controlla i valori nel campo **STDIN** (alcuni esercizi
+    richiedono dati di input specifici). In alternativa, esegui il codice in locale
+    o chiedi al tuo insegnante.
 
 ??? question "Posso salvare le mie soluzioni su OneCompiler?"
     Sì: crea un account gratuito su [onecompiler.com](https://onecompiler.com)

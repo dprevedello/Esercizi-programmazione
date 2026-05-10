@@ -133,8 +133,18 @@ java NomeClasse
 ```
 
 !!! note "Java Development Kit (JDK)"
-    Per eseguire Java in locale devi installare il **JDK**.
-    Scaricalo da [adoptium.net](https://adoptium.net) (versione 17 LTS o superiore).
+    Per eseguire Java in locale devi installare il **JDK** (versione **17 LTS** o superiore).
+
+    **Opzione consigliata — Oracle JDK**
+    Scaricalo dal sito ufficiale Oracle: [oracle.com/java/technologies/downloads](https://www.oracle.com/java/technologies/downloads/).
+    È la distribuzione di riferimento, sviluppata e mantenuta direttamente da Oracle.
+    Gratuita per uso personale e didattico.
+
+    **Alternativa gratuita e open source — Eclipse Temurin (Adoptium)**
+    Disponibile su [adoptium.net](https://adoptium.net).
+    È una build di OpenJDK certificata, completamente gratuita e senza restrizioni di licenza.
+    Ideale se si preferisce una distribuzione 100% open source o si lavora in ambienti aziendali
+    dove la licenza Oracle potrebbe essere un vincolo.
 
 ---
 

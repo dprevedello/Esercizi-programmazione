@@ -117,20 +117,58 @@ Le sezioni tematiche Java attualmente disponibili sono:
 
 ### Blocco OneCompiler
 
-Per ogni esercizio si può incorporare l'editor interattivo nella pagina, inserendo
-il codice html e sostituendo i segnaposto:
+Per ogni esercizio si può incorporare l'editor interattivo nella pagina tramite un `<div>` con classe `oc-embed`.
+Il codice viene caricato automaticamente da GitHub al primo clic, senza necessità di aggiornarlo manualmente.
 
-| Segnaposto | Valore |
-|---|---|
-| `data-lang` | `c`, `python`, `java`, `php`, `bash` |
-| `data-path` | Titolo mostrato nell'intestazione |
+#### Attributi disponibili
 
-Esempio di codice da inserire:
+| Attributo | Obbligatorio | Valore | Default |
+|---|---|---|---|
+| `data-lang` | ✅ | `c`, `java`, `python`, `php`, `bash` | `c` |
+| `data-path` | ✅ | Percorso del file nel repo (es. `Java/Somma-di-due-numeri/SommaNumeri.java`). Più file separati da `;` | — |
+| `data-stdin` | ✗ | Input precaricato nel campo STDIN. Usa `\n` per separare le righe (es. `1\n2\n0`) | stringa vuota |
+| `data-height` | ✗ | Altezza in pixel dell'editor | `500` |
+| `data-autorun` | ✗ | `true` per eseguire il codice automaticamente al caricamento | `false` |
+
+#### Esempi
+
+Esercizio base (singolo file):
 
 ```html
 <div class="oc-embed"
-     data-path="C/Hello-world/main.c"
-     data-lang="c">
+     data-lang="c"
+     data-path="C/Hello-world/main.c">
+</div>
+```
+
+Esercizio con più file Java:
+
+```html
+<div class="oc-embed"
+     data-lang="java"
+     data-path="Java/Magazzino-digitale/MainMagazzino.java;Java/Magazzino-digitale/Magazzino.java;Java/Magazzino-digitale/Articolo.java"
+     data-height="600">
+</div>
+```
+
+Esercizio con menu interattivo (stdin precaricato):
+
+```html
+<div class="oc-embed"
+     data-lang="java"
+     data-path="Java/Menu-interattivo/Menu.java"
+     data-stdin="1\n3\n2\n0">
+</div>
+```
+
+Soluzione con esecuzione automatica:
+
+```html
+<div class="oc-embed"
+     data-lang="java"
+     data-path="Java/Somma-di-due-numeri/SommaNumeri.java"
+     data-stdin="5\n3"
+     data-autorun="true">
 </div>
 ```
 
