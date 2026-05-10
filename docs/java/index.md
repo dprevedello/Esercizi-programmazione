@@ -112,8 +112,13 @@ polimorfismo e interfacce.
 
 | # | Esercizio | Argomento | Difficoltà |
 |---|-----------|-----------|------------|
-| 30 | *(in arrivo)* | Generatore e risolutore di labirinti — OOP, ricorsione, algoritmo DFS | :material-circle: Avanzato |
-| 31 | *(in arrivo)* | Quiz Ambiente — Swing GUI, CSV, `JFrame`, `JRadioButton`, `JOptionPane` | :material-circle: Avanzato |
+| 30 | [Generatore e risolutore di labirinti](30-generatore-labirinti.md) | Recursive Backtracker, DFS ricorsivo, `ArrayList<ArrayList<Cella>>`, seed | :material-circle: Avanzato |
+
+### 11. GUI :material-monitor:
+
+| # | Esercizio | Argomento | Difficoltà |
+|---|-----------|-----------|------------|
+| 31 | [Quiz Ambiente — Giornata della Terra](31-quiz-ambiente.md) | Swing, `JFrame`, `JRadioButton`, `ButtonGroup`, `JOptionPane`, `SwingUtilities` | :material-circle: Avanzato |
 
 ---
 

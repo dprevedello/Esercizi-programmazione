@@ -257,6 +257,7 @@ nav:
       - "Aerodromo":                     java/29-aerodromo.md
     - Esercizi avanzati:
       - "Generatore labirinti":          java/30-generatore-labirinti.md
+    - GUI:
       - "Quiz Ambiente":                 java/31-quiz-ambiente.md
 
   - PacketTracer:
