@@ -67,13 +67,6 @@ for (int i = 0; i < t1.length; i++)
 
 Questo funziona perché tutte e tre le torri producono esattamente lo stesso numero di righe (altezza + 1 per la base).
 
-## Compilazione ed esecuzione
-
-```bash
-javac *.java
-java Main
-```
-
 ## Suggerimenti
 
 - Prova a modificare `Main` per implementare la soluzione ricorsiva delle Torri di Hanoi: `spostaDischi(n, origine, destinazione, ausiliaria)`.
@@ -104,5 +97,7 @@ java Main
 
 <div class="oc-embed"
      data-lang="java"
-     data-path="Java/Torri/Main.java; Java/Torri/Base.java; Java/Torri/Torre.java; Java/Torri/Disco.java">
+     data-path="Java/Torri/Main.java; Java/Torri/Base.java; Java/Torri/Torre.java; Java/Torri/Disco.java"
+	 data-height="600"
+	 data-autorun="true">
 </div>

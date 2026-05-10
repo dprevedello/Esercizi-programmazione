@@ -22,7 +22,7 @@ public class Main {
 			System.out.println("3- Modifica");
 			System.out.println("4- Stampa");
 			System.out.println("0- Esci");
-			System.out.print("Sceta: ");
+			System.out.print("Scelta: ");
 			scelta = in.nextInt();
 			in.nextLine();
 			System.out.println();

@@ -86,13 +86,6 @@ Il costruttore è `private`: nessuno può creare istanze dall'esterno. Tutti i t
 
 Poiché i thread vengono schedulati dal sistema operativo, l'ordine delle stampe cambia ad ogni esecuzione. È normale e dimostra la natura concorrente dei thread.
 
-## Compilazione ed esecuzione
-
-```bash
-javac *.java
-java Main
-```
-
 ## Suggerimenti
 
 - Confronta l'output di più esecuzioni: l'ordine delle stampe sarà diverso ogni volta.
@@ -123,5 +116,6 @@ java Main
 
 <div class="oc-embed"
      data-lang="java"
-     data-path="Java/Test-thread/Main.java; Java/Test-thread/MioThread.java; Java/Test-thread/MiaClasseRunnable.java; Java/Test-thread/MioSingleton.java">
+     data-path="Java/Test-thread/Main.java; Java/Test-thread/MioThread.java; Java/Test-thread/MiaClasseRunnable.java; Java/Test-thread/MioSingleton.java"
+	 data-autorun="true">
 </div>

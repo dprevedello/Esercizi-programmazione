@@ -82,13 +82,6 @@ addWindowListener(new WindowAdapter() {
 !!! note "Thread e Swing"
     `setText` viene chiamato dal thread di conteggio, non dall'EDT. In Swing i componenti dovrebbero essere modificati solo sull'EDT. Per semplicità didattica qui si accetta questa semplificazione; in produzione si userebbe `SwingUtilities.invokeLater`.
 
-## Compilazione ed esecuzione
-
-```bash
-javac *.java
-java ChronoGUI
-```
-
 ## Suggerimenti
 
 - `count / 10` usa la divisione intera: con `count` che incrementa ogni 100 ms, il valore mostrato cambia ogni secondo.

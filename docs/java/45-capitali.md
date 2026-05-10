@@ -95,22 +95,6 @@ if (esito.startsWith("AIUTO:"))
     System.out.println("Suggerimento! Inizia con: " + esito.substring(6));
 ```
 
-## Compilazione ed esecuzione
-
-Servono **due terminali separati**:
-
-```bash
-# Terminale 1 — avvia il server
-javac *.java
-java ServerCapitali
-
-# Terminale 2 (o più) — avvia uno o più client
-java ClientCapitali
-```
-
-!!! warning "OneCompiler non supportato"
-    Questo esercizio richiede due processi separati (server e client) e una connessione di rete locale. Non è eseguibile in OneCompiler.
-
 ## Suggerimenti
 
 - Apri più terminali client contemporaneamente per vedere il server gestire più sessioni in parallelo.
@@ -128,3 +112,6 @@ java ClientCapitali
     ```java
     --8<-- "Java/Capitali/ClientCapitali.java"
     ```
+
+!!! warning "OneCompiler non supportato"
+    Questo esercizio richiede due processi separati (server e client) e una connessione di rete locale. Non è eseguibile in OneCompiler.

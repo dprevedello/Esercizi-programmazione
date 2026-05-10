@@ -69,22 +69,6 @@ while ((messaggio = in.readLine()) != null) {
 }
 ```
 
-## Compilazione ed esecuzione
-
-Servono **due terminali separati**:
-
-```bash
-# Terminale 1 — avvia il server
-javac *.java
-java Server
-
-# Terminale 2 — avvia il client
-java Client
-```
-
-!!! warning "OneCompiler non supportato"
-    Questo esercizio richiede due processi separati (server e client) e una connessione di rete locale. Non è eseguibile in OneCompiler.
-
 ## Suggerimenti
 
 - Le porte sotto 1024 sono riservate al sistema: usare sempre porte ≥ 1024 (qui 1234).
@@ -102,3 +86,6 @@ java Client
     ```java
     --8<-- "Java/Echo-socket/Client.java"
     ```
+
+!!! warning "OneCompiler non supportato"
+    Questo esercizio richiede due processi separati (server e client) e una connessione di rete locale. Non è eseguibile in OneCompiler.

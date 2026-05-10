@@ -96,11 +96,6 @@ display.setPreferredSize(new Dimension(prefSize.width, 80));
 
 ## Compilazione ed esecuzione
 
-```bash
-javac Calcolatrice.java
-java Calcolatrice
-```
-
 Il file `icon.png` deve trovarsi nella stessa cartella.
 
 ## Suggerimenti

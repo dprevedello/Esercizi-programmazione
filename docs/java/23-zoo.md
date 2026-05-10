@@ -69,13 +69,6 @@ Rimuovere durante un `for-each` causerebbe `ConcurrentModificationException`.
 
 Gli attributi `id`, `data_nascita`, `vivo` e `specie` sono `protected`: visibili alle sottoclassi senza getter. `Mammifero` e `Pesce` li usano direttamente in `toString()`.
 
-## Compilazione ed esecuzione
-
-```bash
-javac *.java
-java Main
-```
-
 ## Suggerimenti
 
 - Il metodo `morto()` in `Animale` imposta `vivo = false`: la "modifica" nel menù è solo questa operazione, non un aggiornamento generico degli attributi.
@@ -107,5 +100,7 @@ java Main
 <div class="oc-embed"
      data-lang="java"
      data-path="Java/Zoo/Main.java; Java/Zoo/Animale.java; Java/Zoo/Mammifero.java; Java/Zoo/Pesce.java"
-     data-stdin="4\n1\n2\nLeone\n2020-01-01\nSimba\nAfrica\n4\n0">
+     data-stdin="4\n1\n2\nBetta\n2026-04-12\n4\n4\n0\n"
+	 data-height="650"
+	 data-autorun="true">
 </div>

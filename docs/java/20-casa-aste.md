@@ -98,13 +98,6 @@ public boolean offri(int codicePartecipante, OggettoAsta ogg, int offerta) {
 }
 ```
 
-## Compilazione ed esecuzione
-
-```bash
-javac *.java
-java Main
-```
-
 ## Suggerimenti
 
 - `OggettoAsta.faiOfferta` accetta un'offerta solo se è strettamente superiore all'attuale `offerta_max` (non `>=`): due partecipanti con la stessa offerta, il primo vince.
@@ -135,5 +128,7 @@ java Main
 
 <div class="oc-embed"
      data-lang="java"
-     data-path="Java/Casa-aste/Main.java; Java/Casa-aste/CasaAste.java; Java/Casa-aste/OggettoAsta.java; Java/Casa-aste/Partecipante.java">
+     data-path="Java/Casa-aste/Main.java; Java/Casa-aste/CasaAste.java; Java/Casa-aste/OggettoAsta.java; Java/Casa-aste/Partecipante.java"
+	 data-height="650"
+	 data-autorun="true">
 </div>

@@ -59,13 +59,6 @@ label.setAlignmentX(JFrame.CENTER_ALIGNMENT);
 button.setAlignmentX(JFrame.CENTER_ALIGNMENT);
 ```
 
-## Compilazione ed esecuzione
-
-```bash
-javac CounterApp.java
-java CounterApp
-```
-
 ## Suggerimenti
 
 - La stessa logica dell'`ActionListener` con classe anonima si può scrivere come lambda: `button.addActionListener(e -> { count++; label.setText("Contatore: " + count); });`

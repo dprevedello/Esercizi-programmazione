@@ -61,23 +61,24 @@ while ((response = input.readLine()) != null)
     System.out.println(response);
 ```
 
-## Compilazione ed esecuzione
-
-```bash
-javac HTTPSClient.java
-java HTTPSClient
-```
-
-!!! info "Connessione Internet richiesta"
-    Il programma si connette a `it.wttr.in/Gallarate` (previsioni meteo in formato testo).
-
-<div class="oc-embed"
-     data-lang="java"
-     data-path="Java/HTTPS-client/HTTPSClient.java">
-</div>
-
 ## Suggerimenti
 
 - Prova a cambiare l'URL con `https://it.wttr.in/Milano` o `https://it.wttr.in/Roma`.
 - Il sito `wttr.in` restituisce le previsioni meteo in formato testo ASCII, perfetto per un client a riga di comando.
 - `e.printStackTrace()` nel catch mostra l'intera catena di eccezioni TLS, utile per diagnosticare problemi di certificati.
+
+## Soluzione
+
+```java
+--8<-- "Java/HTTPS-client/HTTPSClient.java"
+```
+
+<div class="oc-embed"
+     data-lang="java"
+     data-path="Java/HTTPS-client/HTTPSClient.java"
+	 data-height="550"
+	 data-autorun="true">
+</div>
+
+!!! info "Connessione Internet richiesta"
+    Il programma si connette a `it.wttr.in/Gallarate` (previsioni meteo in formato testo).

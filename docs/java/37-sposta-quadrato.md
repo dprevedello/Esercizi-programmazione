@@ -86,13 +86,6 @@ setVisible(true);
 pannello.center();   // ora getWidth() e getHeight() hanno valori reali
 ```
 
-## Compilazione ed esecuzione
-
-```bash
-javac *.java
-java SpostaQuadrato
-```
-
 ## Suggerimenti
 
 - Prova a cambiare `DIMENSIONE` e `STEP` per vedere l'effetto sul comportamento.

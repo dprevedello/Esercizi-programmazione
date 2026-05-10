@@ -65,23 +65,24 @@ while ((response = in.readLine()) != null)
     System.out.println(response);
 ```
 
-## Compilazione ed esecuzione
-
-```bash
-javac HTTPClient.java
-java HTTPClient
-```
-
-!!! info "Connessione Internet richiesta"
-    Il programma richiede accesso a Internet per connettersi a `www.httpforever.com`.
-
-<div class="oc-embed"
-     data-lang="java"
-     data-path="Java/HTTP-client/HTTPClient.java">
-</div>
-
 ## Suggerimenti
 
 - Prova a cambiare l'URL con un altro sito HTTP (non HTTPS). Per i siti HTTPS vedi l'esercizio [HTTPS Client](44-https-client.md).
 - Aggiungere `Accept: text/html` e `Accept-Language: it` alle intestazioni personalizza la risposta.
 - La riga di stato (`HTTP/1.1 200 OK`) è sempre la prima riga della risposta: si può leggere separatamente per controllare il codice di stato.
+
+## Soluzione
+
+```java
+--8<-- "Java/HTTP-client/HTTPClient.java"
+```
+
+<div class="oc-embed"
+     data-lang="java"
+     data-path="Java/HTTP-client/HTTPClient.java"
+	 data-height="550"
+	 data-autorun="true">
+</div>
+
+!!! info "Connessione Internet richiesta"
+    Il programma richiede accesso a Internet per connettersi a `www.httpforever.com`.

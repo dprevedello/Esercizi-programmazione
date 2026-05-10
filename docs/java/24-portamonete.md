@@ -60,13 +60,6 @@ void inserisci(double valore, int n) // n monete dello stesso taglio
 
 Il codice usa `valore == 0.5`, `valore == 1`, ecc. Questo funziona per i valori esatti passati nel `Main` (letterali come `0.5`, `1`, `2`), ma in generale confrontare `double` con `==` può dare risultati imprevisti per via degli errori di arrotondamento in virgola mobile. In un contesto didattico è accettabile; in produzione si userebbero costanti intere (centesimi) o `BigDecimal`.
 
-## Compilazione ed esecuzione
-
-```bash
-javac *.java
-java Main
-```
-
 ## Suggerimenti
 
 - Il costruttore di `Portafoglio` con sei parametri chiama `super(m50cent, m1euro, m2euro)` per inizializzare le monete tramite il costruttore di `Portamonete`.
@@ -92,5 +85,6 @@ java Main
 
 <div class="oc-embed"
      data-lang="java"
-     data-path="Java/Portamonete/Main.java; Java/Portamonete/Portamonete.java; Java/Portamonete/Portafoglio.java">
+     data-path="Java/Portamonete/Main.java; Java/Portamonete/Portamonete.java; Java/Portamonete/Portafoglio.java"
+	 data-autorun="true">
 </div>

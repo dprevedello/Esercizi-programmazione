@@ -91,22 +91,6 @@ System.out.printf("│  Auto    : %5d                    │\n", auto);
 
 `%5d` formatta un intero in un campo di 5 caratteri allineato a destra.
 
-## Compilazione ed esecuzione
-
-Servono **due terminali separati**:
-
-```bash
-# Terminale 1 — avvia il server (si auto-termina dopo 60 secondi)
-javac *.java
-java CaselloServer
-
-# Terminale 2 — avvia i varchi
-java SensoreVarco
-```
-
-!!! warning "OneCompiler non supportato"
-    Questo esercizio richiede due processi separati e una connessione di rete locale. Non è eseguibile in OneCompiler.
-
 ## Suggerimenti
 
 - Osserva il report che si aggiorna ogni 5 secondi mentre i varchi inviano transiti.
@@ -124,3 +108,6 @@ java SensoreVarco
     ```java
     --8<-- "Java/Casello-autostradale/SensoreVarco.java"
     ```
+
+!!! warning "OneCompiler non supportato"
+    Questo esercizio richiede due processi separati e una connessione di rete locale. Non è eseguibile in OneCompiler.

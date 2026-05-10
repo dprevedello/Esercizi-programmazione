@@ -66,13 +66,6 @@ System.out.println("] " + (distanza / 10.0) + " %");
 
 Poiché tre thread stampano contemporaneamente, le righe di output si mescolano in modo non deterministico: è visibile l'esecuzione parallela. Non esiste garanzia sull'ordine.
 
-## Compilazione ed esecuzione
-
-```bash
-javac Razzo.java
-java Razzo
-```
-
 ## Suggerimenti
 
 - Aggiungere un quarto razzo e osservare come cambia la competizione.
@@ -87,5 +80,7 @@ java Razzo
 
 <div class="oc-embed"
      data-lang="java"
-     data-path="Java/Razzo/Razzo.java">
+     data-path="Java/Razzo/Razzo.java"
+	 data-height="550"
+	 data-autorun="true">
 </div>
