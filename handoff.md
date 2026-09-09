@@ -48,11 +48,6 @@ Sito didattico MkDocs Material (repo GitHub: `dprevedello/Esercizi-programmazion
 
 ## 4. Problemi aperti / da risolvere
 
-### Esercizi non ancora verificati a runtime
-- `29-massimo-e-media-non-definiti-a-priori.md` (C) — terminazione con `S`/`N`, da verificare case sensitivity
-- `55-calcoli-su-vettori-random.md` (C) — stdin copre solo 5 dei 10 valori (il resto è random)
-- Esercizi Java nuovi (19–24, 40–41): stdin non ancora testati sul sito reale
-
 ### HTTP/HTTPS client (43, 44)
 - OneCompiler blocca l'esecuzione se trova URL nel sorgente (richiede login utente)
 - Soluzione adottata: rimosso `oc-embed`, solo snippet + warning "eseguire in locale"
@@ -62,10 +57,8 @@ Sito didattico MkDocs Material (repo GitHub: `dprevedello/Esercizi-programmazion
 
 ## 5. Prossimi passi
 
-1. **Testare sul sito** gli esercizi Java nuovi (19–24, 40–41) con stdin
-2. **Verificare `29-massimo-e-media-non-definiti-a-priori`** (C): case sensitivity `S`/`N`
-3. **Valutare** eventuali nuovi esercizi da aggiungere alle sezioni Thread e Socket
-4. **Valutare** il Launcher per Echo Socket se si vuole OneCompiler anche per i socket semplici
+1. **Valutare** eventuali nuovi esercizi da aggiungere alle sezioni Thread e Socket
+2. **Valutare** il Launcher per Echo Socket se si vuole OneCompiler anche per i socket semplici
 
 ---
 
