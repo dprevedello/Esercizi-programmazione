@@ -65,7 +65,7 @@ mkdocs gh-deploy      # build + push su gh-pages
 
 ## Aggiungere un esercizio
 
-### C, Python, Java, PHP, Bash, Database, HTML-CSS-Javascrypt, PacketTracer
+### C, Python, Java, PHP, Bash, Database, HTML-CSS-Javascript, PacketTracer
 
 1. Crea il file `docs/<linguaggio>/nome-esercizio.md`.
 2. Aggiungi la voce corrispondente nel blocco `nav:` di `mkdocs.yml`:
@@ -188,7 +188,7 @@ Esercizi-programmazione/
 │   ├── Hello-world/main.c
 │   └── … (60 sottocartelle, una per esercizio)
 ├── Database/
-├── HTML-CSS-Javascrypt
+├── HTML-CSS-Javascript
 ├── Java/
 │   ├── Somma-di-due-numeri/SommaNumeri.java
 │   ├── Stampa-di-un-array/StampaArray.java
@@ -206,26 +206,26 @@ Esercizi-programmazione/
 │   ├── stylesheets/
 │   │   └── extra.css               # stili personalizzati
 │   ├── javascripts/
-│   │   └── mathjax.js              # javascrypt per rendering formule LaTeX
-│   │   └── onecompiler.js          # javascrypt per l'editor OneCompiler
+│   │   ├── mathjax.js              # rendering formule LaTeX
+│   │   └── onecompiler.js          # editor OneCompiler embedded
 │   ├── bash/
-│   │   └── bash/index.md
+│   │   └── index.md
 │   ├── c/
 │   │   ├── index.md                # indice con tutti i 60 esercizi classificati
 │   │   ├── 01-hello-world.md       # pagina di ciascun esercizio
 │   │   └── ...
 │   ├── database/
-│   │   └── database/index.md
-│   ├── html-css-javascrypt/
-│   │   └── html-css-javascrypt/index.md
+│   │   └── index.md
+│   ├── html-css-javascript/
+│   │   └── index.md
 │   ├── java/
 │   │   ├── index.md                # indice con tutti gli esercizi classificati
 │   │   ├── 01-somma-di-due-numeri.md
-│   │   └── … (07 pagine, una per esercizio)
+│   │   └── … (46 pagine su 13 sezioni tematiche)
 │   ├── packettracer/
-│   │   └── packettracer/index.md
+│   │   └── index.md
 │   ├── php/
-│   │   └── php/index.md
+│   │   └── index.md
 │   └── python/
 │       └── index.md
 ├── mkdocs.yml
