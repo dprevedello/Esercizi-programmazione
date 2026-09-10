@@ -102,7 +102,7 @@ Se vuoi avere tutti gli esercizi sul computer, puoi clonare il repository
 con **Git**:
 
 ```bash
-git clone https://github.com/nomeutente/Esercizi-programmazione.git
+git clone https://github.com/dprevedello/Esercizi-programmazione.git
 ```
 
 Oppure scarica lo ZIP dalla pagina del repository su GitHub:
