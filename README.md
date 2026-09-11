@@ -11,11 +11,12 @@ Il sito è consultabile all'indirizzo:
 
 | Sezione | Esercizi | Argomento |
 |---|---|---|
-| `Bash/` | — | Script da riga di comando su Linux/macOS |
+| `Bash/` | 37 | Script da riga di comando su Linux/macOS — dai fondamentali (variabili, cicli, funzioni) alle pipeline con comandi di sistema |
 | `C/` | 60 | Linguaggio C — dagli esercizi base ai più avanzati |
 | `Database/` | — | SQL e algebra relazionale su database relazionali |
 | `HTML-CSS-Javascript/` | — | Pagine web, stili CSS e scripting lato client |
 | `Java/` | 46 | Programmazione orientata agli oggetti in Java — metodi statici, Javadoc, OOP, eccezioni, file, thread, socket |
+| `Linux/` | 11 categorie | Guida di riferimento ai comandi principali della shell (non esercizi da consegnare) |
 | `PacketTracer/` | — | Reti con Cisco Packet Tracer |
 | `PHP/` | — | PHP lato server: variabili, form, sessioni |
 | `Python/` | — | Python dalla sintassi base a classi e file |
@@ -115,6 +116,46 @@ Java/
 Le sezioni tematiche Java attualmente disponibili sono:
 `Metodi statici` · `Javadoc` · `Creazione di oggetti basilari` · `ArrayList` · `HashMap` · `Ereditarietà` · `Interfacce e classi astratte` · `Eccezioni` · `File di testo e serializzazione` · `Esercizi avanzati` · `GUI` · `Thread` · `Socket`
 
+### Esempio per il linguaggio Bash
+
+Ogni esercizio Bash vive in una propria sottocartella con un unico script `main.sh`:
+
+```
+Bash/
+└── Nome-esercizio/
+    └── main.sh
+```
+
+1. Crea la sottocartella `Bash/Nome-esercizio/` con `main.sh`. Lo script deve essere **autosufficiente**: se ha bisogno di file o cartelle di prova, li crea da sé (`cat <<EOF`, `touch`, `mkdir -p`), perché la sandbox OneCompiler non ha accesso a file esterni multipli. Eventuali argomenti da riga di comando si simulano con `set -- valore1 valore2 ...` a inizio script.
+2. Crea la pagina di documentazione `docs/bash/NN-nome-esercizio.md`. Il testo sotto il titolo è una **consegna** in stile compito, pronta per essere incollata su una piattaforma come Google Classroom (non un abstract in terza persona come per C e Java) — vedi le convenzioni descritte in `handoff.md`.
+3. Aggiungi la voce nel gruppo tematico corretto in `mkdocs.yml`:
+   ```yaml
+   - "Titolo esercizio": bash/NN-nome-esercizio.md
+   ```
+4. Aggiorna la tabella riepilogativa in `docs/bash/index.md`.
+5. Verifica lo script con `bash -n` (sintassi) ed eseguilo end-to-end con lo stesso `data-stdin` dichiarato nell'`oc-embed`, in una cartella temporanea isolata.
+
+Le sezioni tematiche Bash attualmente disponibili sono:
+`Fondamentali` · `Condizioni` · `Cicli` · `Stringhe e array` · `File e redirezione` · `Filtri e pipe` · `Funzioni` · `Script avanzati` · `Comandi di sistema in pipeline`
+
+### Aggiungere una pagina alla sezione Linux (guida di riferimento)
+
+La sezione `docs/linux/` **non** è una raccolta di esercizi da consegnare, ma una guida di riferimento ai comandi della shell: niente Obiettivo/Consegna/Soluzione/voto, solo teoria, sintassi ed esempi. Ogni categoria vive in una propria sottocartella con un unico script dimostrativo `demo.sh`:
+
+```
+Linux/
+└── NN-Nome-categoria/
+    └── demo.sh
+```
+
+1. Crea la sottocartella `Linux/NN-Nome-categoria/` con `demo.sh` (autosufficiente, come i `main.sh` di Bash).
+2. Crea la pagina `docs/linux/NN-nome-categoria.md`: titolo, breve intro, una sottosezione `## \`comando\`` per ogni comando trattato (spiegazione, sintassi, tabella opzioni se utile, esempio), poi un blocco `## Prova tu` con l'`oc-embed` collegato a `demo.sh`.
+3. Se alcuni comandi della categoria non sono eseguibili nella sandbox (richiedono rete, privilegi di amministratore o un terminale interattivo), limita l'`oc-embed` alla parte eseguibile offline e aggiungi un'ammonizione `!!! warning "Esegui in locale"` per il resto.
+4. Aggiungi la voce in `mkdocs.yml` sotto `- Linux:` e aggiorna la tabella riepilogativa in `docs/linux/index.md`.
+
+Le categorie Linux attualmente disponibili sono:
+`Filesystem e navigazione` · `Gestione file e cartelle` · `Permessi e proprietari` · `Utenti e gruppi` · `Redirezione e pipe` · `Visualizzazione e ricerca testo` · `Variabili ambiente e alias` · `Processi e risorse` · `Reti` · `Pacchetti e informazioni di sistema` · `Archiviazione e compressione`
+
 ### Blocco OneCompiler
 
 Per ogni esercizio si può incorporare l'editor interattivo nella pagina tramite un `<div>` con classe `oc-embed`.
@@ -172,7 +213,7 @@ Soluzione con esecuzione automatica:
 </div>
 ```
 
-Vedi `docs/c/01-hello-world.md` come esempio completo funzionante.
+Vedi `docs/c/01-hello-world.md` come esempio completo funzionante, oppure `docs/bash/01-hello-world.md` per un esempio in Bash.
 
 ---
 
@@ -184,6 +225,8 @@ Esercizi-programmazione/
 │   └── workflows/
 │       └── deploy.yml              # GitHub Actions: deploy automatico
 ├── Bash/
+│   ├── Hello-world/main.sh
+│   └── … (37 sottocartelle, una per esercizio)
 ├── C/
 │   ├── Hello-world/main.c
 │   └── … (60 sottocartelle, una per esercizio)
@@ -197,6 +240,9 @@ Esercizi-programmazione/
 │   ├── Menu-interattivo/Menu.java
 │   ├── Manipolazione-stringhe/EsercizioStringhe.java
 │   └── Generatore-codice-fiscale/CodiceFiscale.java
+├── Linux/
+│   ├── 01-Filesystem-e-navigazione/demo.sh
+│   └── … (11 sottocartelle, una per categoria di comandi)
 ├── PacketTracer/
 ├── PHP/
 ├── Python/
@@ -209,7 +255,9 @@ Esercizi-programmazione/
 │   │   ├── mathjax.js              # rendering formule LaTeX
 │   │   └── onecompiler.js          # editor OneCompiler embedded
 │   ├── bash/
-│   │   └── index.md
+│   │   ├── index.md                # indice con tutti i 37 esercizi classificati
+│   │   ├── 01-hello-world.md       # pagina di ciascun esercizio
+│   │   └── ... (37 pagine su 9 sezioni tematiche)
 │   ├── c/
 │   │   ├── index.md                # indice con tutti i 60 esercizi classificati
 │   │   ├── 01-hello-world.md       # pagina di ciascun esercizio
@@ -222,6 +270,10 @@ Esercizi-programmazione/
 │   │   ├── index.md                # indice con tutti gli esercizi classificati
 │   │   ├── 01-somma-di-due-numeri.md
 │   │   └── … (46 pagine su 13 sezioni tematiche)
+│   ├── linux/
+│   │   ├── index.md                # indice con le 11 categorie di comandi
+│   │   ├── 01-filesystem-e-navigazione.md   # una pagina per categoria
+│   │   └── ... (11 pagine di riferimento)
 │   ├── packettracer/
 │   │   └── index.md
 │   ├── php/
