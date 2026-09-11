@@ -134,7 +134,52 @@ nav:
 
   - Bash:
     - bash/index.md
-    # Aggiungi qui gli esercizi: - "Nome esercizio": bash/nome-esercizio.md
+    - Fondamentali:
+      - "Hello World":                        bash/01-hello-world.md
+      - "Variabili e concatenazione":         bash/02-variabili-e-concatenazione.md
+      - "Input con read":                     bash/03-input-con-read.md
+      - "Argomenti posizionali":               bash/04-argomenti-posizionali.md
+    - Condizioni:
+      - "Pari o dispari":                     bash/05-pari-o-dispari.md
+      - "Maggiore fra due numeri":             bash/06-maggiore-fra-due-numeri.md
+      - "Test file esistente":                bash/07-test-file-esistente.md
+      - "Validazione argomenti script":        bash/08-validazione-argomenti-script.md
+    - Cicli:
+      - "Somma di una sequenza":               bash/09-somma-di-una-sequenza.md
+      - "Ciclo for sui file":                  bash/10-ciclo-for-sui-file.md
+      - "Conto alla rovescia (while)":         bash/11-conto-alla-rovescia.md
+      - "Menù interattivo (until)":            bash/12-menu-interattivo.md
+    - Stringhe e array:
+      - "Palindromo":                          bash/13-palindromo.md
+      - "Conteggio parole":                    bash/14-conteggio-parole.md
+      - "Array e iterazione":                  bash/15-array-e-iterazione.md
+      - "Split stringa con IFS":               bash/16-split-stringa-ifs.md
+    - File e redirezione:
+      - "Lettura riga per riga":               bash/17-lettura-riga-per-riga.md
+      - "Conteggio righe/parole file":         bash/18-conteggio-righe-parole-file.md
+      - "Backup con timestamp":                bash/19-backup-con-timestamp.md
+      - "Log rotator semplice":                bash/20-log-rotator-semplice.md
+    - Filtri e pipe:
+      - "Ricerca con grep":                    bash/21-ricerca-con-grep.md
+      - "Sostituzione con sed":                bash/22-sostituzione-con-sed.md
+      - "Statistiche CSV con awk":             bash/23-statistiche-csv-awk.md
+      - "Top N con sort/uniq":                 bash/24-top-n-sort-uniq.md
+    - Funzioni:
+      - "Funzione di validazione input":       bash/25-funzione-validazione-input.md
+      - "Libreria di funzioni utility":        bash/26-libreria-funzioni-utility.md
+      - "Fattoriale ricorsivo":                bash/27-fattoriale-ricorsivo.md
+    - Script avanzati:
+      - "Gestione errori con trap":            bash/28-gestione-errori-trap.md
+      - "Organizzatore file per estensione":   bash/29-organizzatore-file-estensione.md
+      - "Monitor spazio disco":                bash/30-monitor-spazio-disco.md
+      - "Backup automatico con argomenti":     bash/31-backup-automatico-argomenti.md
+    - Comandi di sistema in pipeline:
+      - "Esplora una cartella":               bash/32-esplora-una-cartella.md
+      - "Copia con permessi corretti":        bash/33-copia-con-permessi-corretti.md
+      - "Report di sistema":                  bash/34-report-di-sistema.md
+      - "Ricerca avanzata con find":          bash/35-ricerca-avanzata-con-find.md
+      - "Monitor processi":                   bash/36-monitor-processi.md
+      - "Cruscotto di sistema":               bash/37-cruscotto-di-sistema.md
 
   - Linguaggio C:
     - c/index.md
@@ -276,6 +321,20 @@ nav:
       - "HTTPS Client":                 java/44-https-client.md
       - "Quiz Capitali":                java/45-capitali.md
       - "Casello Autostradale":         java/46-casello-autostradale.md
+
+  - Linux:
+    - linux/index.md
+    - "Filesystem e navigazione":            linux/01-filesystem-e-navigazione.md
+    - "Gestione di file e cartelle":         linux/02-gestione-file-e-cartelle.md
+    - "Permessi e proprietari":              linux/03-permessi-e-proprietari.md
+    - "Utenti e gruppi":                     linux/04-utenti-e-gruppi.md
+    - "Redirezione e pipe":                  linux/05-redirezione-e-pipe.md
+    - "Visualizzazione e ricerca testo":     linux/06-visualizzazione-e-ricerca-testo.md
+    - "Variabili d'ambiente e alias":        linux/07-variabili-ambiente-e-alias.md
+    - "Processi e risorse di sistema":       linux/08-processi-e-risorse.md
+    - "Reti":                                linux/09-reti.md
+    - "Pacchetti e informazioni di sistema": linux/10-pacchetti-e-informazioni-di-sistema.md
+    - "Archiviazione e compressione":        linux/11-archiviazione-e-compressione.md
 
   - PacketTracer:
     - packettracer/index.md
