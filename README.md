@@ -234,12 +234,7 @@ Esercizi-programmazione/
 ├── HTML-CSS-Javascript
 ├── Java/
 │   ├── Somma-di-due-numeri/SommaNumeri.java
-│   ├── Stampa-di-un-array/StampaArray.java
-│   ├── Conteggio-vocali/ContaVocali.java
-│   ├── Gioco-indovina-il-numero/IndovinaNumero.java
-│   ├── Menu-interattivo/Menu.java
-│   ├── Manipolazione-stringhe/EsercizioStringhe.java
-│   └── Generatore-codice-fiscale/CodiceFiscale.java
+│   └── … (46 sottocartelle, una per esercizio)
 ├── Linux/
 │   ├── 01-Filesystem-e-navigazione/demo.sh
 │   └── … (11 sottocartelle, una per categoria di comandi)
