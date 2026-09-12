@@ -60,3 +60,4 @@ perché i risultati sono visibili immediatamente nel browser senza alcuna config
 - [W3Schools](https://www.w3schools.com) — tutorial interattivi con editor integrato
 - [CSS-Tricks](https://css-tricks.com) — guide pratiche su layout e animazioni CSS
 - [javascript.info](https://javascript.info) — corso completo e moderno su JavaScript
+- [Guida italiana a TypeScript](https://gibbok.github.io/typescript-book/it-it/) — risorsa gratuita e open source per imparare TypeScript, con contenuti aggiornati a TypeScript 7
