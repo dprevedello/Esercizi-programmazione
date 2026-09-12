@@ -20,6 +20,7 @@ la possibilità di provare il codice direttamente dal browser grazie a **OneComp
 | [:material-database: Database](database/index.md) | SQL: query, JOIN, DDL e DML su database relazionali | Base → Intermedio |
 | [:material-language-html5::material-language-css3::material-language-javascript: HTML-CSS-Javascript](html-css-javascript/index.md) | Pagine in HTML / CSS / Javascript | Base → Intermedio |
 | [:material-language-java: Java](java/index.md) | Programmazione orientata agli oggetti in Java | Intermedio → Avanzato |
+| [:simple-linux: Linux](linux/index.md) | Guida di riferimento ai comandi principali della shell | Base |
 | [:simple-cisco: PacketTracer](packettracer/index.md) | Reti con Cisco Packet Tracer: LAN, IP, router | Base → Intermedio |
 | [:material-language-php: PHP](php/index.md) | PHP lato server: variabili, form, sessioni | Base → Intermedio |
 | [:material-language-python: Python](python/index.md) | Python: dalla sintassi base a funzioni e file | Base → Avanzato |
@@ -37,7 +38,9 @@ la possibilità di provare il codice direttamente dal browser grazie a **OneComp
 
 !!! tip "Suggerimento"
     Se sei alle prime armi, inizia dalla sezione **Python** o **Bash**:
-    sono i linguaggi con la sintassi più immediata.
+    sono i linguaggi con la sintassi più immediata. La sezione **Linux**
+    non propone esercizi, ma è un'utile guida di riferimento da consultare
+    mentre scrivi i tuoi script.
 
 ---
 
