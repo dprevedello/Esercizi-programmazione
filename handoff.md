@@ -6,6 +6,8 @@ Sito didattico MkDocs Material (repo GitHub: `dprevedello/Esercizi-programmazion
 **Repo GitHub**: `https://github.com/dprevedello/Esercizi-programmazione`
 **Sito in sviluppo locale**: `http://127.0.0.1:8000`
 
+> **Nota di manutenzione su questo documento**: `handoff.md` esiste in **due copie** — il doc del Project "Esercizi programmazione" su claude.ai (fonte primaria, consultabile da qualunque sessione) e il file `handoff.md` nella root del repository, sul disco locale. Quando si aggiorna questo documento, aggiornare **sempre entrambe le copie nella stessa sessione** (prima il doc del Project, poi scrivere lo stesso contenuto anche sul file locale tramite il collegamento al PC), così restano allineate.
+
 ---
 
 ## 2. Stato attuale
@@ -14,9 +16,9 @@ Sito didattico MkDocs Material (repo GitHub: `dprevedello/Esercizi-programmazion
 - **`docs/java/`** — 46 esercizi su 13 sezioni, tutti con `oc-embed` dove applicabile (eccezioni e motivi in sezione 3).
 - **`docs/c/`** — 60 esercizi, tutti con `oc-embed` e `data-autorun`.
 - **`docs/bash/`** — 37 esercizi su 9 sezioni (Fondamentali, Condizioni, Cicli, Stringhe e array, File e redirezione, Filtri e pipe, Funzioni, Script avanzati, Comandi di sistema in pipeline), tutti con `oc-embed`, `data-lang="bash"` e `data-autorun="true"`. Sorgenti in `Bash/<Nome-esercizio>/main.sh`. Ogni script è self-contained (crea da sé eventuali file/cartelle di prova) per evitare dipendenze da file esterni non presenti nella sandbox OneCompiler. Il testo sotto il titolo di ogni esercizio è una **consegna** in stile compito (copiabile su Classroom), non un abstract — vedi sezione 3 e 7.1. Popolata il 09/09/2026, estesa con la sezione 9 l'11/09/2026.
-- **`docs/linux/`** — sezione di **riferimento** (non esercizi da consegnare) su 11 categorie di comandi Linux (Filesystem e navigazione, Gestione file/cartelle, Permessi, Utenti e gruppi, Redirezione e pipe, Visualizzazione/ricerca testo, Variabili d'ambiente e alias, Processi e risorse, Reti, Pacchetti e info di sistema, Archiviazione/compressione). Sorgenti demo in `Linux/<NN-Nome-categoria>/demo.sh`. Le pagine "Reti" e "Pacchetti e informazioni di sistema" hanno un `oc-embed` limitato ai soli comandi eseguibili offline (`hostname`, `ip addr`, `uname -a`), con warning per gli altri comandi che richiedono rete/privilegi di amministratore. Creata l'11/09/2026.
+- **`docs/linux/`** — sezione di **riferimento** (non esercizi da consegnare) su 11 categorie di comandi Linux (Filesystem e navigazione, Gestione file/cartelle, Permessi, Utenti e gruppi, Redirezione e pipe, Visualizzazione/ricerca testo, Variabili d'ambiente e alias, Processi e risorse, Reti, Pacchetti e info di sistema, Archiviazione/compressione). Sorgenti demo in `Linux/<NN-Nome-categoria>/demo.sh`. Le pagine "Reti" e "Pacchetti e informazioni di sistema" hanno un `oc-embed` limitato ai soli comandi eseguibili offline (`hostname`, `ip addr`, `uname -a`), con warning per gli altri comandi che richiedono rete/privilegi di amministratore. Creata l'11/09/2026. Citata anche nella tabella delle sezioni in `docs/index.md` (home del sito) dal 12/09/2026.
 - **`docs/stylesheets/extra.css`** — stile barra laterale aggiornato (titoli sezione, freccia, dark mode). Dettagli nel file stesso.
-- **Documentazione aggiornata**: `docs/come-usare.md`, `README.md`, `docs/java/index.md`, `mkdocs.yml`.
+- **Documentazione aggiornata**: `docs/come-usare.md`, `README.md`, `docs/index.md`, `docs/java/index.md`, `mkdocs.yml`.
 - **Sezioni ancora vuote (solo placeholder in `index.md` e nav)**: Database, HTML-CSS-JavaScript, PacketTracer, PHP, Python.
 
 ---
@@ -61,6 +63,11 @@ Sito didattico MkDocs Material (repo GitHub: `dprevedello/Esercizi-programmazion
 - Struttura per pagina: titolo, breve intro, una sottosezione `## \`comando\`` per ogni comando (spiegazione breve, sintassi, tabella opzioni se pertinente, esempio in code-block), poi in fondo un blocco "## Prova tu" con l'`oc-embed` (`data-lang="bash"`) se almeno una parte della pagina è eseguibile nella sandbox offline.
 - Sorgente demo: `Linux/<NN-Nome-categoria>/demo.sh` (stesso principio del `main.sh` di Bash: self-contained, crea da sé i file di prova).
 - Se l'intera categoria richiede rete/privilegi non ottenibili in sandbox (es. Reti, Pacchetti), l'embed copre solo la parte eseguibile offline e un blocco `!!! warning "Esegui in locale"` spiega cosa non funziona e perché.
+- La sezione Linux va citata anche in `docs/index.md` (tabella "Le sezioni disponibili" in home): è facile dimenticarsene proprio perché non è un "linguaggio" con esercizi.
+
+### Convenzioni git (commit)
+- I commit sul repository vanno creati a nome di **Daniele** (`Daniele Prevedello <dprevedello86@gmail.com>`, già impostato come `user.name`/`user.email` git in locale) — **non** aggiungere trailer tipo "Co-Authored-By: Claude" né riferimenti alla sessione/chat nel messaggio di commit.
+- Il push da qui (tramite il collegamento al PC) fallisce sempre con `fatal: could not read Username for 'https://github.com'`: questa shell non ha un credential helper configurato e non può autenticarsi in modo non interattivo su GitHub. Il commit resta quindi pronto in locale; il push va completato a mano da Daniele con `git push origin main` dal proprio terminale, dove le credenziali sono già salvate.
 
 ### Idea Echo Socket Launcher (discussa, non implementata)
 - Sarebbe possibile aggiungere `Launcher.java` che avvia server in thread daemon e client nel thread principale
