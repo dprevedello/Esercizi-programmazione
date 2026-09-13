@@ -15,7 +15,7 @@ la possibilità di provare il codice direttamente dal browser grazie a **OneComp
 
 | Sezione | Argomento | Livello indicativo |
 |---|---|---|
-| [:simple-gnubash: Bash](bash/index.md) | Script da riga di comando su Linux/macOS | Base → Intermedio |
+| [:simple-gnubash: Bash](bash/index.md) | Script da riga di comando su Linux/macOS | Base → Avanzato |
 | [:simple-c: Linguaggio C](c/index.md) | Linguaggio C: variabili, cicli, funzioni, puntatori | Base → Avanzato |
 | [:material-database: Database](database/index.md) | SQL: query, JOIN, DDL e DML su database relazionali | Base → Intermedio |
 | [:material-language-html5::material-language-css3::material-language-javascript: HTML-CSS-Javascript](html-css-javascript/index.md) | Pagine in HTML / CSS / Javascript | Base → Intermedio |
