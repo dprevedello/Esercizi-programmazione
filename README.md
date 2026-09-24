@@ -14,7 +14,7 @@ Il sito è consultabile all'indirizzo:
 | `Bash/` | 37 | Script da riga di comando su Linux/macOS — dai fondamentali (variabili, cicli, funzioni) alle pipeline con comandi di sistema |
 | `C/` | 60 | Linguaggio C — dagli esercizi base ai più avanzati |
 | `Database/` | — | SQL e algebra relazionale su database relazionali |
-| `HTML-CSS-Javascript/` | — | Pagine web, stili CSS e scripting lato client |
+| `HTML-CSS-Javascript/` | 9 (sezione 1 di più in arrivo) | Pagine web, stili CSS e scripting lato client — al momento solo la sezione "HTML — Fondamentali" |
 | `Java/` | 46 | Programmazione orientata agli oggetti in Java — metodi statici, Javadoc, OOP, eccezioni, file, thread, socket |
 | `Linux/` | 11 categorie | Guida di riferimento ai comandi principali della shell (non esercizi da consegnare) |
 | `PacketTracer/` | — | Reti con Cisco Packet Tracer |
@@ -138,6 +138,30 @@ Bash/
 Le sezioni tematiche Bash attualmente disponibili sono:
 `Fondamentali` · `Condizioni` · `Cicli` · `Stringhe e array` · `File e redirezione` · `Filtri e pipe` · `Funzioni` · `Script avanzati` · `Comandi di sistema in pipeline`
 
+### Esempio per HTML-CSS-Javascript
+
+Ogni esercizio vive in una propria sottocartella con almeno `index.html` (e, dove servono, `style.css`/`script.js` — non ancora presenti nella sezione "Fondamentali", solo HTML):
+
+```
+HTML-CSS-Javascript/
+└── Nome-esercizio/
+    ├── index.html
+    ├── style.css   (quando l'esercizio introduce il CSS)
+    └── script.js   (quando l'esercizio introduce JavaScript)
+```
+
+1. Crea la sottocartella `HTML-CSS-Javascript/Nome-esercizio/` con i file necessari. `index.html` deve collegare da sé `style.css`/`script.js` con `<link>`/`<script>`, come farebbe una pagina web reale.
+2. Crea la pagina di documentazione `docs/html-css-javascript/NN-nome-esercizio.md`. Come per Bash, il testo sotto il titolo è una **consegna** in stile compito. A differenza delle altre sezioni, include anche una `## Anteprima` con uno schema ASCII di come deve apparire la pagina renderizzata — utile trattandosi di esercizi visivi — prima della `## Descrizione`.
+3. Aggiungi la voce nel gruppo tematico corretto in `mkdocs.yml`:
+   ```yaml
+   - "Titolo esercizio": html-css-javascript/NN-nome-esercizio.md
+   ```
+4. Aggiorna la tabella riepilogativa in `docs/html-css-javascript/index.md`.
+5. Nell'`oc-embed`, usa `data-lang="html"`: a differenza degli altri linguaggi mostra un'anteprima del browser dal vivo invece della console, quindi non serve `data-stdin`.
+
+Le sezioni tematiche HTML-CSS-Javascript attualmente disponibili sono:
+`HTML — Fondamentali` (le sezioni CSS e JavaScript seguiranno).
+
 ### Aggiungere una pagina alla sezione Linux (guida di riferimento)
 
 La sezione `docs/linux/` **non** è una raccolta di esercizi da consegnare, ma una guida di riferimento ai comandi della shell: niente Obiettivo/Consegna/Soluzione/voto, solo teoria, sintassi ed esempi. Ogni categoria vive in una propria sottocartella con un unico script dimostrativo `demo.sh`:
@@ -165,11 +189,13 @@ Il codice viene caricato automaticamente da GitHub al primo clic, senza necessit
 
 | Attributo | Obbligatorio | Valore | Default |
 |---|---|---|---|
-| `data-lang` | ✅ | `c`, `java`, `python`, `php`, `bash` | `c` |
+| `data-lang` | ✅ | `c`, `java`, `python`, `php`, `bash`, `html` | `c` |
 | `data-path` | ✅ | Percorso del file nel repo (es. `Java/Somma-di-due-numeri/SommaNumeri.java`). Più file separati da `;` | — |
-| `data-stdin` | ✗ | Input precaricato nel campo STDIN. Usa `\n` per separare le righe (es. `1\n2\n0`) | stringa vuota |
+| `data-stdin` | ✗ | Input precaricato nel campo STDIN. Usa `\n` per separare le righe (es. `1\n2\n0`). Non si usa con `data-lang="html"` | stringa vuota |
 | `data-height` | ✗ | Altezza in pixel dell'editor | `500` |
 | `data-autorun` | ✗ | `true` per eseguire il codice automaticamente al caricamento | `false` |
+
+Con `data-lang="html"` l'iframe mostra un'**anteprima del browser dal vivo** (la pagina renderizzata) invece della console stdin/stdout usata dagli altri linguaggi. `data-path` può includere `index.html;style.css;script.js`: `index.html` deve collegare gli altri due file con `<link>`/`<script>` esattamente come farebbe una pagina reale.
 
 #### Esempi
 
@@ -213,7 +239,17 @@ Soluzione con esecuzione automatica:
 </div>
 ```
 
-Vedi `docs/c/01-hello-world.md` come esempio completo funzionante, oppure `docs/bash/01-hello-world.md` per un esempio in Bash.
+Esercizio HTML (anteprima browser, nessuno stdin):
+
+```html
+<div class="oc-embed"
+     data-lang="html"
+     data-path="HTML-CSS-Javascript/Prima-pagina/index.html"
+     data-autorun="true">
+</div>
+```
+
+Vedi `docs/c/01-hello-world.md` come esempio completo funzionante, oppure `docs/bash/01-hello-world.md` per un esempio in Bash, o `docs/html-css-javascript/01-prima-pagina.md` per un esempio HTML.
 
 ---
 
@@ -231,7 +267,9 @@ Esercizi-programmazione/
 │   ├── Hello-world/main.c
 │   └── … (60 sottocartelle, una per esercizio)
 ├── Database/
-├── HTML-CSS-Javascript
+├── HTML-CSS-Javascript/
+│   ├── Prima-pagina/index.html
+│   └── … (9 sottocartelle, sezione "HTML — Fondamentali")
 ├── Java/
 │   ├── Somma-di-due-numeri/SommaNumeri.java
 │   └── … (46 sottocartelle, una per esercizio)
@@ -260,7 +298,9 @@ Esercizi-programmazione/
 │   ├── database/
 │   │   └── index.md
 │   ├── html-css-javascript/
-│   │   └── index.md
+│   │   ├── index.md                # indice della sezione
+│   │   ├── 01-prima-pagina.md      # pagina di ciascun esercizio
+│   │   └── ... (9 pagine sulla sezione "HTML — Fondamentali")
 │   ├── java/
 │   │   ├── index.md                # indice con tutti gli esercizi classificati
 │   │   ├── 01-somma-di-due-numeri.md

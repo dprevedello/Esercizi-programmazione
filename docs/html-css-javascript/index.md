@@ -27,30 +27,34 @@ perché i risultati sono visibili immediatamente nel browser senza alcuna config
 
 ---
 
-## Esercizi disponibili
-
-!!! info "In costruzione"
-    Gli esercizi verranno aggiunti progressivamente.
-    Torna a controllare questa pagina!
-
-| # | Titolo | Argomento | Difficoltà |
-|---|--------|-----------|------------|
-| 01 | *(in arrivo)* | Prima pagina HTML | :material-circle-outline: Base |
-| 02 | *(in arrivo)* | Stili con CSS: colori e testo | :material-circle-outline: Base |
-| 03 | *(in arrivo)* | Layout con Flexbox | :material-circle-slice-4: Intermedio |
-| 04 | *(in arrivo)* | Manipolazione del DOM | :material-circle-slice-4: Intermedio |
-| 05 | *(in arrivo)* | Form e validazione con JavaScript | :material-circle-slice-4: Intermedio |
-| 06 | *(in arrivo)* | Responsive design | :material-circle: Avanzato |
-| 07 | *(in arrivo)* | Fetch e API REST | :material-circle: Avanzato |
-
----
-
 ## Aprire i file nel browser
 
 !!! note "Nessuna installazione necessaria"
     Per iniziare basta un editor di testo e un browser. Crea un file `index.html`,
     aprilo con il browser trascinandolo nella finestra e il gioco è fatto.
     Per progetti più strutturati puoi usare l'estensione **Live Server** su VS Code.
+
+---
+
+## Esercizi disponibili
+
+!!! info "In costruzione"
+    La sezione viene popolata progressivamente. Ad oggi è disponibile la prima
+    parte del percorso (HTML puro); CSS e JavaScript seguiranno.
+
+### 1. HTML — Fondamentali :material-language-html5:
+
+| # | Esercizio | Argomento | Difficoltà |
+|---|-----------|-----------|------------|
+| 01 | [Prima pagina HTML](01-prima-pagina.md) | `!DOCTYPE`, `html`, `head`, `title`, `body`, `h1`, `p` | :material-circle-outline: Base |
+| 02 | [Titoli e paragrafi di testo](02-alan-turing.md) | Gerarchia `h1`-`h6`, `a`, `target="_blank"` | :material-circle-outline: Base |
+| 03 | [Liste e link](03-risorse-per-programmare.md) | `ul`, `ol`, `li`, link dentro le liste | :material-circle-outline: Base |
+| 04 | [Immagini e tabelle](04-commodore-vs-apple.md) | `img`, `alt`, `table`, `tr`, `th`, `td`, `thead`/`tbody` | :material-circle-slice-4: Intermedio |
+| 05 | [Div, span, class e id](05-film-preferiti.md) | `div`, `span`, `class`, `id` | :material-circle-slice-4: Intermedio |
+| 06 | [Elementi block e inline](06-block-vs-inline.md) | Block vs inline, `strong`, `em` | :material-circle-slice-4: Intermedio |
+| 07 | [Struttura semantica HTML5](07-struttura-semantica.md) | `header`, `nav`, `main`, `section`, `aside`, `footer` | :material-circle-slice-4: Intermedio |
+| 08 | [Form: campi di base](08-form-contatti.md) | `form`, `input`, `label`, `button` | :material-circle-slice-4: Intermedio |
+| 09 | [Form avanzato](09-form-iscrizione.md) | `select`, `textarea`, `checkbox`, `radio`, `fieldset`/`legend` | :material-circle: Avanzato |
 
 ---
 

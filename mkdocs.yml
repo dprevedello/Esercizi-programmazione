@@ -258,7 +258,16 @@ nav:
 
   - HTML-CSS-JavaScript:
     - html-css-javascript/index.md
-    # - "Es. 01 – prima pagina": html-css-javascript/01-prima-pagina.md
+    - HTML — Fondamentali:
+      - "Prima pagina HTML":                  html-css-javascript/01-prima-pagina.md
+      - "Titoli e paragrafi di testo":         html-css-javascript/02-alan-turing.md
+      - "Liste e link":                        html-css-javascript/03-risorse-per-programmare.md
+      - "Immagini e tabelle":                  html-css-javascript/04-commodore-vs-apple.md
+      - "Div, span, class e id":               html-css-javascript/05-film-preferiti.md
+      - "Elementi block e inline":             html-css-javascript/06-block-vs-inline.md
+      - "Struttura semantica HTML5":           html-css-javascript/07-struttura-semantica.md
+      - "Form: campi di base":                 html-css-javascript/08-form-contatti.md
+      - "Form avanzato":                       html-css-javascript/09-form-iscrizione.md
 
   - Java:
     - java/index.md

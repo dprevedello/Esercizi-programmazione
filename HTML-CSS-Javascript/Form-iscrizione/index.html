@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Iscrizione al Coding Day</title>
+</head>
+<body>
+  <h1>Iscrizione al Coding Day</h1>
+
+  <form>
+    <label for="ruolo">Ruolo</label>
+    <select id="ruolo" name="ruolo">
+      <option value="sviluppatore">Sviluppatore</option>
+      <option value="designer">Designer</option>
+      <option value="project-manager">Project Manager</option>
+    </select>
+
+    <label for="motivazione">Perché vuoi partecipare?</label>
+    <textarea id="motivazione" name="motivazione" rows="4"></textarea>
+
+    <input type="checkbox" id="regolamento" name="regolamento">
+    <label for="regolamento">Accetto il regolamento dell'evento</label>
+
+    <fieldset>
+      <legend>Modalità di partecipazione</legend>
+      <input type="radio" id="presenza" name="modalita" value="presenza">
+      <label for="presenza">In presenza</label>
+
+      <input type="radio" id="online" name="modalita" value="online">
+      <label for="online">Online</label>
+    </fieldset>
+
+    <button type="submit">Iscriviti</button>
+  </form>
+</body>
+</html>
