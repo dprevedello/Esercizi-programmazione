@@ -49,9 +49,20 @@ Usare controlli di modulo diversi dal semplice campo di testo, ciascuno adatto a
 <textarea id="motivazione" name="motivazione" rows="4"></textarea>
 ```
 
+### Perché serve un `<br>` dopo alcune etichette
+
+`label`, `select` e `textarea` sono elementi **inline**: su uno schermo largo il browser li terrebbe volentieri sulla stessa riga, invece di andare "a capo" come mostrato nell'Anteprima (e con `textarea`, che è molto più alta di una riga di testo, il risultato sarebbe anche visivamente confuso). Per questo, dopo la `label` di "Ruolo" e di "Perché vuoi partecipare?" c'è un **`<br>`**, che forza la riga nuova indipendentemente dalla larghezza dello schermo:
+
+```html
+<div class="campo">
+  <label for="ruolo">Ruolo</label><br>
+  <select id="ruolo" name="ruolo">...</select>
+</div>
+```
+
 ### Scelte multiple indipendenti: `checkbox`
 
-Un `<input type="checkbox">` è una casella di spunta che l'utente può attivare o disattivare in modo indipendente dalle altre. Più checkbox nella stessa pagina non si escludono a vicenda.
+Un `<input type="checkbox">` è una casella di spunta che l'utente può attivare o disattivare in modo indipendente dalle altre. Più checkbox nella stessa pagina non si escludono a vicenda. Qui, a differenza dei campi precedenti, il checkbox e la sua `label` **restano sulla stessa riga** (niente `<br>`): è un controllo piccolo, ed è normale — anche visivamente — leggere il testo subito accanto alla casella.
 
 ### Scelta esclusiva tra più opzioni: `radio`
 
@@ -64,27 +75,18 @@ Un gruppo di `<input type="radio">` con lo **stesso `name`** permette di selezio
 <label for="online">Online</label>
 ```
 
+Anche qui ogni radio e la sua `label` restano sulla stessa riga; i due pulsanti radio, non essendo racchiusi in nessun `div`, restano inline uno di fianco all'altro come mostrato nell'Anteprima.
+
 ### Raggruppare campi correlati: `fieldset` e `legend`
 
 **`fieldset`** raggruppa visivamente un insieme di campi correlati (qui, il gruppo di radio button), disegnando un riquadro attorno a loro. **`legend`** fornisce il titolo del gruppo, mostrato come etichetta del riquadro. `fieldset` è già di per sé un elemento block, quindi si mette automaticamente su una riga propria.
-
-### Perché i campi sono dentro un `div`
-
-Come nell'esercizio precedente, `label`, `select`, `textarea` e `input` sono elementi **inline**: senza un contenitore block attorno, il browser li affiancherebbe sulla stessa riga invece di andare "a capo" come mostrato nell'anteprima. Per questo ogni campo (o coppia campo+etichetta) è racchiuso in un **`div class="campo"`**, tranne il gruppo dei radio button, che sta già dentro il `fieldset` (block di suo).
-
-```html
-<div class="campo">
-  <label for="ruolo">Ruolo</label>
-  <select id="ruolo" name="ruolo">...</select>
-</div>
-```
 
 ## Suggerimenti
 
 - Il `name` è ciò che collega i radio button in un unico gruppo esclusivo: se per errore usi `name` diversi, l'utente potrà selezionarli tutti insieme, cosa sbagliata per una scelta "o l'uno o l'altro".
 - Ogni checkbox e ogni radio button ha comunque bisogno di una `label` propria, associata tramite `for`/`id`, esattamente come i campi di testo.
 - `fieldset`/`legend` non sono obbligatori per far funzionare i radio button, ma rendono il modulo più chiaro e sono considerati buona pratica quando si raggruppano scelte correlate.
-- Non dimenticare il `div class="campo"` attorno a ciascun campo (tranne i radio, già dentro il `fieldset`): senza, i campi si affiancherebbero sulla stessa riga.
+- Metti `<br>` solo dove serve andare a capo (dopo "Ruolo" e dopo "Perché vuoi partecipare?"): per checkbox e radio, campo ed etichetta restano volutamente sulla stessa riga.
 
 ## Soluzione
 

@@ -47,16 +47,18 @@ Una **`label`** descrive un campo del modulo. L'attributo **`for`** deve contene
 <input type="text" id="nome" name="nome">
 ```
 
-### Perché ogni campo è dentro un `div`
+### Perché serve un `<br>` dopo la `label`
 
-`label` e `input` sono elementi **inline** (lo abbiamo visto nell'esercizio sul block/inline): da soli, senza nessun elemento block attorno, il browser li mette uno di fianco all'altro sulla stessa riga, e lo stesso farebbe con il campo successivo. Per ottenere l'"a capo" tra un campo e l'altro mostrato nell'anteprima, ogni coppia etichetta+campo va racchiusa in un **`div`** (un elemento block, che occupa sempre tutta la riga): è lo stesso `div` generico già usato in esercizi precedenti, qui con la classe `campo` in previsione dello stile CSS che aggiungeremo più avanti.
+`label` e `input` sono elementi **inline** (lo abbiamo visto nell'esercizio sul block/inline): il browser li mette normalmente uno di fianco all'altro, e li manda a capo da soli solo se non c'è più spazio in orizzontale. Su uno schermo largo, quindi, "Nome" e il suo campo resterebbero comodamente sulla stessa riga, diversamente da come li mostra l'Anteprima. Per ottenere sempre l'"a capo" tra etichetta e campo, indipendentemente dalla larghezza dello schermo, si usa un **`<br>`** (*line break*): un elemento che forza semplicemente una riga vuota, senza le implicazioni "strutturali" di un nuovo paragrafo o di un nuovo `div`.
 
 ```html
 <div class="campo">
-  <label for="nome">Nome</label>
+  <label for="nome">Nome</label><br>
   <input type="text" id="nome" name="nome">
 </div>
 ```
+
+Il `div` attorno a ciascuna coppia etichetta+campo, invece, serve a tenerle raggruppate come un'unica unità (utile fin da ora per leggere il codice, e lo sarà ancora di più quando aggiungeremo lo stile CSS).
 
 ### Il pulsante di invio: `button`
 
@@ -66,7 +68,7 @@ L'elemento **`button`** con `type="submit"` crea il pulsante che, in un modulo r
 
 - Controlla sempre che il `for` della `label` corrisponda esattamente all'`id` del campo: un errore di battitura rompe il collegamento senza dare nessun avviso visibile.
 - L'attributo `name` (diverso da `id`) è quello che identifica il dato quando il modulo viene inviato: è buona norma includerlo fin da ora, anche se in questo esercizio non lo useremo ancora.
-- L'ordine in pagina è: etichetta, poi campo corrispondente, per ciascuno dei tre campi, ciascuna coppia racchiusa nel proprio `div`.
+- L'ordine in pagina è: etichetta, `<br>`, poi campo corrispondente, per ciascuno dei tre campi.
 
 ## Soluzione
 

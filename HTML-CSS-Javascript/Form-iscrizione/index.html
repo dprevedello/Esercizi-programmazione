@@ -9,7 +9,7 @@
 
   <form>
     <div class="campo">
-      <label for="ruolo">Ruolo</label>
+      <label for="ruolo">Ruolo</label><br>
       <select id="ruolo" name="ruolo">
         <option value="sviluppatore">Sviluppatore</option>
         <option value="designer">Designer</option>
@@ -18,7 +18,7 @@
     </div>
 
     <div class="campo">
-      <label for="motivazione">Perché vuoi partecipare?</label>
+      <label for="motivazione">Perché vuoi partecipare?</label><br>
       <textarea id="motivazione" name="motivazione" rows="4"></textarea>
     </div>
 
@@ -29,14 +29,10 @@
 
     <fieldset>
       <legend>Modalità di partecipazione</legend>
-      <div class="campo">
-        <input type="radio" id="presenza" name="modalita" value="presenza">
-        <label for="presenza">In presenza</label>
-      </div>
-      <div class="campo">
-        <input type="radio" id="online" name="modalita" value="online">
-        <label for="online">Online</label>
-      </div>
+      <input type="radio" id="presenza" name="modalita" value="presenza">
+      <label for="presenza">In presenza</label>
+      <input type="radio" id="online" name="modalita" value="online">
+      <label for="online">Online</label>
     </fieldset>
 
     <button type="submit">Iscriviti</button>
