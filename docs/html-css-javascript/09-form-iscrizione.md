@@ -66,13 +66,25 @@ Un gruppo di `<input type="radio">` con lo **stesso `name`** permette di selezio
 
 ### Raggruppare campi correlati: `fieldset` e `legend`
 
-**`fieldset`** raggruppa visivamente un insieme di campi correlati (qui, il gruppo di radio button), disegnando un riquadro attorno a loro. **`legend`** fornisce il titolo del gruppo, mostrato come etichetta del riquadro.
+**`fieldset`** raggruppa visivamente un insieme di campi correlati (qui, il gruppo di radio button), disegnando un riquadro attorno a loro. **`legend`** fornisce il titolo del gruppo, mostrato come etichetta del riquadro. `fieldset` è già di per sé un elemento block, quindi si mette automaticamente su una riga propria.
+
+### Perché i campi sono dentro un `div`
+
+Come nell'esercizio precedente, `label`, `select`, `textarea` e `input` sono elementi **inline**: senza un contenitore block attorno, il browser li affiancherebbe sulla stessa riga invece di andare "a capo" come mostrato nell'anteprima. Per questo ogni campo (o coppia campo+etichetta) è racchiuso in un **`div class="campo"`**, tranne il gruppo dei radio button, che sta già dentro il `fieldset` (block di suo).
+
+```html
+<div class="campo">
+  <label for="ruolo">Ruolo</label>
+  <select id="ruolo" name="ruolo">...</select>
+</div>
+```
 
 ## Suggerimenti
 
 - Il `name` è ciò che collega i radio button in un unico gruppo esclusivo: se per errore usi `name` diversi, l'utente potrà selezionarli tutti insieme, cosa sbagliata per una scelta "o l'uno o l'altro".
 - Ogni checkbox e ogni radio button ha comunque bisogno di una `label` propria, associata tramite `for`/`id`, esattamente come i campi di testo.
 - `fieldset`/`legend` non sono obbligatori per far funzionare i radio button, ma rendono il modulo più chiaro e sono considerati buona pratica quando si raggruppano scelte correlate.
+- Non dimenticare il `div class="campo"` attorno a ciascun campo (tranne i radio, già dentro il `fieldset`): senza, i campi si affiancherebbero sulla stessa riga.
 
 ## Soluzione
 

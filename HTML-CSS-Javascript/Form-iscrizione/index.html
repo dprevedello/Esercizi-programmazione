@@ -8,26 +8,35 @@
   <h1>Iscrizione al Coding Day</h1>
 
   <form>
-    <label for="ruolo">Ruolo</label>
-    <select id="ruolo" name="ruolo">
-      <option value="sviluppatore">Sviluppatore</option>
-      <option value="designer">Designer</option>
-      <option value="project-manager">Project Manager</option>
-    </select>
+    <div class="campo">
+      <label for="ruolo">Ruolo</label>
+      <select id="ruolo" name="ruolo">
+        <option value="sviluppatore">Sviluppatore</option>
+        <option value="designer">Designer</option>
+        <option value="project-manager">Project Manager</option>
+      </select>
+    </div>
 
-    <label for="motivazione">Perché vuoi partecipare?</label>
-    <textarea id="motivazione" name="motivazione" rows="4"></textarea>
+    <div class="campo">
+      <label for="motivazione">Perché vuoi partecipare?</label>
+      <textarea id="motivazione" name="motivazione" rows="4"></textarea>
+    </div>
 
-    <input type="checkbox" id="regolamento" name="regolamento">
-    <label for="regolamento">Accetto il regolamento dell'evento</label>
+    <div class="campo">
+      <input type="checkbox" id="regolamento" name="regolamento">
+      <label for="regolamento">Accetto il regolamento dell'evento</label>
+    </div>
 
     <fieldset>
       <legend>Modalità di partecipazione</legend>
-      <input type="radio" id="presenza" name="modalita" value="presenza">
-      <label for="presenza">In presenza</label>
-
-      <input type="radio" id="online" name="modalita" value="online">
-      <label for="online">Online</label>
+      <div class="campo">
+        <input type="radio" id="presenza" name="modalita" value="presenza">
+        <label for="presenza">In presenza</label>
+      </div>
+      <div class="campo">
+        <input type="radio" id="online" name="modalita" value="online">
+        <label for="online">Online</label>
+      </div>
     </fieldset>
 
     <button type="submit">Iscriviti</button>
