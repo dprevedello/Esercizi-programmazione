@@ -1,0 +1,18 @@
+# Normalizza i fine riga di tutti i file di testo a LF nel repository,
+# indipendentemente dal sistema operativo o dall'editor usato per
+# modificarli (Windows, questa shell cloud, ecc.).
+* text=auto eol=lf
+
+# Esplicito per gli script Bash: un fine riga CRLF li romperebbe
+# all'esecuzione (l'interprete leggerebbe "#!/bin/bash\r" e fallirebbe).
+*.sh text eol=lf
+
+# File binari: nessuna conversione di fine riga
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
