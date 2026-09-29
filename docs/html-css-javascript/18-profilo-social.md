@@ -13,14 +13,14 @@ Definire valori riutilizzabili con le variabili CSS e richiamarli in più punti 
 |          (MC)              | <- avatar, sfondo colore brand
 |      Marco Colombo         |
 |      @marco.codes          | <- colore brand
-|                             |
+|                            |
 |  Studente di Informatica,  |
 |  appassionato di robotica  |
 |  e videogiochi indie.      |
-|                             |
+|                            |
 |  128 post  2.430 follower  |
 |      310 seguiti           |
-|                             |
+|                            |
 |      [    Segui    ]       | <- sfondo colore brand
 +----------------------------+
    (bordo della card: colore brand,

@@ -14,11 +14,11 @@ Trasformare tre `<div>` in cerchi colorati usando dimensioni, colori e unità di
 |     molto scuro)   |
 |                    |
 |    +----------+    |
-|    |  ●●●●●●  | <- | rosso
+|    |  ●●●●●●  |    | <- rosso
 |    |          |    |
-|    |  ●●●●●●  | <- | giallo
+|    |  ●●●●●●  |    | <- giallo
 |    |          |    |
-|    |  ●●●●●●  | <- | verde
+|    |  ●●●●●●  |    | <- verde
 |    +----------+    |
 |   (custodia nera)  |
 +--------------------+

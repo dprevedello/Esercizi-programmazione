@@ -9,14 +9,14 @@ Prevedere e verificare quale regola vince quando più selettori diversi puntano 
 ## Anteprima
 
 ```
-+----------------------------------+
++-----------------------------------+
 | Giulia Bianchi                    | <- h2, rosso (vince #nome-titolare,
-|                                    |    non blu di h2 né verde di .nome)
+|                                   |    non blu di h2 né verde di .nome)
 | Sviluppatrice Full-Stack          | <- .ruolo, grigio corsivo
-|                                    |
+|                                   |
 | Email: giulia.bianchi@example.com | <- p.contatto, NERO
 | Tel: 011 1234567                  | <- (vince .biglietto p, non teal!)
-+----------------------------------+
++-----------------------------------+
 ```
 
 ## Descrizione

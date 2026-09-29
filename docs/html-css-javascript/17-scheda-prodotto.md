@@ -15,13 +15,13 @@ Costruire una card ben distanziata usando le quattro componenti del box model: c
 |   |          CUFFIE            |   | <- immagine segnaposto
 |   +----------------------------+   |
 |                                    |
-|   Cuffie wireless SoundMax        | <- h2
-|   Cancellazione attiva del        | <- .descrizione
-|   rumore, autonomia 30 ore...     |
+|   Cuffie wireless SoundMax         | <- h2
+|   Cancellazione attiva del         | <- .descrizione
+|   rumore, autonomia 30 ore...      |
 |                                    |
-|   €79,90                          | <- .prezzo, verde, grassetto
+|   €79,90                           | <- .prezzo, verde, grassetto
 |                                    |
-|   [   Aggiungi al carrello    ]   | <- button, arancione
+|   [   Aggiungi al carrello    ]    | <- button, arancione
 +------------------------------------+
    (bordo grigio chiaro attorno a
     tutta la card, sfondo bianco)

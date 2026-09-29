@@ -9,16 +9,16 @@ Differenziare l'aspetto di un link nei suoi diversi stati, usando le quattro pse
 ## Anteprima
 
 ```
-+--------------------------------------------+
-| Documentazione ufficiale                    |
-|                                              |
-| Documentazione Java        <- blu scuro,    |
-| Documentazione C              non sottolin. |
-| Documentazione Python                       |
-| Manuale Bash               <- viola se già  |
-| Documentazione HTML (MDN)     visitato      |
-| Documentazione CSS (MDN)                    |
-+--------------------------------------------+
++------------------------------------------------+
+| Documentazione ufficiale                       |
+|                                                |
+| Documentazione Java        <- blu scuro,       |
+| Documentazione C              non sottolineato |
+| Documentazione Python                          |
+| Manuale Bash               <- viola se già     |
+| Documentazione HTML (MDN)     visitato         |
+| Documentazione CSS (MDN)                       |
++------------------------------------------------+
    (al passaggio del mouse: arancione e
     sottolineato — durante il click: rosso)
 ```

@@ -10,14 +10,14 @@ Curare l'aspetto tipografico di una pagina usando famiglie di font (incluso un w
 
 ```
 +--------------------------------------------+
-|            (sfondo blu notte)               |
-|                                              |
-|            SUONI D'ESTATE                   | <- h1, font Bebas Neue,
-|                                              |    enorme, centrato
-|       Festival musicale indipendente        | <- .sottotitolo, grassetto
-|                                              |
+|            (sfondo blu notte)              |
+|                                            |
+|            SUONI D'ESTATE                  | <- h1, font Bebas Neue,
+|                                            |    enorme, centrato
+|       Festival musicale indipendente       | <- .sottotitolo, grassetto
+|                                            |
 |    12-14 luglio · Parco della Città ·      | <- .dettagli, più piccolo,
-|          Ingresso gratuito                  |    interlinea ampia
+|          Ingresso gratuito                 |    interlinea ampia
 +--------------------------------------------+
 ```
 

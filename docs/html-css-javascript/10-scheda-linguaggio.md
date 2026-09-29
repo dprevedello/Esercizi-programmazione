@@ -10,15 +10,15 @@ Applicare uno stile diverso a elementi diversi usando i tre selettori CSS di bas
 
 ```
 +--------------------------------------------------+
-| Python                                            | <- h1, blu scuro
-|                                                    |
-| Python è un linguaggio di programmazione ad alto  | <- p, grigio scuro
-| livello, creato da Guido van Rossum e rilasciato  |
-| per la prima volta nel 1991.                      |
-|                                                    |
-| Paradigma: linguaggio multi-paradigma...          | <- p.info, verde
-|                                                    |    scuro e grassetto
-| Uno dei linguaggi più usati al mondo per...       | <- p#nota, arancione
+| Python                                           | <- h1, blu scuro
+|                                                  |
+| Python è un linguaggio di programmazione ad alto | <- p, grigio scuro
+| livello, creato da Guido van Rossum e rilasciato |
+| per la prima volta nel 1991.                     |
+|                                                  |
+| Paradigma: linguaggio multi-paradigma...         | <- p.info, verde
+|                                                  |    scuro e grassetto
+| Uno dei linguaggi più usati al mondo per...      | <- p#nota, arancione
 +--------------------------------------------------+
    (sfondo grigio chiarissimo su tutta la pagina)
 ```

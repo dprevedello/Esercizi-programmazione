@@ -17,11 +17,11 @@ Mettere insieme, in un'unica pagina, selettori di base e combinati, colori e uni
 
 +------------------------------------------+
 | Chi sono                                 | <- h2, colore brand
-|                                           |
-| “Imparare a programmare significa       | <- .motto, con virgolette
-|  imparare a pensare in modo diverso.”   |    generate da ::before/::after
-|                                           |
-| Frequento l'indirizzo Informatica...    |
+|                                          |
+| “Imparare a programmare significa        | <- .motto, con virgolette
+|  imparare a pensare in modo diverso.”    |    generate da ::before/::after
+|                                          |
+| Frequento l'indirizzo Informatica...     |
 +------------------------------------------+   (card con bordo e angoli
                                                  arrotondati)
 +------------------------------------------+

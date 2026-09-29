@@ -10,22 +10,22 @@ Selezionare elementi in base alla loro posizione nella struttura della pagina, u
 
 ```
 +---------------------------------------------+
-|              Pizzeria Da Marco               | <- h1, centrato
-|                                               |
-|  Antipasti                                   | <- h2, rosso scuro,
-|  Bruschette al pomodoro           €5         |    font Georgia
-|  Tagliere di salumi               €8         | <- prezzi verdi,
-|                                               |    grassetto, senza
-|  Primi piatti                                |    puntini elenco
-|  Risotto ai funghi                €9         |
-|  Pasta al pomodoro                €7         |
-|                                               |
-|  Pizze                                       |
-|  Margherita                       €6         |
-|  Diavola                          €8         |
-|                                               |
-|  Informazioni sul servizio                   | <- h3, stesso stile di h2
-|  Il coperto (€1,50) non è incluso...         | <- prezzo qui: grigio
+|              Pizzeria Da Marco              | <- h1, centrato
+|                                             |
+|  Antipasti                                  | <- h2, rosso scuro,
+|  Bruschette al pomodoro           €5        |    font Georgia
+|  Tagliere di salumi               €8        | <- prezzi verdi,
+|                                             |    grassetto, senza
+|  Primi piatti                               |    puntini elenco
+|  Risotto ai funghi                €9        |
+|  Pasta al pomodoro                €7        |
+|                                             |
+|  Pizze                                      |
+|  Margherita                       €6        |
+|  Diavola                          €8        |
+|                                             |
+|  Informazioni sul servizio                  | <- h3, stesso stile di h2
+|  Il coperto (€1,50) non è incluso...        | <- prezzo qui: grigio
 +---------------------------------------------+
 ```
 
