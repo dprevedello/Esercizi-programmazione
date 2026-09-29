@@ -1,0 +1,55 @@
+:root {
+  --colore-brand: #6c5ce7;
+  --colore-testo-secondario: #666666;
+  --raggio-bordo: 10px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f8;
+}
+
+.profilo {
+  width: 260px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  border: 1px solid var(--colore-brand);
+  border-radius: var(--raggio-bordo);
+}
+
+.avatar-segnaposto {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  background-color: var(--colore-brand);
+  color: white;
+  font-weight: bold;
+  line-height: 70px;
+}
+
+.handle {
+  color: var(--colore-brand);
+  margin-top: 0;
+}
+
+.bio {
+  color: var(--colore-testo-secondario);
+  font-size: 0.9rem;
+}
+
+.statistiche span {
+  margin: 0 8px;
+  color: var(--colore-testo-secondario);
+}
+
+.segui {
+  margin-top: 12px;
+  padding: 8px 24px;
+  border: none;
+  border-radius: var(--raggio-bordo);
+  background-color: var(--colore-brand);
+  color: white;
+}

@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+}
+
+.classifica {
+  list-style-type: decimal;
+  list-style-position: inside;
+  width: 300px;
+}
+
+.classifica li {
+  padding: 8px;
+}
+
+.classifica li:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.classifica li:first-child {
+  background-color: gold;
+  font-weight: bold;
+}
+
+.classifica li:last-child {
+  color: gray;
+  font-style: italic;
+}

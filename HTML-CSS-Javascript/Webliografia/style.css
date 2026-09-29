@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+}
+
+li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+a:link {
+  color: navy;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:hover {
+  color: darkorange;
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}

@@ -1,0 +1,31 @@
+.biglietto {
+  font-family: sans-serif;
+  padding: 20px;
+  border: 2px solid #cccccc;
+  width: 260px;
+}
+
+h2 {
+  color: blue;
+}
+
+.nome {
+  color: green;
+}
+
+#nome-titolare {
+  color: red;
+}
+
+.ruolo {
+  color: gray;
+  font-style: italic;
+}
+
+.biglietto p {
+  color: black;
+}
+
+.contatto {
+  color: teal;
+}

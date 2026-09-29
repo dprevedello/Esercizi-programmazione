@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+  background-color: whitesmoke;
+}
+
+h1 {
+  color: darkslateblue;
+}
+
+p {
+  color: dimgray;
+}
+
+.info {
+  color: darkgreen;
+  font-weight: bold;
+}
+
+#nota {
+  color: darkorange;
+}

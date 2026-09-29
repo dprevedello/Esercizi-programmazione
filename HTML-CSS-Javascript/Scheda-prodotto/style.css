@@ -1,0 +1,46 @@
+body {
+  font-family: sans-serif;
+  background-color: #eeeeee;
+}
+
+.scheda {
+  width: 220px;
+  margin: 30px auto;
+  padding: 16px;
+  border: 1px solid #cccccc;
+  background-color: white;
+}
+
+.immagine-segnaposto {
+  height: 120px;
+  margin-bottom: 12px;
+  border: 2px dashed #aaaaaa;
+  background-color: #f5f5f5;
+  text-align: center;
+  line-height: 120px;
+  color: #999999;
+}
+
+.scheda h2 {
+  margin: 0 0 8px 0;
+  font-size: 1.1rem;
+}
+
+.descrizione {
+  color: #555555;
+  font-size: 0.9rem;
+}
+
+.prezzo {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: darkgreen;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: darkorange;
+  color: white;
+}

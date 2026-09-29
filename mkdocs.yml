@@ -226,7 +226,7 @@ nav:
     - Calcolo numerico:
       - "Stampa divisori di un numero":         c/38-stampa-divisori-di-un-numero.md
       - "Verifica numero primo":                c/39-verifica-numero-primo.md
-      - "Calcolo del fattoriale":               c/40-calcolo-del-fattoriale.md
+      - "Calcolo del fattoriale":                c/40-calcolo-del-fattoriale.md
       - "Sequenza di Fibonacci":                c/41-sequenza-di-fibonacci.md
     - Funzioni e ricorsione:
       - "Calcolo radice quadrata":              c/42-calcolo-radice-quadrata.md
@@ -268,6 +268,18 @@ nav:
       - "Struttura semantica HTML5":           html-css-javascript/07-struttura-semantica.md
       - "Form: campi di base":                 html-css-javascript/08-form-contatti.md
       - "Form avanzato":                       html-css-javascript/09-form-iscrizione.md
+    - CSS — Selettori e stile di base:
+      - "Scheda di un linguaggio":             html-css-javascript/10-scheda-linguaggio.md
+      - "Semaforo":                            html-css-javascript/11-semaforo.md
+      - "Locandina di un festival musicale":   html-css-javascript/12-locandina-festival.md
+      - "Menu di una pizzeria":                html-css-javascript/13-menu-pizzeria.md
+      - "Classifica di un torneo eSport":      html-css-javascript/14-classifica-torneo.md
+      - "Sitografia dei linguaggi studiati":   html-css-javascript/15-webliografia.md
+      - "Biglietto da visita digitale":        html-css-javascript/16-biglietto-da-visita.md
+      - "Scheda prodotto e-commerce":          html-css-javascript/17-scheda-prodotto.md
+      - "Profilo social":                      html-css-javascript/18-profilo-social.md
+      - "Blocco citazioni":                    html-css-javascript/19-blocco-citazioni.md
+      - "Pagina personale \"Chi sono\"":       html-css-javascript/20-chi-sono.md
 
   - Java:
     - java/index.md

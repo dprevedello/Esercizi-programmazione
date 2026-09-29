@@ -1,0 +1,30 @@
+body {
+  background-color: #222222;
+}
+
+.custodia {
+  width: 120px;
+  padding: 10px;
+  margin: 40px auto;
+  background-color: black;
+}
+
+.luce {
+  width: 80%;
+  height: 80px;
+  margin: 10px auto;
+  border-radius: 50%;
+  background-color: #444444;
+}
+
+.rosso {
+  background-color: red;
+}
+
+.giallo {
+  background-color: rgb(255, 200, 0);
+}
+
+.verde {
+  background-color: green;
+}

@@ -1,0 +1,111 @@
+:root {
+  --colore-brand: #6c5ce7;
+  --colore-sfondo-card: #ffffff;
+  --colore-testo-secondario: #666666;
+  --raggio-bordo: 10px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f8;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: var(--colore-brand);
+}
+
+.intro {
+  text-align: center;
+  padding: 20px;
+}
+
+.avatar-segnaposto {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto 10px auto;
+  border-radius: 50%;
+  background-color: var(--colore-brand);
+  color: white;
+  font-weight: bold;
+  line-height: 70px;
+}
+
+.tagline {
+  color: var(--colore-testo-secondario);
+}
+
+.chi-sono, .competenze, .contatti {
+  max-width: 500px;
+  margin: 16px auto;
+  padding: 16px 20px;
+  background-color: var(--colore-sfondo-card);
+  border: 1px solid var(--colore-brand);
+  border-radius: var(--raggio-bordo);
+}
+
+.motto {
+  position: relative;
+  margin: 10px 0;
+  padding: 0 30px;
+  font-style: italic;
+  color: var(--colore-testo-secondario);
+  border-left: 4px solid var(--colore-brand);
+}
+
+.motto::before {
+  content: "“";
+  color: var(--colore-brand);
+  font-size: 1.5rem;
+}
+
+.motto::after {
+  content: "”";
+  color: var(--colore-brand);
+  font-size: 1.5rem;
+}
+
+.lista-competenze {
+  list-style: none;
+  padding: 0;
+}
+
+.lista-competenze li {
+  padding: 8px;
+}
+
+.lista-competenze li:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+.lista-competenze li:first-child {
+  font-weight: bold;
+  color: var(--colore-brand);
+}
+
+.contatti ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contatti li {
+  margin-bottom: 8px;
+}
+
+.contatti a:link {
+  color: var(--colore-brand);
+  text-decoration: none;
+}
+
+.contatti a:visited {
+  color: #4b3aa0;
+}
+
+.contatti a:hover {
+  text-decoration: underline;
+}
+
+.contatti a:active {
+  color: red;
+}

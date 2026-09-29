@@ -1,0 +1,31 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2, h3 {
+  color: darkred;
+  font-family: Georgia, serif;
+}
+
+.menu > section {
+  margin-bottom: 20px;
+}
+
+.menu li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.menu span.prezzo {
+  font-weight: bold;
+  color: darkgreen;
+}
+
+.nota span.prezzo {
+  font-weight: bold;
+  color: gray;
+}

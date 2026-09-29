@@ -39,8 +39,8 @@ perché i risultati sono visibili immediatamente nel browser senza alcuna config
 ## Esercizi disponibili
 
 !!! info "In costruzione"
-    La sezione viene popolata progressivamente. Ad oggi è disponibile la prima
-    parte del percorso (HTML puro); CSS e JavaScript seguiranno.
+    La sezione viene popolata progressivamente. Ad oggi sono disponibili HTML puro
+    e CSS (selettori e stile di base); il layout moderno e JavaScript seguiranno.
 
 ### 1. HTML — Fondamentali :material-language-html5:
 
@@ -55,6 +55,22 @@ perché i risultati sono visibili immediatamente nel browser senza alcuna config
 | 07 | [Struttura semantica HTML5](07-struttura-semantica.md) | `header`, `nav`, `main`, `section`, `aside`, `footer` | :material-circle-slice-4: Intermedio |
 | 08 | [Form: campi di base](08-form-contatti.md) | `form`, `input`, `label`, `button` | :material-circle-slice-4: Intermedio |
 | 09 | [Form avanzato](09-form-iscrizione.md) | `select`, `textarea`, `checkbox`, `radio`, `fieldset`/`legend` | :material-circle: Avanzato |
+
+### 2. CSS — Selettori e stile di base :material-language-css3:
+
+| # | Esercizio | Argomento | Difficoltà |
+|---|-----------|-----------|------------|
+| 10 | [Scheda di un linguaggio di programmazione](10-scheda-linguaggio.md) | Selettori di elemento, classe e id, `<link>` | :material-circle-outline: Base |
+| 11 | [Semaforo](11-semaforo.md) | Colori (nome/hex/`rgb()`), unità `px`/`%`, `border-radius` | :material-circle-outline: Base |
+| 12 | [Locandina di un festival musicale](12-locandina-festival.md) | `font-family`, Google Fonts, `font-size`, `font-weight`, `text-align`, `line-height` | :material-circle-slice-4: Intermedio |
+| 13 | [Menu di una pizzeria](13-menu-pizzeria.md) | Selettore discendente, figlio diretto (`>`), gruppo con virgola | :material-circle-slice-4: Intermedio |
+| 14 | [Classifica di un torneo eSport](14-classifica-torneo.md) | `list-style`, `:first-child`, `:last-child`, `:nth-child()` | :material-circle-slice-4: Intermedio |
+| 15 | [Sitografia dei linguaggi studiati](15-webliografia.md) | `:link`, `:visited`, `:hover`, `:active` | :material-circle-slice-4: Intermedio |
+| 16 | [Biglietto da visita digitale](16-biglietto-da-visita.md) | Cascata, ereditarietà, specificità | :material-circle-slice-4: Intermedio |
+| 17 | [Scheda prodotto e-commerce](17-scheda-prodotto.md) | Box model: `margin`, `padding`, `border`, `background-color` | :material-circle-slice-4: Intermedio |
+| 18 | [Profilo social](18-profilo-social.md) | Variabili CSS: `:root`, `var()` | :material-circle: Avanzato |
+| 19 | [Blocco citazioni](19-blocco-citazioni.md) | `::before`, `::after`, `content` | :material-circle: Avanzato |
+| 20 | [Pagina personale "Chi sono"](20-chi-sono.md) | Mini-progetto: tutti i concetti della sezione | :material-circle: Avanzato |
 
 ---
 
