@@ -280,6 +280,17 @@ nav:
       - "Profilo social":                      html-css-javascript/18-profilo-social.md
       - "Blocco citazioni":                    html-css-javascript/19-blocco-citazioni.md
       - "Pagina personale \"Chi sono\"":       html-css-javascript/20-chi-sono.md
+    - CSS — Layout moderno:
+      - "Barra di navigazione":                html-css-javascript/21-navbar-flexbox.md
+      - "Vetrina di libri":                    html-css-javascript/22-vetrina-libri.md
+      - "Galleria fotografica":                html-css-javascript/23-galleria-fotografica.md
+      - "Layout di un blog":                   html-css-javascript/24-layout-blog.md
+      - "Badge di notifica e \"torna su\"":     html-css-javascript/25-badge-notifica.md
+      - "Card responsive":                     html-css-javascript/26-card-responsive.md
+      - "Pagina \"Chi sono\" v2":               html-css-javascript/27-chi-sono-v2.md
+      - "Introduzione a Bootstrap":             html-css-javascript/28-bootstrap-grid.md
+      - "Componenti Bootstrap":                 html-css-javascript/29-catalogo-eventi.md
+      - "Mini-sito di una città italiana":      html-css-javascript/30-citta-italiana.md
 
   - Java:
     - java/index.md

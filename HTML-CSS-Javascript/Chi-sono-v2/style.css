@@ -1,0 +1,114 @@
+:root {
+  --colore-brand: #6c5ce7;
+  --colore-sfondo-card: #ffffff;
+  --colore-testo-secondario: #666666;
+  --raggio-bordo: 10px;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f8;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: var(--colore-brand);
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.avatar-segnaposto {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  background-color: var(--colore-brand);
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tagline {
+  color: var(--colore-testo-secondario);
+}
+
+.contenuto {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.chi-sono, .competenze, .contatti {
+  padding: 16px 20px;
+  background-color: var(--colore-sfondo-card);
+  border: 1px solid var(--colore-brand);
+  border-radius: var(--raggio-bordo);
+}
+
+.motto {
+  margin: 10px 0;
+  padding: 0 20px;
+  font-style: italic;
+  color: var(--colore-testo-secondario);
+  border-left: 4px solid var(--colore-brand);
+}
+
+.tag-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  background-color: var(--colore-brand);
+  color: white;
+  padding: 6px 12px;
+  border-radius: var(--raggio-bordo);
+  font-size: 0.9rem;
+}
+
+.contatti ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contatti a:link {
+  color: var(--colore-brand);
+  text-decoration: none;
+}
+
+.contatti a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 700px) {
+  .contenuto {
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+      "chi       competenze"
+      "chi       contatti";
+  }
+
+  .chi-sono {
+    grid-area: chi;
+  }
+
+  .competenze {
+    grid-area: competenze;
+  }
+
+  .contatti {
+    grid-area: contatti;
+  }
+}

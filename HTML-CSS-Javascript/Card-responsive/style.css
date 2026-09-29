@@ -1,0 +1,38 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  overflow: hidden;
+  max-width: 600px;
+}
+
+.immagine-segnaposto {
+  background-color: #636e72;
+  color: white;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.testo {
+  padding: 16px;
+}
+
+@media (min-width: 600px) {
+  .card {
+    flex-direction: row;
+  }
+
+  .immagine-segnaposto {
+    flex: 0 0 200px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

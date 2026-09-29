@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.vetrina {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.libro {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 180px;
+  padding: 16px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  text-align: center;
+}

@@ -20,6 +20,7 @@ perché i risultati sono visibili immediatamente nel browser senza alcuna config
 - Selettori CSS e il modello a cascata: classi, ID, specificità
 - Layout moderni con **Flexbox** e **CSS Grid**
 - Responsive design e media query
+- Le basi di **Bootstrap**, il framework CSS più diffuso
 - Manipolare il DOM con JavaScript: selezionare elementi, modificarli, reagire agli eventi
 - Variabili, funzioni, cicli e condizioni in JavaScript
 - Gestione degli eventi: `click`, `submit`, `keydown`…
@@ -39,8 +40,8 @@ perché i risultati sono visibili immediatamente nel browser senza alcuna config
 ## Esercizi disponibili
 
 !!! info "In costruzione"
-    La sezione viene popolata progressivamente. Ad oggi sono disponibili HTML puro
-    e CSS (selettori e stile di base); il layout moderno e JavaScript seguiranno.
+    La sezione viene popolata progressivamente. Ad oggi sono disponibili HTML puro,
+    CSS (selettori/stile di base e layout moderno con Bootstrap); JavaScript seguirà.
 
 ### 1. HTML — Fondamentali :material-language-html5:
 
@@ -72,6 +73,21 @@ perché i risultati sono visibili immediatamente nel browser senza alcuna config
 | 19 | [Blocco citazioni](19-blocco-citazioni.md) | `::before`, `::after`, `content` | :material-circle: Avanzato |
 | 20 | [Pagina personale "Chi sono"](20-chi-sono.md) | Mini-progetto: tutti i concetti della sezione | :material-circle: Avanzato |
 
+### 3. CSS — Layout moderno :material-view-grid-outline:
+
+| # | Esercizio | Argomento | Difficoltà |
+|---|-----------|-----------|------------|
+| 21 | [Barra di navigazione](21-navbar-flexbox.md) | Flexbox: `display: flex`, `justify-content`, `align-items`, `gap` | :material-circle-outline: Base |
+| 22 | [Vetrina di libri](22-vetrina-libri.md) | Flexbox: `flex-direction`, `flex-wrap`, `flex-grow`/`shrink`/`basis` | :material-circle-slice-4: Intermedio |
+| 23 | [Galleria fotografica](23-galleria-fotografica.md) | Grid: `grid-template-columns`/`rows`, `gap` | :material-circle-slice-4: Intermedio |
+| 24 | [Layout di un blog](24-layout-blog.md) | Grid: `grid-template-areas`, `grid-area` | :material-circle-slice-4: Intermedio |
+| 25 | [Badge di notifica e "torna su"](25-badge-notifica.md) | `position: relative`/`absolute`/`fixed`, `z-index` | :material-circle-slice-4: Intermedio |
+| 26 | [Card responsive](26-card-responsive.md) | Media query, approccio mobile-first | :material-circle-slice-4: Intermedio |
+| 27 | [Pagina "Chi sono" v2](27-chi-sono-v2.md) | Mini-progetto: Grid + Flexbox + media query | :material-circle: Avanzato |
+| 28 | [Introduzione a Bootstrap](28-bootstrap-grid.md) | `container`, `row`, `col-*` | :material-circle-outline: Base |
+| 29 | [Componenti Bootstrap](29-catalogo-eventi.md) | `navbar`, `card`, `btn`, classi di utilità | :material-circle-slice-4: Intermedio |
+| 30 | [Mini-sito di una città italiana](30-citta-italiana.md) | Mini-progetto finale: sito multi-pagina con Bootstrap | :material-circle: Avanzato |
+
 ---
 
 ## Risorse utili
@@ -80,3 +96,4 @@ perché i risultati sono visibili immediatamente nel browser senza alcuna config
 - [W3Schools](https://www.w3schools.com) — tutorial interattivi con editor integrato
 - [CSS-Tricks](https://css-tricks.com) — guide pratiche su layout e animazioni CSS
 - [javascript.info](https://javascript.info) — corso completo e moderno su JavaScript
+- [Bootstrap](https://getbootstrap.com) — documentazione ufficiale del framework

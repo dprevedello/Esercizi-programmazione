@@ -1,0 +1,42 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.pagina {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    "intestazione intestazione"
+    "laterale     contenuto"
+    "piede        piede";
+  min-height: 100vh;
+  gap: 10px;
+}
+
+.intestazione {
+  grid-area: intestazione;
+  background-color: #2d3436;
+  color: white;
+  padding: 16px;
+}
+
+.barra-laterale {
+  grid-area: laterale;
+  background-color: #dfe6e9;
+  padding: 16px;
+}
+
+.contenuto {
+  grid-area: contenuto;
+  padding: 16px;
+}
+
+.piede {
+  grid-area: piede;
+  background-color: #2d3436;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
