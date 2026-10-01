@@ -14,7 +14,7 @@ Il sito è consultabile all'indirizzo:
 | `Bash/` | 37 | Script da riga di comando su Linux/macOS — dai fondamentali (variabili, cicli, funzioni) alle pipeline con comandi di sistema |
 | `C/` | 60 | Linguaggio C — dagli esercizi base ai più avanzati |
 | `Database/` | — | SQL e algebra relazionale su database relazionali |
-| `HTML-CSS-Javascript/` | 9 (sezione 1 di più in arrivo) | Pagine web, stili CSS e scripting lato client — al momento solo la sezione "HTML — Fondamentali" |
+| `HTML-CSS-Javascript/` | 47 (5 sezioni) | Pagine web, stili CSS e JavaScript lato client: HTML, CSS (base e layout moderno con Bootstrap) e JavaScript sul DOM, con piccoli giochi |
 | `Java/` | 46 | Programmazione orientata agli oggetti in Java — metodi statici, Javadoc, OOP, eccezioni, file, thread, socket |
 | `Linux/` | 11 categorie | Guida di riferimento ai comandi principali della shell (non esercizi da consegnare) |
 | `PacketTracer/` | — | Reti con Cisco Packet Tracer |
@@ -140,7 +140,7 @@ Le sezioni tematiche Bash attualmente disponibili sono:
 
 ### Esempio per HTML-CSS-Javascript
 
-Ogni esercizio vive in una propria sottocartella con almeno `index.html` (e, dove servono, `style.css`/`script.js` — non ancora presenti nella sezione "Fondamentali", solo HTML):
+Ogni esercizio vive in una propria sottocartella con almeno `index.html` (e, dove servono, `style.css`/`script.js`: gli esercizi HTML hanno solo `index.html`, quelli CSS aggiungono `style.css`, quelli JavaScript anche `script.js`):
 
 ```
 HTML-CSS-Javascript/
@@ -160,7 +160,7 @@ HTML-CSS-Javascript/
 5. Nell'`oc-embed`, usa `data-lang="html"`: a differenza degli altri linguaggi mostra un'anteprima del browser dal vivo invece della console, quindi non serve `data-stdin`.
 
 Le sezioni tematiche HTML-CSS-Javascript attualmente disponibili sono:
-`HTML — Fondamentali` (le sezioni CSS e JavaScript seguiranno).
+`HTML — Fondamentali` · `CSS — Selettori e stile di base` · `CSS — Layout moderno` · `JavaScript — La pagina diventa interattiva` · `JavaScript — Giochi nel browser`.
 
 ### Aggiungere una pagina alla sezione Linux (guida di riferimento)
 
@@ -269,7 +269,7 @@ Esercizi-programmazione/
 ├── Database/
 ├── HTML-CSS-Javascript/
 │   ├── Prima-pagina/index.html
-│   └── … (9 sottocartelle, sezione "HTML — Fondamentali")
+│   └── … (47 sottocartelle, una per esercizio: HTML, CSS e JavaScript)
 ├── Java/
 │   ├── Somma-di-due-numeri/SommaNumeri.java
 │   └── … (46 sottocartelle, una per esercizio)
@@ -300,7 +300,7 @@ Esercizi-programmazione/
 │   ├── html-css-javascript/
 │   │   ├── index.md                # indice della sezione
 │   │   ├── 01-prima-pagina.md      # pagina di ciascun esercizio
-│   │   └── ... (9 pagine sulla sezione "HTML — Fondamentali")
+│   │   └── ... (47 pagine su 5 sezioni tematiche)
 │   ├── java/
 │   │   ├── index.md                # indice con tutti gli esercizi classificati
 │   │   ├── 01-somma-di-due-numeri.md

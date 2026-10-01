@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Media dei voti</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Pagella</h1>
+
+  <label for="voto1">Voto 1</label>
+  <input type="number" id="voto1" value="7" step="0.5">
+
+  <label for="voto2">Voto 2</label>
+  <input type="number" id="voto2" value="8" step="0.5">
+
+  <label for="voto3">Voto 3</label>
+  <input type="number" id="voto3" value="6" step="0.5">
+
+  <button onclick="calcolaMedia()">Calcola la media</button>
+
+  <p id="risultato"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>

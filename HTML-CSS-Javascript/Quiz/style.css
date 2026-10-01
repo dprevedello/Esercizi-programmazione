@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif;
+  max-width: 480px;
+  margin: 30px auto;
+  padding: 0 16px;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+}
+
+input,
+select,
+textarea {
+  padding: 6px;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 12px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+#domanda {
+  min-height: 3em;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.risposte button {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  text-align: left;
+}
+
+.giusta {
+  background-color: #a5d6a7;
+}
+
+.sbagliata {
+  background-color: #ef9a9a;
+}
+
+#feedback {
+  min-height: 1.5em;
+  font-weight: bold;
+}
+
+#punteggio {
+  color: #555555;
+}

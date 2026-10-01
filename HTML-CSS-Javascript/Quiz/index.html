@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quiz a risposta multipla</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Quiz sul web</h1>
+
+  <p id="domanda"></p>
+
+  <div class="risposte">
+    <button id="r0" onclick="rispondi(0)"></button>
+    <button id="r1" onclick="rispondi(1)"></button>
+    <button id="r2" onclick="rispondi(2)"></button>
+    <button id="r3" onclick="rispondi(3)"></button>
+  </div>
+
+  <p id="feedback"></p>
+  <button id="avanti" onclick="avanti()" hidden>Avanti</button>
+  <p id="punteggio">Punteggio: 0</p>
+
+  <script src="script.js"></script>
+</body>
+</html>

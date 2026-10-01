@@ -1,0 +1,44 @@
+body {
+  font-family: sans-serif;
+  max-width: 480px;
+  margin: 30px auto;
+  padding: 0 16px;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+}
+
+input,
+select,
+textarea {
+  padding: 6px;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 12px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.operazioni button {
+  min-width: 48px;
+  margin-right: 6px;
+}
+
+#risultato {
+  margin-top: 16px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}

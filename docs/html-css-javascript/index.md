@@ -22,9 +22,9 @@ perché i risultati sono visibili immediatamente nel browser senza alcuna config
 - Responsive design e media query
 - Le basi di **Bootstrap**, il framework CSS più diffuso
 - Manipolare il DOM con JavaScript: selezionare elementi, modificarli, reagire agli eventi
-- Variabili, funzioni, cicli e condizioni in JavaScript
-- Gestione degli eventi: `click`, `submit`, `keydown`…
-- Introduzione al `fetch` per comunicare con API esterne
+- Variabili, funzioni, cicli, condizioni e array in JavaScript, sempre applicati a una pagina web
+- Gestione degli eventi: `click`, `input`, `submit`…
+- Costruire piccole applicazioni e **giochi nel browser**: dadi, quiz, memory, tris…
 
 ---
 
@@ -39,9 +39,11 @@ perché i risultati sono visibili immediatamente nel browser senza alcuna config
 
 ## Esercizi disponibili
 
-!!! info "In costruzione"
-    La sezione viene popolata progressivamente. Ad oggi sono disponibili HTML puro,
-    CSS (selettori/stile di base e layout moderno con Bootstrap); JavaScript seguirà.
+Il percorso procede per **concetti isolati**: prima solo HTML, poi solo CSS (stile di base e
+layout moderno con Bootstrap), poi JavaScript, che qui si impara **dentro la pagina web**
+(leggere i campi di un modulo, reagire ai clic, scrivere il risultato nella pagina) e si mette
+alla prova con piccoli giochi. Negli esercizi CSS e JavaScript il file HTML è già pronto e non
+va modificato: lo studente scrive solo `style.css` oppure `script.js`.
 
 ### 1. HTML — Fondamentali :material-language-html5:
 
@@ -87,6 +89,33 @@ perché i risultati sono visibili immediatamente nel browser senza alcuna config
 | 28 | [Introduzione a Bootstrap](28-bootstrap-grid.md) | `container`, `row`, `col-*` | :material-circle-outline: Base |
 | 29 | [Componenti Bootstrap](29-catalogo-eventi.md) | `navbar`, `card`, `btn`, classi di utilità | :material-circle-slice-4: Intermedio |
 | 30 | [Mini-sito di una città italiana](30-citta-italiana.md) | Mini-progetto finale: sito multi-pagina con Bootstrap | :material-circle: Avanzato |
+
+### 4. JavaScript — La pagina diventa interattiva :material-language-javascript:
+
+| # | Esercizio | Argomento | Difficoltà |
+|---|-----------|-----------|------------|
+| 31 | [Primo script](31-primo-script.md) | `<script>`, funzioni, `getElementById`, `textContent`, `onclick` | :material-circle-outline: Base |
+| 32 | [Somma di due numeri](32-somma-due-numeri.md) | Variabili `const`, `value`, `Number()`, concatenazione | :material-circle-outline: Base |
+| 33 | [Calcolatrice](33-calcolatrice.md) | Funzioni con parametri, `if`/`else if`/`else`, `===` | :material-circle-outline: Base |
+| 34 | [Media dei voti](34-media-voti.md) | Operatori logici (and/or), `className`, `toFixed()` | :material-circle-slice-4: Intermedio |
+| 35 | [Contatore](35-contatore.md) | Eventi, `addEventListener`, variabili globali | :material-circle-outline: Base |
+| 36 | [Contatore di caratteri](36-contatore-caratteri.md) | Evento `input`, `length`, `toUpperCase()` | :material-circle-slice-4: Intermedio |
+| 37 | [Tabelline](37-tabelline.md) | Ciclo `for`, `innerHTML` | :material-circle-slice-4: Intermedio |
+| 38 | [Lista della spesa](38-lista-spesa.md) | Array, `push`, `trim()`, ridisegnare la pagina dai dati | :material-circle-slice-4: Intermedio |
+| 39 | [Registrazione con controllo dei dati](39-registrazione.md) | Mini-progetto: `submit`, `preventDefault`, `includes`, `checked` | :material-circle: Avanzato |
+
+### 5. JavaScript — Giochi nel browser :material-gamepad-variant-outline:
+
+| # | Esercizio | Argomento | Difficoltà |
+|---|-----------|-----------|------------|
+| 40 | [Lancio dei dadi](40-lancio-dadi.md) | `Math.random`, `Math.floor`, `return`, array e indici | :material-circle-outline: Base |
+| 41 | [Indovina il numero](41-indovina-numero.md) | Stato del gioco, `disabled`, funzione di avvio | :material-circle-slice-4: Intermedio |
+| 42 | [Sasso, carta, forbici](42-sasso-carta-forbici.md) | Scelte come numeri, condizioni composte, punteggio | :material-circle-slice-4: Intermedio |
+| 43 | [Quiz a risposta multipla](43-quiz.md) | Array di array, cicli, `hidden` | :material-circle-slice-4: Intermedio |
+| 44 | [Memory](44-memory.md) | Mescolare un array, `setTimeout`, `return` anticipato | :material-circle: Avanzato |
+| 45 | [Tris](45-tris.md) | Array come tavola, turni, combinazioni vincenti | :material-circle: Avanzato |
+| 46 | [Colpisci la talpa](46-colpisci-talpa.md) | `setInterval`, `clearInterval`, due timer | :material-circle: Avanzato |
+| 47 | [Gioco a scelta](47-gioco-a-scelta.md) | Mini-progetto finale: gioco libero (riferimento: impiccato) | :material-circle: Avanzato |
 
 ---
 

@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+  max-width: 480px;
+  margin: 30px auto;
+  padding: 0 16px;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+}
+
+input,
+select,
+textarea {
+  padding: 6px;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 12px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.tavola {
+  display: grid;
+  grid-template-columns: repeat(3, 90px);
+  gap: 6px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.cella {
+  width: 90px;
+  height: 90px;
+  margin: 0;
+  padding: 0;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.cella:disabled {
+  color: #000000;
+  cursor: default;
+}
+
+.vincente {
+  background-color: #a5d6a7;
+}
+
+#stato {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+#nuova {
+  display: block;
+  margin: 12px auto;
+}

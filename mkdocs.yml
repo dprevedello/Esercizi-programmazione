@@ -291,6 +291,25 @@ nav:
       - "Introduzione a Bootstrap":             html-css-javascript/28-bootstrap-grid.md
       - "Componenti Bootstrap":                 html-css-javascript/29-catalogo-eventi.md
       - "Mini-sito di una città italiana":      html-css-javascript/30-citta-italiana.md
+    - JavaScript — La pagina diventa interattiva:
+      - "Primo script":                       html-css-javascript/31-primo-script.md
+      - "Somma di due numeri":                html-css-javascript/32-somma-due-numeri.md
+      - "Calcolatrice":                       html-css-javascript/33-calcolatrice.md
+      - "Media dei voti":                     html-css-javascript/34-media-voti.md
+      - "Contatore":                          html-css-javascript/35-contatore.md
+      - "Contatore di caratteri":             html-css-javascript/36-contatore-caratteri.md
+      - "Tabelline":                          html-css-javascript/37-tabelline.md
+      - "Lista della spesa":                  html-css-javascript/38-lista-spesa.md
+      - "Registrazione con controllo dei dati": html-css-javascript/39-registrazione.md
+    - JavaScript — Giochi nel browser:
+      - "Lancio dei dadi":                    html-css-javascript/40-lancio-dadi.md
+      - "Indovina il numero":                 html-css-javascript/41-indovina-numero.md
+      - "Sasso, carta, forbici":              html-css-javascript/42-sasso-carta-forbici.md
+      - "Quiz a risposta multipla":           html-css-javascript/43-quiz.md
+      - "Memory":                             html-css-javascript/44-memory.md
+      - "Tris":                               html-css-javascript/45-tris.md
+      - "Colpisci la talpa":                  html-css-javascript/46-colpisci-talpa.md
+      - "Gioco a scelta":                     html-css-javascript/47-gioco-a-scelta.md
 
   - Java:
     - java/index.md

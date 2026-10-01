@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  max-width: 480px;
+  margin: 30px auto;
+  padding: 0 16px;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+}
+
+input,
+select,
+textarea {
+  padding: 6px;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 12px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.dadi {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.dado {
+  display: inline-block;
+  margin: 0 16px;
+  font-size: 6rem;
+  line-height: 1;
+}
+
+#totale {
+  min-height: 1.5em;
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+#lancia {
+  display: block;
+  margin: 12px auto;
+}
