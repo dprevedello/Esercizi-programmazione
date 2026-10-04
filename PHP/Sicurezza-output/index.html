@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Libro degli ospiti</title>
+    <link rel="stylesheet" href="../includes/stile.css">
+</head>
+<body>
+<main>
+    <h1>Libro degli ospiti</h1>
+    <p>Lascia un commento. Prova a scrivere anche del codice HTML, per esempio
+       <code>&lt;h1 style="color:red"&gt;Ciao&lt;/h1&gt;</code>, e confronta le due versioni.</p>
+
+    <!-- Lo stesso modulo viene inviato a due pagine diverse grazie all'attributo formaction -->
+    <form method="post">
+        <label for="autore">Nome</label>
+        <input type="text" id="autore" name="autore">
+
+        <label for="commento">Commento</label>
+        <textarea id="commento" name="commento" rows="4"></textarea>
+
+        <button type="submit" formaction="vulnerabile.php" class="pericolo">Invia (versione vulnerabile)</button>
+        <button type="submit" formaction="sicura.php">Invia (versione sicura)</button>
+    </form>
+</main>
+</body>
+</html>

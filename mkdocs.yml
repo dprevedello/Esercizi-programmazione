@@ -393,7 +393,67 @@ nav:
 
   - PHP:
     - php/index.md
-    # - "Es. 01 – Echo e variabili": php/01-echo-variabili.md
+    - Fondamentali:
+      - "Primo script PHP": php/01-primo-script.md
+      - "Operatori e input": php/02-operatori-e-input.md
+      - "Condizioni": php/03-condizioni.md
+      - "Cicli": php/04-cicli.md
+      - "Funzioni": php/05-funzioni.md
+      - "Array indicizzati": php/06-array-indicizzati.md
+      - "Array associativi": php/07-array-associativi.md
+      - "Array di array": php/08-array-di-array.md
+      - "Stringhe": php/09-stringhe.md
+      - "Date e numeri": php/10-date-e-numeri.md
+    - Pagine dinamiche:
+      - "Pagina dinamica": php/11-pagina-dinamica.md
+      - "Listino della pizzeria": php/12-listino-pizzeria.md
+      - "Sito con include": php/13-sito-con-include.md
+      - "Pagine con parametri": php/14-pagine-con-parametri.md
+      - "Catalogo di film": php/15-catalogo-film.md
+    - Form:
+      - "Biglietto di auguri": php/16-biglietto-auguri.md
+      - "GET e POST a confronto": php/17-get-e-post.md
+      - "Calcolatrice web": php/18-calcolatrice-web.md
+      - "Validazione di un'iscrizione": php/19-validazione-iscrizione.md
+      - "Prenotazione di un tavolo": php/20-prenotazione-tavolo.md
+      - "Sicurezza dell'output": php/21-sicurezza-output.md
+      - "Ordina la tua pizza": php/22-ordina-pizza.md
+      - "Modulo di contatto con redirect": php/23-modulo-contatti.md
+      - "Iscrizione a un evento": php/24-iscrizione-evento.md
+    - Cookie e sessioni:
+      - "Cookie: tema e nome": php/25-cookie-tema.md
+      - "Contatore di visite": php/26-contatore-visite.md
+      - "Carrello in sessione": php/27-carrello-sessione.md
+      - "Login con sessione": php/28-login-semplice.md
+      - "Pagine protette e ruoli": php/29-pagine-protette.md
+      - "Messaggi flash": php/30-messaggi-flash.md
+    - Database con PDO:
+      - "Connessione al database": php/31-connessione-db.md
+      - "Elenco degli studenti": php/32-elenco-studenti.md
+      - "Scheda dello studente": php/33-scheda-studente.md
+      - "Aggiungere un libro": php/34-nuovo-libro.md
+      - "Modificare un libro": php/35-modifica-libro.md
+      - "Eliminare un libro": php/36-elimina-libro.md
+    - Query e dati reali:
+      - "Catalogo per categorie": php/37-catalogo-categorie.md
+      - "Ricerca dei prodotti": php/38-ricerca-prodotti.md
+      - "Paginazione dei risultati": php/39-paginazione.md
+      - "Report dei voti": php/40-report-voti.md
+      - "Ordine con più prodotti": php/41-ordine-multiplo.md
+      - "Prestiti e vincoli del database": php/42-prestito-vincoli.md
+    - Utenti e sicurezza:
+      - "Registrazione degli utenti": php/43-registrazione.md
+      - "Login con il database": php/44-login-db.md
+      - "Area riservata del cliente": php/45-area-riservata.md
+      - "Pannello amministratore": php/46-pannello-admin.md
+      - "Cambio della password": php/47-cambio-password.md
+    - File, API e progetti:
+      - "Caricare un file": php/48-upload-file.md
+      - "Upload sicuro di immagini": php/49-upload-sicuro.md
+      - "Immagini dei prodotti": php/50-immagine-prodotto.md
+      - "API in formato JSON": php/51-api-json.md
+      - "Gestionale del negozio": php/52-gestionale-negozio.md
+      - "Progetto: bacheca annunci": php/53-progetto-aperto.md
 
   - Python:
     - python/index.md

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GET e POST a confronto</title>
+    <link rel="stylesheet" href="../includes/stile.css">
+</head>
+<body>
+<main>
+    <h1>GET e POST a confronto</h1>
+
+    <!-- I due moduli sono identici, cambia solo l'attributo method -->
+    <div class="scheda">
+        <h2>Modulo con GET</h2>
+        <form action="ricevi.php" method="get">
+            <label for="nome1">Nome</label>
+            <input type="text" id="nome1" name="nome">
+            <label for="citta1">Città</label>
+            <input type="text" id="citta1" name="citta">
+            <button type="submit">Invia con GET</button>
+        </form>
+    </div>
+
+    <div class="scheda">
+        <h2>Modulo con POST</h2>
+        <form action="ricevi.php" method="post">
+            <label for="nome2">Nome</label>
+            <input type="text" id="nome2" name="nome">
+            <label for="citta2">Città</label>
+            <input type="text" id="citta2" name="citta">
+            <button type="submit">Invia con POST</button>
+        </form>
+    </div>
+</main>
+</body>
+</html>

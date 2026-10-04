@@ -24,9 +24,14 @@ Sito didattico MkDocs Material (repo GitHub: `dprevedello/Esercizi-programmazion
   - **"4. JavaScript — La pagina diventa interattiva"** (esercizi 31-39, creata il 01/10/2026): Primo script (`<script>`, funzioni, `getElementById`, `textContent`, `onclick`), Somma di due numeri (`value`, `Number()`), Calcolatrice (parametri, `if`/`else if`), Media dei voti (`||`/`&&`, `className`, `toFixed`), Contatore (`addEventListener`, variabili globali), Contatore di caratteri (evento `input`, `length`, `toUpperCase`), Tabelline (`for`, `innerHTML`), Lista della spesa (array, `push`, `trim`), Registrazione con controllo dei dati (mini-progetto: `submit`, `preventDefault`, `includes`, `checked`). Sorgenti in `HTML-CSS-Javascript/<Nome-esercizio>/{index.html,style.css,script.js}`. Convenzioni in sezione 3 e 7.6.
   - **"5. JavaScript — Giochi nel browser"** (esercizi 40-47, creata il 01/10/2026): Lancio dei dadi, Indovina il numero, Sasso carta forbici, Quiz a risposta multipla, Memory, Tris, Colpisci la talpa (`setInterval`/`clearInterval`), Gioco a scelta (mini-progetto finale aperto, soluzione di riferimento: impiccato). Stesso schema di file della sottosezione 4.
   - La sezione HTML-CSS-Javascript è **completa** con 47 esercizi (la parte "JS avanzato" inizialmente prevista — localStorage/JSON/fetch — è stata volutamente esclusa: vedi sezione 3). Possibili ampliamenti futuri in sezione 5.
+- **`docs/php/`** — sezione **completa** (53 esercizi in 8 sottosezioni), popolata il 04/10/2026. Destinatari: classe quinta. Sorgenti in `PHP/<Nome-esercizio>/` (più `PHP/includes/` e `PHP/db/`).
+  - **1. Fondamenti** (01-10, solo OneCompiler, `data-lang="php"` con stdin precaricato e `fgets(STDIN)`; il file su OneCompiler si chiama `index.php`): Primo script, Operatori e input, Condizioni, Cicli, Funzioni, Array indicizzati/associativi/di array, Stringhe, Date e numeri.
+  - **2. Pagine dinamiche** (11-15), **3. Form e dati dell'utente** (16-24), **4. Cookie e sessioni** (25-30): richiedono un server, niente OneCompiler (warning "Esegui in locale" con link a `index.md#eseguire-php-in-locale`).
+  - **5. Database con PDO** (31-36: connessione, elenco, scheda, INSERT, UPDATE, DELETE), **6. Query e dati reali** (37-42: JOIN, ricerca, paginazione, report, transazioni, vincoli), **7. Utenti e sicurezza** (43-47: registrazione, login, area riservata, pannello admin, cambio password), **8. File, API e progetti** (48-53: upload, upload sicuro, immagini prodotto, API JSON, gestionale, progetto aperto "bacheca annunci").
+  - Collaudo: tutti i sorgenti sono stati provati con PHP 8.3 + MariaDB 10.11 (server `php -S`, test HTTP con `requests`: redirect, sessioni, cookie, 403/404/405, XSS e SQL injection tentate, vincoli FK/UNIQUE/CHECK, upload). `mkdocs build` senza warning. **Da verificare dal vivo dopo il push**: embed OneCompiler PHP (01-10).
 - **`docs/stylesheets/extra.css`** — stile barra laterale aggiornato (titoli sezione, freccia, dark mode). Dettagli nel file stesso.
 - **Documentazione aggiornata**: `docs/come-usare.md`, `README.md`, `docs/index.md`, `docs/java/index.md`, `docs/html-css-javascript/index.md`, `mkdocs.yml`.
-- **Sezioni ancora vuote (solo placeholder in `index.md` e nav)**: Database, PacketTracer, PHP, Python. (HTML-CSS-JavaScript non è più vuota: vedi sopra.)
+- **Sezioni ancora vuote (solo placeholder in `index.md` e nav)**: Database, PacketTracer, Python. (HTML-CSS-JavaScript e PHP non sono più vuote: vedi sopra.)
 
 ---
 
@@ -111,6 +116,16 @@ Sito didattico MkDocs Material (repo GitHub: `dprevedello/Esercizi-programmazion
 - Sarebbe possibile aggiungere `Launcher.java` che avvia server in thread daemon e client nel thread principale
 - Deciso di non implementare per ora; `Server.java` e `Client.java` restano invariati
 
+### Convenzioni PHP (sezione `docs/php/`)
+
+- Percorso didattico e scelte: **quinta**, ripasso veloce dei fondamenti (OneCompiler), grosso del lavoro su form, `$_GET`/`$_POST`, cookie, sessioni e **MySQL con PDO**. Niente OOP (solo oggetti forniti, come `PDO`), niente esercizi isolati sulla SQL injection (se ne parla dove nasce, es. 33), niente Docker. Ambiente "generico": parametri in `PHP/includes/connessione.php` (`DB_HOST/DB_USER/DB_PASS`, default XAMPP).
+- Docroot di prova = cartella `PHP/`; CSS condiviso `../includes/stile.css`. File condivisi: `connessione.php` (`connetti("db")` → PDO, eccezioni, FETCH_ASSOC), `flash.php`, `auth_db.php` (sessione + `accedi/esci/richiediLogin/richiediRuolo`, chiavi `utente_id/utente_username/utente_ruolo`), `stile.css`.
+- Database in `PHP/db/` (`scuola`, `biblioteca`, `negozio`, `bacheca`; ogni file fa DROP+CREATE). Account: `mario/segreta123` (cliente) e `admin/admin123` negozio; `anna/password1`, `luca/password2` bacheca. Dagli esercizi 31 in poi servono i DB; i primi 30 no.
+- Pattern: POST-Redirect-GET, `htmlspecialchars` sempre, query preparate con segnaposto nominati **distinti**, `bindValue(..., PDO::PARAM_INT)` per LIMIT/OFFSET, whitelist per ORDER BY, `password_hash/verify`, `session_regenerate_id(true)`, `fputcsv/fgetcsv` con ultimo argomento `""` (PHP 8.4).
+- Pagine esercizio: stessa struttura di 7.1 con `## Anteprima` ASCII; fine pagina sempre con `!!! warning "Esegui in locale"` (tranne 01-10, che hanno `oc-embed`). Link ai prerequisiti: `index.md#eseguire-php-in-locale` e `index.md#database-di-esempio`.
+- L'esercizio 51 (API JSON) si prova solo aprendo gli endpoint nel browser (nessun `fetch`, JavaScript lato client escluso come in HTML-CSS-Javascript). L'esercizio 53 è una consegna aperta con soluzione di riferimento (bacheca annunci).
+- Limiti noti dei sorgenti (volutamente semplici): `Nuovo-libro` controlla l'ISBN duplicato con una SELECT prima dell'INSERT (1062 gestito solo come estensione); `richiediLogin()` conserva solo il nome del file, non la query string; `Upload-sicuro` usa `GLOB_BRACE` (assente su Alpine/musl).
+
 ---
 
 ## 4. Problemi aperti / da risolvere
@@ -135,7 +150,7 @@ Sito didattico MkDocs Material (repo GitHub: `dprevedello/Esercizi-programmazion
 1. **HTML-CSS-Javascript**: sezione completa (47 esercizi: 1. HTML, 2. CSS base, 3. CSS layout moderno, 4. JavaScript — la pagina diventa interattiva, 5. JavaScript — giochi nel browser). Da fare: **push** dei nuovi file e verifica dal vivo degli embed (vedi sezione 4). Possibili ampliamenti futuri, solo se servono: un'ulteriore sottosezione su `localStorage` e JSON per le classi quarte, oppure esercizi extra di giochi (impiccato guidato, Simon, battaglia navale).
 2. **Valutare** eventuali nuovi esercizi da aggiungere alle sezioni Thread e Socket (Java)
 3. **Valutare** il Launcher per Echo Socket se si vuole OneCompiler anche per i socket semplici
-4. **Popolare** le sezioni ancora vuote: Database, PacketTracer, PHP, Python (stesso approccio usato per Bash/Linux/HTML-CSS-Javascript: analizzare le sezioni esistenti come riferimento, proporre un percorso, poi creare sorgenti + pagine + indice + nav)
+4. **Popolare** le sezioni ancora vuote: Database (solo linguaggio SQL, da fare in parallelo a PHP: gli esercizi PHP 31+ lo danno per noto), PacketTracer, Python (stesso approccio usato per Bash/Linux/HTML-CSS-Javascript: analizzare le sezioni esistenti come riferimento, proporre un percorso, poi creare sorgenti + pagine + indice + nav)
 5. **Valutare** se convertire anche le sezioni C e Java al formato "consegna" (vedi sezione 3), oppure lasciarle nel formato abstract attuale
 
 ---

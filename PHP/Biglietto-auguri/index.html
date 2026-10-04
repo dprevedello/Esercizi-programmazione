@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crea un biglietto di auguri</title>
+    <link rel="stylesheet" href="../includes/stile.css">
+</head>
+<body>
+<main>
+    <h1>Crea un biglietto di auguri</h1>
+
+    <!-- Il modulo è già pronto: i dati vengono inviati con POST a biglietto.php -->
+    <form action="biglietto.php" method="post">
+        <label for="destinatario">Per chi è il biglietto?</label>
+        <input type="text" id="destinatario" name="destinatario" required>
+
+        <label for="occasione">Occasione</label>
+        <select id="occasione" name="occasione">
+            <option value="compleanno">Compleanno</option>
+            <option value="natale">Natale</option>
+            <option value="laurea">Laurea</option>
+        </select>
+
+        <label for="messaggio">Messaggio</label>
+        <textarea id="messaggio" name="messaggio" rows="4"></textarea>
+
+        <button type="submit">Crea il biglietto</button>
+    </form>
+</main>
+</body>
+</html>

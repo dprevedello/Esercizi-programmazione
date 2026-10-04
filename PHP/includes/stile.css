@@ -1,0 +1,85 @@
+/* Stile comune alle pagine web degli esercizi PHP (fornito, non va modificato) */
+:root {
+    --sfondo: #f7f7fb;
+    --carta: #ffffff;
+    --testo: #1f2430;
+    --tenue: #6b7280;
+    --bordo: #d9dce6;
+    --primario: #6d4aff;
+    --ok: #15803d;
+    --errore: #b91c1c;
+}
+body.scuro {
+    --sfondo: #14161d;
+    --carta: #1f222c;
+    --testo: #e8eaf2;
+    --tenue: #a3a9ba;
+    --bordo: #353a4a;
+}
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    padding: 1.5rem 1rem 3rem;
+    font-family: system-ui, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.5;
+    background: var(--sfondo);
+    color: var(--testo);
+}
+main, header, footer, nav.menu { max-width: 760px; margin: 0 auto; }
+h1 { font-size: 1.6rem; margin: 0 0 1rem; }
+h2 { font-size: 1.2rem; margin: 1.5rem 0 .5rem; }
+a { color: var(--primario); }
+nav.menu { display: flex; gap: 1rem; padding-bottom: .75rem; margin-bottom: 1rem; border-bottom: 1px solid var(--bordo); }
+nav.menu a { text-decoration: none; font-weight: 600; }
+nav.menu a.attiva { border-bottom: 2px solid var(--primario); }
+footer { margin-top: 2rem; color: var(--tenue); font-size: .85rem; }
+.scheda {
+    background: var(--carta);
+    border: 1px solid var(--bordo);
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    margin: 1rem 0;
+}
+table { width: 100%; border-collapse: collapse; background: var(--carta); }
+th, td { padding: .5rem .75rem; border-bottom: 1px solid var(--bordo); text-align: left; }
+th { background: color-mix(in srgb, var(--primario) 12%, var(--carta)); }
+tr.alterna td { background: color-mix(in srgb, var(--primario) 6%, var(--carta)); }
+form label { display: block; margin: .75rem 0 .25rem; font-weight: 600; }
+form .riga { margin: .4rem 0; }
+form .riga label { display: inline; font-weight: normal; }
+input[type=text], input[type=email], input[type=password], input[type=number],
+input[type=date], select, textarea {
+    width: 100%;
+    padding: .5rem .6rem;
+    border: 1px solid var(--bordo);
+    border-radius: 6px;
+    font: inherit;
+    background: var(--carta);
+    color: inherit;
+}
+button, .bottone {
+    display: inline-block;
+    margin-top: .75rem;
+    padding: .5rem 1rem;
+    border: 0;
+    border-radius: 6px;
+    background: var(--primario);
+    color: #fff;
+    font: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+button.secondario { background: var(--tenue); }
+button.pericolo { background: var(--errore); }
+.errore { color: var(--errore); font-size: .9rem; margin: .2rem 0 0; }
+.messaggio { padding: .6rem .9rem; border-radius: 6px; margin: 1rem 0; border: 1px solid var(--bordo); }
+.messaggio.ok { color: var(--ok); border-color: var(--ok); }
+.messaggio.ko { color: var(--errore); border-color: var(--errore); }
+.messaggio.info { color: var(--primario); border-color: var(--primario); }
+.tenue { color: var(--tenue); }
+.destra { text-align: right; }
+.griglia { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
+.prezzo { font-weight: 700; }
+form.inline { display: inline; }
+form.inline button { margin-top: 0; padding: .25rem .6rem; font-size: .85rem; }

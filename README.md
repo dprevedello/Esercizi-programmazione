@@ -18,7 +18,7 @@ Il sito è consultabile all'indirizzo:
 | `Java/` | 46 | Programmazione orientata agli oggetti in Java — metodi statici, Javadoc, OOP, eccezioni, file, thread, socket |
 | `Linux/` | 11 categorie | Guida di riferimento ai comandi principali della shell (non esercizi da consegnare) |
 | `PacketTracer/` | — | Reti con Cisco Packet Tracer |
-| `PHP/` | — | PHP lato server: variabili, form, sessioni |
+| `PHP/` | 53 (8 sezioni) | PHP lato server per la quinta: fondamenti su OneCompiler, poi form, cookie, sessioni, database MySQL con PDO, login, upload, JSON e progetti |
 | `Python/` | — | Python dalla sintassi base a classi e file |
 
 La documentazione del sito si trova nella cartella `docs/`.
@@ -278,6 +278,10 @@ Esercizi-programmazione/
 │   └── … (11 sottocartelle, una per categoria di comandi)
 ├── PacketTracer/
 ├── PHP/
+│   ├── Primo-script/index.php
+│   ├── includes/                   # connessione PDO, stile, flash, controllo accessi
+│   ├── db/                         # database di esempio (.sql)
+│   └── … (53 sottocartelle, una per esercizio)
 ├── Python/
 ├── docs/
 │   ├── index.md                    # homepage del sito
@@ -312,7 +316,8 @@ Esercizi-programmazione/
 │   ├── packettracer/
 │   │   └── index.md
 │   ├── php/
-│   │   └── index.md
+│   │   ├── index.md                # indice con i 53 esercizi in 8 sezioni
+│   │   └── … (53 pagine)
 │   └── python/
 │       └── index.md
 ├── mkdocs.yml

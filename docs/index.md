@@ -22,7 +22,7 @@ la possibilità di provare il codice direttamente dal browser grazie a **OneComp
 | [:material-language-java: Java](java/index.md) | Programmazione orientata agli oggetti in Java | Intermedio → Avanzato |
 | [:simple-linux: Linux](linux/index.md) | Guida di riferimento ai comandi principali della shell | Base |
 | [:simple-cisco: PacketTracer](packettracer/index.md) | Reti con Cisco Packet Tracer: LAN, IP, router | Base → Intermedio |
-| [:material-language-php: PHP](php/index.md) | PHP lato server: variabili, form, sessioni | Base → Intermedio |
+| [:material-language-php: PHP](php/index.md) | PHP lato server: form, sessioni, database MySQL con PDO, login e upload | Base → Avanzato |
 | [:material-language-python: Python](python/index.md) | Python: dalla sintassi base a funzioni e file | Base → Avanzato |
 
 ---

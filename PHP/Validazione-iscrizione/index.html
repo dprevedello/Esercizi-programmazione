@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Iscrizione al corso</title>
+    <link rel="stylesheet" href="../includes/stile.css">
+</head>
+<body>
+<main>
+    <h1>Iscrizione al corso estivo</h1>
+
+    <!-- novalidate: spegne i controlli del browser, così puoi provare quelli del server -->
+    <form action="iscrizione.php" method="post" novalidate>
+        <label for="nome">Nome e cognome</label>
+        <input type="text" id="nome" name="nome">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email">
+
+        <label for="eta">Età</label>
+        <input type="text" id="eta" name="eta">
+
+        <label for="corso">Corso</label>
+        <select id="corso" name="corso">
+            <option value="">-- scegli --</option>
+            <option value="python">Python da zero</option>
+            <option value="web">Siti web con HTML e CSS</option>
+            <option value="php">PHP e database</option>
+        </select>
+
+        <div class="riga">
+            <input type="checkbox" id="privacy" name="privacy" value="si">
+            <label for="privacy">Accetto il trattamento dei dati personali</label>
+        </div>
+
+        <button type="submit">Iscriviti</button>
+    </form>
+</main>
+</body>
+</html>

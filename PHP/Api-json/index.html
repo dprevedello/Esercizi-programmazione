@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>API del negozio</title>
+    <link rel="stylesheet" href="../includes/stile.css">
+</head>
+<body>
+<main>
+    <h1>API del negozio</h1>
+    <p>Ogni indirizzo restituisce dati in formato JSON. Aprili nel browser e osserva la risposta.</p>
+    <table>
+        <tr><th>Endpoint</th><th>Descrizione</th></tr>
+        <tr><td><a href="prodotti.php">prodotti.php</a></td><td>Tutti i prodotti</td></tr>
+        <tr><td><a href="prodotti.php?categoria=1">prodotti.php?categoria=1</a></td><td>Prodotti di una categoria</td></tr>
+        <tr><td><a href="prodotti.php?q=mon&amp;max=200">prodotti.php?q=mon&amp;max=200</a></td><td>Ricerca per nome e prezzo massimo</td></tr>
+        <tr><td><a href="prodotto.php?id=3">prodotto.php?id=3</a></td><td>Un singolo prodotto</td></tr>
+        <tr><td><a href="prodotto.php?id=999">prodotto.php?id=999</a></td><td>Prodotto inesistente (errore 404)</td></tr>
+        <tr><td><a href="categorie.php">categorie.php</a></td><td>Categorie con il numero di prodotti</td></tr>
+        <tr><td><a href="statistiche.php">statistiche.php</a></td><td>Prezzo minimo, massimo, medio e pezzi in magazzino</td></tr>
+    </table>
+</main>
+</body>
+</html>

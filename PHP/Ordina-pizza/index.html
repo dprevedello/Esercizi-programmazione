@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ordina la tua pizza</title>
+    <link rel="stylesheet" href="../includes/stile.css">
+</head>
+<body>
+<main>
+    <h1>Ordina la tua pizza</h1>
+
+    <form action="ordine.php" method="post">
+        <label for="dimensione">Dimensione</label>
+        <select id="dimensione" name="dimensione">
+            <option value="piccola">Piccola (€ 5,00)</option>
+            <option value="media" selected>Media (€ 7,00)</option>
+            <option value="grande">Grande (€ 9,00)</option>
+        </select>
+
+        <label>Impasto</label>
+        <div class="riga">
+            <input type="radio" id="classico" name="impasto" value="classico" checked>
+            <label for="classico">Classico</label>
+        </div>
+        <div class="riga">
+            <input type="radio" id="integrale" name="impasto" value="integrale">
+            <label for="integrale">Integrale (+ € 1,00)</label>
+        </div>
+        <div class="riga">
+            <input type="radio" id="senzaglutine" name="impasto" value="senzaglutine">
+            <label for="senzaglutine">Senza glutine (+ € 2,00)</label>
+        </div>
+
+        <label>Ingredienti extra (+ € 1,50 ciascuno)</label>
+        <!-- Tutte le caselle hanno lo stesso name con le parentesi quadre: PHP le riceve come array -->
+        <div class="riga"><input type="checkbox" id="prosciutto" name="extra[]" value="prosciutto"> <label for="prosciutto">Prosciutto</label></div>
+        <div class="riga"><input type="checkbox" id="funghi" name="extra[]" value="funghi"> <label for="funghi">Funghi</label></div>
+        <div class="riga"><input type="checkbox" id="olive" name="extra[]" value="olive"> <label for="olive">Olive</label></div>
+        <div class="riga"><input type="checkbox" id="salame" name="extra[]" value="salame"> <label for="salame">Salame piccante</label></div>
+
+        <label for="quantita">Quante pizze?</label>
+        <input type="number" id="quantita" name="quantita" value="1" min="1" max="10">
+
+        <div class="riga">
+            <input type="checkbox" id="consegna" name="consegna" value="si">
+            <label for="consegna">Consegna a domicilio (+ € 2,00)</label>
+        </div>
+
+        <button type="submit">Ordina</button>
+    </form>
+</main>
+</body>
+</html>
